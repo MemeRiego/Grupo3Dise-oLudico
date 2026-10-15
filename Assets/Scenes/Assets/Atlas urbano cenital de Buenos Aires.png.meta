@@ -1,0 +1,591 @@
+fileFormatVersion: 2
+guid: 12f720eb70fc76f42ab7bf499e93a035
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6592515780512988627
+    second: Atlas urbano cenital de Buenos Aires_0
+  - first:
+      213: 4756823686714169936
+    second: Atlas urbano cenital de Buenos Aires_1
+  - first:
+      213: 2106281239973847409
+    second: Atlas urbano cenital de Buenos Aires_2
+  - first:
+      213: 3055098302736067880
+    second: Atlas urbano cenital de Buenos Aires_3
+  - first:
+      213: 7623259877859445198
+    second: Atlas urbano cenital de Buenos Aires_4
+  - first:
+      213: 9208475888617694324
+    second: Atlas urbano cenital de Buenos Aires_5
+  - first:
+      213: -659504485191666801
+    second: Atlas urbano cenital de Buenos Aires_6
+  - first:
+      213: -609080869651257564
+    second: Atlas urbano cenital de Buenos Aires_7
+  - first:
+      213: -6334315321192012786
+    second: Atlas urbano cenital de Buenos Aires_8
+  - first:
+      213: -1111646369843715725
+    second: Atlas urbano cenital de Buenos Aires_9
+  - first:
+      213: 30761642208717922
+    second: Atlas urbano cenital de Buenos Aires_10
+  - first:
+      213: 5126720646226954310
+    second: Atlas urbano cenital de Buenos Aires_11
+  - first:
+      213: -1228445686434858162
+    second: Atlas urbano cenital de Buenos Aires_12
+  - first:
+      213: -5870153113462761139
+    second: Atlas urbano cenital de Buenos Aires_13
+  - first:
+      213: -4270127680673401545
+    second: Atlas urbano cenital de Buenos Aires_14
+  - first:
+      213: -5380855179852823219
+    second: Atlas urbano cenital de Buenos Aires_15
+  - first:
+      213: -194344767073499159
+    second: Atlas urbano cenital de Buenos Aires_16
+  - first:
+      213: 8207832965038270017
+    second: Atlas urbano cenital de Buenos Aires_17
+  - first:
+      213: 925521446648582261
+    second: Atlas urbano cenital de Buenos Aires_18
+  - first:
+      213: -5258674031568855370
+    second: Atlas urbano cenital de Buenos Aires_19
+  - first:
+      213: -7078193815757309754
+    second: Atlas urbano cenital de Buenos Aires_20
+  - first:
+      213: -5139761926925778671
+    second: Atlas urbano cenital de Buenos Aires_21
+  - first:
+      213: 3475868969642545133
+    second: Atlas urbano cenital de Buenos Aires_22
+  - first:
+      213: 7079251457899485105
+    second: Atlas urbano cenital de Buenos Aires_23
+  - first:
+      213: -3555089021892163259
+    second: Atlas urbano cenital de Buenos Aires_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Atlas urbano cenital de Buenos Aires_0
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 546
+        width: 326
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dd32a97c225d7b50800000000000000
+      internalID: 6592515780512988627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas urbano cenital de Buenos Aires_2
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 547
+        width: 282
+        height: 294
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 171e5b1d0a30b3d10800000000000000
+      internalID: 2106281239973847409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas urbano cenital de Buenos Aires_3
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 546
+        width: 280
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82d6b7048b3e56a20800000000000000
+      internalID: 3055098302736067880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas urbano cenital de Buenos Aires_4
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 671
+        width: 167
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec9cc4a18724bc960800000000000000
+      internalID: 7623259877859445198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas urbano cenital de Buenos Aires_6
+      rect:
+        serializedVersion: 2
+        x: 1657
+        y: 714
+        width: 91
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f83bf583a28f8d6f0800000000000000
+      internalID: -659504485191666801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas urbano cenital de Buenos Aires_8
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 581
+        width: 414
+        height: 241
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e042909a6cdf718a0800000000000000
+      internalID: -6334315321192012786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas urbano cenital de Buenos Aires_11
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 527
+        width: 164
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 648c405e345c52740800000000000000
+      internalID: 5126720646226954310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas urbano cenital de Buenos Aires_12
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 21
+        width: 271
+        height: 241
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4b7032282fa3fee0800000000000000
+      internalID: -1228445686434858162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas urbano cenital de Buenos Aires_13
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 266
+        width: 402
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4916ee38d6098ea0800000000000000
+      internalID: -5870153113462761139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas urbano cenital de Buenos Aires_16
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 28
+        width: 241
+        height: 233
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e7c0aac67c8d4df0800000000000000
+      internalID: -194344767073499159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas urbano cenital de Buenos Aires_17
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 257
+        width: 470
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 146e8d0489418e170800000000000000
+      internalID: 8207832965038270017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas urbano cenital de Buenos Aires_18
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 21
+        width: 249
+        height: 241
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5709e732adc18dc00800000000000000
+      internalID: 925521446648582261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas urbano cenital de Buenos Aires_19
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 243
+        width: 380
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6be54c674df6507b0800000000000000
+      internalID: -5258674031568855370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas urbano cenital de Buenos Aires_20
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 235
+        width: 440
+        height: 293
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c83b68f93435cd90800000000000000
+      internalID: -7078193815757309754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas urbano cenital de Buenos Aires_21
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 21
+        width: 414
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 111038352c5eba8b0800000000000000
+      internalID: -5139761926925778671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas urbano cenital de Buenos Aires_22
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 50
+        width: 335
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: defc8557964cc3030800000000000000
+      internalID: 3475868969642545133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas urbano cenital de Buenos Aires_24
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 47
+        width: 165
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5490a39ce59c9aec0800000000000000
+      internalID: -3555089021892163259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3d55f4f176b3e234fb35ce6d2f74d7ed
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Atlas urbano cenital de Buenos Aires_0: 6592515780512988627
+      Atlas urbano cenital de Buenos Aires_1: 4756823686714169936
+      Atlas urbano cenital de Buenos Aires_10: 30761642208717922
+      Atlas urbano cenital de Buenos Aires_11: 5126720646226954310
+      Atlas urbano cenital de Buenos Aires_12: -1228445686434858162
+      Atlas urbano cenital de Buenos Aires_13: -5870153113462761139
+      Atlas urbano cenital de Buenos Aires_14: -4270127680673401545
+      Atlas urbano cenital de Buenos Aires_15: -5380855179852823219
+      Atlas urbano cenital de Buenos Aires_16: -194344767073499159
+      Atlas urbano cenital de Buenos Aires_17: 8207832965038270017
+      Atlas urbano cenital de Buenos Aires_18: 925521446648582261
+      Atlas urbano cenital de Buenos Aires_19: -5258674031568855370
+      Atlas urbano cenital de Buenos Aires_2: 2106281239973847409
+      Atlas urbano cenital de Buenos Aires_20: -7078193815757309754
+      Atlas urbano cenital de Buenos Aires_21: -5139761926925778671
+      Atlas urbano cenital de Buenos Aires_22: 3475868969642545133
+      Atlas urbano cenital de Buenos Aires_23: 7079251457899485105
+      Atlas urbano cenital de Buenos Aires_24: -3555089021892163259
+      Atlas urbano cenital de Buenos Aires_3: 3055098302736067880
+      Atlas urbano cenital de Buenos Aires_4: 7623259877859445198
+      Atlas urbano cenital de Buenos Aires_5: 9208475888617694324
+      Atlas urbano cenital de Buenos Aires_6: -659504485191666801
+      Atlas urbano cenital de Buenos Aires_7: -609080869651257564
+      Atlas urbano cenital de Buenos Aires_8: -6334315321192012786
+      Atlas urbano cenital de Buenos Aires_9: -1111646369843715725
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

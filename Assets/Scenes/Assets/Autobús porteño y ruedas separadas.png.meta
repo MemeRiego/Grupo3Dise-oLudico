@@ -1,0 +1,309 @@
+fileFormatVersion: 2
+guid: e8043f0e6661d6c44ad37a1106fffbe0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2039307627615700834
+    second: "Autob\xFAs porte\xF1o y ruedas separadas_0"
+  - first:
+      213: 6085084061161619925
+    second: "Autob\xFAs porte\xF1o y ruedas separadas_1"
+  - first:
+      213: 6999354679908356292
+    second: "Autob\xFAs porte\xF1o y ruedas separadas_2"
+  - first:
+      213: -9177338536504866721
+    second: "Autob\xFAs porte\xF1o y ruedas separadas_3"
+  - first:
+      213: -7690008069369962247
+    second: "Autob\xFAs porte\xF1o y ruedas separadas_4"
+  - first:
+      213: 5039613247697447015
+    second: "Autob\xFAs porte\xF1o y ruedas separadas_5"
+  - first:
+      213: 2466103993508821572
+    second: "Autob\xFAs porte\xF1o y ruedas separadas_6"
+  - first:
+      213: -5028483141470499946
+    second: "Autob\xFAs porte\xF1o y ruedas separadas_7"
+  - first:
+      213: -8595986903384657473
+    second: "Autob\xFAs porte\xF1o y ruedas separadas_8"
+  - first:
+      213: 7848139624309826464
+    second: "Autob\xFAs porte\xF1o y ruedas separadas_9"
+  - first:
+      213: 7503252966831622734
+    second: "Autob\xFAs porte\xF1o y ruedas separadas_10"
+  - first:
+      213: -6450693540500868085
+    second: "Autob\xFAs porte\xF1o y ruedas separadas_11"
+  - first:
+      213: 4841647237822584442
+    second: "Autob\xFAs porte\xF1o y ruedas separadas_12"
+  - first:
+      213: -2358281114056102423
+    second: "Autob\xFAs porte\xF1o y ruedas separadas_13"
+  - first:
+      213: -488819402743075241
+    second: "Autob\xFAs porte\xF1o y ruedas separadas_14"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Autob\xFAs porte\xF1o y ruedas separadas_0"
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 33
+        width: 408
+        height: 1467
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e98b834748ce2b3e0800000000000000
+      internalID: -2039307627615700834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Autob\xFAs porte\xF1o y ruedas separadas_3"
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 1207
+        width: 85
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f58cf14893b83a080800000000000000
+      internalID: -9177338536504866721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Autob\xFAs porte\xF1o y ruedas separadas_8"
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 909
+        width: 86
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb1f8d1747be4b880800000000000000
+      internalID: -8595986903384657473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Autob\xFAs porte\xF1o y ruedas separadas_9"
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 306
+        width: 86
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a3a7a638613aec60800000000000000
+      internalID: 7848139624309826464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Autob\xFAs porte\xF1o y ruedas separadas_10"
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 612
+        width: 86
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4a05e3c1d8e02860800000000000000
+      internalID: 7503252966831622734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Autob\xFAs porte\xF1o y ruedas separadas_14"
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 47
+        width: 393
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75e2e24d75d5739f0800000000000000
+      internalID: -488819402743075241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c4e6132f899be2945a980fa5a048924a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Autob\xFAs porte\xF1o y ruedas separadas_0": -2039307627615700834
+      "Autob\xFAs porte\xF1o y ruedas separadas_1": 6085084061161619925
+      "Autob\xFAs porte\xF1o y ruedas separadas_10": 7503252966831622734
+      "Autob\xFAs porte\xF1o y ruedas separadas_11": -6450693540500868085
+      "Autob\xFAs porte\xF1o y ruedas separadas_12": 4841647237822584442
+      "Autob\xFAs porte\xF1o y ruedas separadas_13": -2358281114056102423
+      "Autob\xFAs porte\xF1o y ruedas separadas_14": -488819402743075241
+      "Autob\xFAs porte\xF1o y ruedas separadas_2": 6999354679908356292
+      "Autob\xFAs porte\xF1o y ruedas separadas_3": -9177338536504866721
+      "Autob\xFAs porte\xF1o y ruedas separadas_4": -7690008069369962247
+      "Autob\xFAs porte\xF1o y ruedas separadas_5": 5039613247697447015
+      "Autob\xFAs porte\xF1o y ruedas separadas_6": 2466103993508821572
+      "Autob\xFAs porte\xF1o y ruedas separadas_7": -5028483141470499946
+      "Autob\xFAs porte\xF1o y ruedas separadas_8": -8595986903384657473
+      "Autob\xFAs porte\xF1o y ruedas separadas_9": 7848139624309826464
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
