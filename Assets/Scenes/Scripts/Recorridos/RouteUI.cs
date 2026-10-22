@@ -32,7 +32,7 @@ public class RouteUI : MonoBehaviour
     BusStop next = route.NextStop;
     if (next != null)
     {
-      nextStopText.text = "Próxima parada: " + next.StopName;
+      nextStopText.text = "Próxima parada: \n" + next.StopName;
       float timeLeft = route.TimeLeft;
       if (timeLeft > 0f)
       {
