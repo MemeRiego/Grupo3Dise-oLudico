@@ -400,8 +400,9 @@ GameObject:
   - component: {fileID: 237232418}
   - component: {fileID: 237232417}
   - component: {fileID: 237232416}
+  - component: {fileID: 237232419}
   m_Layer: 5
-  m_Name: ButtonMedio (6)
+  m_Name: ButtonPASElIBRE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -509,6 +510,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 237232414}
   m_CullTransparentMesh: 1
+--- !u!114 &237232419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 237232414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90a80b34bdb8b54488a1d85c36068a9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TicketButton
+  botonera: {fileID: 1239879892}
+  ticketType: 6
+  selectedColor: {r: 0.6784314, g: 1, b: 0.1843137, a: 1}
 --- !u!1 &243134325
 GameObject:
   m_ObjectHideFlags: 0
@@ -37403,6 +37419,7 @@ RectTransform:
   - {fileID: 2049162412}
   - {fileID: 134649920}
   - {fileID: 606306920}
+  - {fileID: 1142554161}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -37456,7 +37473,7 @@ Transform:
   m_GameObject: {fileID: 325129968}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.03781, y: 5.94343, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -38060,7 +38077,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.03781, y: -5.94343, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -38169,8 +38186,9 @@ GameObject:
   - component: {fileID: 569706971}
   - component: {fileID: 569706970}
   - component: {fileID: 569706969}
+  - component: {fileID: 569706972}
   m_Layer: 5
-  m_Name: ButtonMedio (5)
+  m_Name: ButtonEscolar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -38278,6 +38296,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 569706967}
   m_CullTransparentMesh: 1
+--- !u!114 &569706972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 569706967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90a80b34bdb8b54488a1d85c36068a9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TicketButton
+  botonera: {fileID: 1239879892}
+  ticketType: 5
+  selectedColor: {r: 0.6784314, g: 1, b: 0.1843137, a: 1}
 --- !u!1001 &584507821
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38367,8 +38400,9 @@ GameObject:
   - component: {fileID: 595613546}
   - component: {fileID: 595613545}
   - component: {fileID: 595613544}
+  - component: {fileID: 595613547}
   m_Layer: 5
-  m_Name: ButtonMedio (3)
+  m_Name: ButtonJubilado
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -38476,6 +38510,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 595613542}
   m_CullTransparentMesh: 1
+--- !u!114 &595613547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 595613542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90a80b34bdb8b54488a1d85c36068a9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TicketButton
+  botonera: {fileID: 1239879892}
+  ticketType: 3
+  selectedColor: {r: 0.6784314, g: 1, b: 0.1843137, a: 1}
 --- !u!1 &606306919
 GameObject:
   m_ObjectHideFlags: 0
@@ -38785,7 +38834,7 @@ Transform:
   m_GameObject: {fileID: 666031582}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.87781, y: -5.30343, z: 0}
+  m_LocalPosition: {x: -1.84, y: 0.63999987, z: 0}
   m_LocalScale: {x: 0.17648017, y: 0.17648017, z: 0.17648017}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -38861,9 +38910,9 @@ Rigidbody2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!114 &666031587
 MonoBehaviour:
@@ -38897,8 +38946,9 @@ GameObject:
   - component: {fileID: 695111767}
   - component: {fileID: 695111766}
   - component: {fileID: 695111765}
+  - component: {fileID: 695111768}
   m_Layer: 5
-  m_Name: ButtonMedio (4)
+  m_Name: ButtonDiscapacitado
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39006,6 +39056,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 695111763}
   m_CullTransparentMesh: 1
+--- !u!114 &695111768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 695111763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90a80b34bdb8b54488a1d85c36068a9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TicketButton
+  botonera: {fileID: 1239879892}
+  ticketType: 4
+  selectedColor: {r: 0.6784314, g: 1, b: 0.1843137, a: 1}
 --- !u!1 &707938374
 GameObject:
   m_ObjectHideFlags: 0
@@ -39302,7 +39367,7 @@ Transform:
   m_GameObject: {fileID: 794667196}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.026100159, y: -0.026468754, z: -56.663586}
+  m_LocalPosition: {x: 0, y: 0, z: -56.663586}
   m_LocalScale: {x: 5.6663585, y: 5.6663585, z: 5.6663585}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -39395,7 +39460,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 6
+  orthographic size: 8
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -39423,6 +39488,7 @@ GameObject:
   - component: {fileID: 819234441}
   - component: {fileID: 819234440}
   - component: {fileID: 819234439}
+  - component: {fileID: 819234442}
   m_Layer: 5
   m_Name: ButtonCorto
   m_TagString: Untagged
@@ -39532,6 +39598,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 819234437}
   m_CullTransparentMesh: 1
+--- !u!114 &819234442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 819234437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90a80b34bdb8b54488a1d85c36068a9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TicketButton
+  botonera: {fileID: 1239879892}
+  ticketType: 0
+  selectedColor: {r: 0.6784314, g: 1, b: 0.1843137, a: 1}
 --- !u!1 &864251410
 GameObject:
   m_ObjectHideFlags: 0
@@ -39727,7 +39808,7 @@ GameObject:
   - component: {fileID: 909924977}
   - component: {fileID: 909924976}
   m_Layer: 5
-  m_Name: ButtonMedio (7)
+  m_Name: ButtonCorregir
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40354,7 +40435,7 @@ GameObject:
   - component: {fileID: 1050387428}
   - component: {fileID: 1050387427}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: Imagen NPC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40678,6 +40759,145 @@ Transform:
   m_Children: []
   m_Father: {fileID: 666031584}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1142554160
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1142554161}
+  - component: {fileID: 1142554163}
+  - component: {fileID: 1142554162}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1142554161
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1142554160}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 260676937}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.83600223}
+  m_AnchorMax: {x: 0.2420202, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1142554162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1142554160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'ASWD MOVIMIENTO
+
+    SPACE FRENO DE MANO'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_characterHorizontalScale: 1
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1142554163
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1142554160}
+  m_CullTransparentMesh: 1
 --- !u!1 &1185403999
 GameObject:
   m_ObjectHideFlags: 0
@@ -40890,6 +41110,9 @@ GameObject:
   - component: {fileID: 1239879889}
   - component: {fileID: 1239879891}
   - component: {fileID: 1239879890}
+  - component: {fileID: 1239879892}
+  - component: {fileID: 1239879893}
+  - component: {fileID: 1239879894}
   m_Layer: 5
   m_Name: Botonera
   m_TagString: Untagged
@@ -40956,6 +41179,67 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1239879888}
   m_CullTransparentMesh: 1
+--- !u!114 &1239879892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1239879888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec5834fa910f8d34190721f7ac9c7c9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BotoneraManager
+  available: 1
+--- !u!114 &1239879893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1239879888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17b61c9e1f676714db55b4d28029507e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TicketKeyboard
+  botonera: {fileID: 1239879892}
+--- !u!114 &1239879894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1239879888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 924288aad8b52494fb5c3b6796aa69dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TicketMachineView
+  machine: {fileID: 1239879892}
+  displayText: {fileID: 1332430582}
+  correctButton: {fileID: 909924976}
+  confirmButton: {fileID: 385423283}
+  idleMessage: "SELECCION\xC1 TARIFA"
+  blockedMessage: BOLETERA BLOQUEADA
+  selectedMessage: '{ticket}'
+  confirmedMessage: 'COBRADO: {ticket}'
+  ticketLabels:
+  - ticketType: 0
+    text: CORTO
+  - ticketType: 1
+    text: MEDIO
+  - ticketType: 2
+    text: LARGO
+  - ticketType: 3
+    text: JUBILADO
+  - ticketType: 4
+    text: DISCAPACITADO
+  - ticketType: 5
+    text: ESCOLAR
+  - ticketType: 6
+    text: PASE LIBRE
 --- !u!1 &1286544083
 GameObject:
   m_ObjectHideFlags: 0
@@ -41153,9 +41437,9 @@ Rigidbody2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!114 &1291299522
 MonoBehaviour:
@@ -41248,7 +41532,7 @@ GameObject:
   - component: {fileID: 1332430583}
   - component: {fileID: 1332430582}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Text_Botonera_TMP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -41575,7 +41859,7 @@ RectTransform:
   m_Father: {fileID: 927573261}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.15241422, y: 0}
-  m_AnchorMax: {x: 0.7009147, y: 0.22894737}
+  m_AnchorMax: {x: 0.7196384, y: 0.20171274}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -41601,7 +41885,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 572565760437035378, guid: 1563035ff3fe45a458b8b2b755f3e5af, type: 3}
   m_Type: 0
-  m_PreserveAspect: 1
+  m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -41968,6 +42252,7 @@ GameObject:
   - component: {fileID: 1662124886}
   - component: {fileID: 1662124885}
   - component: {fileID: 1662124884}
+  - component: {fileID: 1662124887}
   m_Layer: 5
   m_Name: ButtonLargo
   m_TagString: Untagged
@@ -42077,6 +42362,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1662124882}
   m_CullTransparentMesh: 1
+--- !u!114 &1662124887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1662124882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90a80b34bdb8b54488a1d85c36068a9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TicketButton
+  botonera: {fileID: 1239879892}
+  ticketType: 2
+  selectedColor: {r: 0.6784314, g: 1, b: 0.1843137, a: 1}
 --- !u!1 &1673025729
 GameObject:
   m_ObjectHideFlags: 0
@@ -42428,7 +42728,7 @@ Transform:
   m_GameObject: {fileID: 1795432901}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.4, y: -3.6, z: 0}
+  m_LocalPosition: {x: 10.4, y: 1.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -43075,6 +43375,7 @@ GameObject:
   - component: {fileID: 2059423848}
   - component: {fileID: 2059423847}
   - component: {fileID: 2059423846}
+  - component: {fileID: 2059423849}
   m_Layer: 5
   m_Name: ButtonMedio (1)
   m_TagString: Untagged
@@ -43184,6 +43485,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2059423844}
   m_CullTransparentMesh: 1
+--- !u!114 &2059423849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2059423844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90a80b34bdb8b54488a1d85c36068a9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TicketButton
+  botonera: {fileID: 1239879892}
+  ticketType: 1
+  selectedColor: {r: 0.6784314, g: 1, b: 0.1843137, a: 1}
 --- !u!1 &2081985137
 GameObject:
   m_ObjectHideFlags: 0
