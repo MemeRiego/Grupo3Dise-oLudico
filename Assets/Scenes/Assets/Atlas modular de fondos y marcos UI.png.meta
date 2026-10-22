@@ -65,7 +65,7 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -287,6 +287,50 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Atlas modular de fondos y marcos UI_8
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 409
+        width: 433
+        height: 326
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6126b41c54fdbb41af1b6529d51574c
+      internalID: -2065498893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas modular de fondos y marcos UI_9
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 523
+        width: 99
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d0052e1c2095eb4f9e09012e7857687
+      internalID: -758350352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -309,6 +353,8 @@ TextureImporter:
       Atlas modular de fondos y marcos UI_5: -680100247
       Atlas modular de fondos y marcos UI_6: -1557949951
       Atlas modular de fondos y marcos UI_7: 1822819239
+      Atlas modular de fondos y marcos UI_8: -2065498893
+      Atlas modular de fondos y marcos UI_9: -758350352
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
