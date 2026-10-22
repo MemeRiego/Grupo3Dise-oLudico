@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2580007027224035823
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4749250740360954883}
+  m_Layer: 0
+  m_Name: Inicio fila
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4749250740360954883
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2580007027224035823}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.38, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1526191939557949365}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3858690888407767783
 GameObject:
   m_ObjectHideFlags: 0
@@ -102,6 +133,7 @@ GameObject:
   - component: {fileID: 1526191939557949365}
   - component: {fileID: 5724305604708486827}
   - component: {fileID: 1107130532476027091}
+  - component: {fileID: 7820597559599483369}
   m_Layer: 0
   m_Name: Parada
   m_TagString: Untagged
@@ -124,6 +156,7 @@ Transform:
   m_Children:
   - {fileID: 5775455918475782081}
   - {fileID: 6274510734198318615}
+  - {fileID: 4749250740360954883}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &5724305604708486827
@@ -184,10 +217,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df7d8e8bd8c2ff14a8dee742343a6612, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BusStop
-  stopName: ' Av. Corrientes'
+  stopName: Nombre parada
   maxStopSpeed: 0.3
   requiredStopTime: 1
   marker: {fileID: 3858690888407767783}
+  passengers: []
+--- !u!114 &7820597559599483369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4272376635020220133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75951f40ea906a04396dfcd0a3595faf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PassengerQueue
+  passengerPrefab: {fileID: 1285791906829383642, guid: 844646b7f4ccd77499798e3b08e18ae2, type: 3}
+  queueStart: {fileID: 4749250740360954883}
+  direction: {x: 1, y: 0}
+  spacing: 0.4
+  colors:
+  - {r: 0, g: 1, b: 1, a: 1}
+  - {r: 1, g: 0, b: 1, a: 1}
+  - {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  - {r: 0, g: 1, b: 0, a: 1}
 --- !u!1 &4621697341529597396
 GameObject:
   m_ObjectHideFlags: 0
@@ -199,7 +254,7 @@ GameObject:
   - component: {fileID: 6274510734198318615}
   - component: {fileID: 554776324162809991}
   m_Layer: 0
-  m_Name: Circle
+  m_Name: Parada Signo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -214,8 +269,8 @@ Transform:
   m_GameObject: {fileID: 4621697341529597396}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
+  m_LocalPosition: {x: 0, y: 0.148, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1526191939557949365}
@@ -269,7 +324,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: -2461756947387466125, guid: 1563035ff3fe45a458b8b2b755f3e5af, type: 3}
   m_Color: {r: 1, g: 0.9122962, b: 0.033018887, a: 1}
   m_FlipX: 0
   m_FlipY: 0

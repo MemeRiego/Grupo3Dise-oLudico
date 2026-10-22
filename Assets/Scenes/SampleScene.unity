@@ -119,6 +119,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &46461521 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3285603237991479478, guid: 30b96cfcdc401b34fbe0659c6d703fcc, type: 3}
+  m_PrefabInstance: {fileID: 5320437242877943289}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &72718800
 GameObject:
   m_ObjectHideFlags: 0
@@ -251,6 +256,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 72718801}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &97580143 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1015950746248806343, guid: 30b96cfcdc401b34fbe0659c6d703fcc, type: 3}
+  m_PrefabInstance: {fileID: 5320437242877943289}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
 --- !u!1 &243134325
 GameObject:
   m_ObjectHideFlags: 0
@@ -37058,6 +37074,34 @@ PrefabInstance:
       propertyPath: stopName
       value: ' Plaza de Mayo'
       objectReference: {fileID: 0}
+    - target: {fileID: 1107130532476027091, guid: ee61da7b176f4b645a7bc053d1b10ac4, type: 3}
+      propertyPath: passengers.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1107130532476027091, guid: ee61da7b176f4b645a7bc053d1b10ac4, type: 3}
+      propertyPath: passengers.Array.data[0].request
+      value: Hasta Consti
+      objectReference: {fileID: 0}
+    - target: {fileID: 1107130532476027091, guid: ee61da7b176f4b645a7bc053d1b10ac4, type: 3}
+      propertyPath: passengers.Array.data[1].request
+      value: Soy jubilado
+      objectReference: {fileID: 0}
+    - target: {fileID: 1107130532476027091, guid: ee61da7b176f4b645a7bc053d1b10ac4, type: 3}
+      propertyPath: passengers.Array.data[2].request
+      value: Escolar
+      objectReference: {fileID: 0}
+    - target: {fileID: 1107130532476027091, guid: ee61da7b176f4b645a7bc053d1b10ac4, type: 3}
+      propertyPath: passengers.Array.data[0].correctTicket
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1107130532476027091, guid: ee61da7b176f4b645a7bc053d1b10ac4, type: 3}
+      propertyPath: passengers.Array.data[1].correctTicket
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1107130532476027091, guid: ee61da7b176f4b645a7bc053d1b10ac4, type: 3}
+      propertyPath: passengers.Array.data[2].correctTicket
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1526191939557949365, guid: ee61da7b176f4b645a7bc053d1b10ac4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 25.06
@@ -37134,6 +37178,18 @@ PrefabInstance:
     - target: {fileID: 1107130532476027091, guid: ee61da7b176f4b645a7bc053d1b10ac4, type: 3}
       propertyPath: stopName
       value: "Constituci\xF3n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1107130532476027091, guid: ee61da7b176f4b645a7bc053d1b10ac4, type: 3}
+      propertyPath: passengers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1107130532476027091, guid: ee61da7b176f4b645a7bc053d1b10ac4, type: 3}
+      propertyPath: passengers.Array.data[0].request
+      value: Escolar, por favor
+      objectReference: {fileID: 0}
+    - target: {fileID: 1107130532476027091, guid: ee61da7b176f4b645a7bc053d1b10ac4, type: 3}
+      propertyPath: passengers.Array.data[0].correctTicket
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1526191939557949365, guid: ee61da7b176f4b645a7bc053d1b10ac4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -37373,6 +37429,7 @@ GameObject:
   m_Component:
   - component: {fileID: 790161810}
   - component: {fileID: 790161809}
+  - component: {fileID: 790161811}
   m_Layer: 0
   m_Name: Recorrido
   m_TagString: Untagged
@@ -37415,6 +37472,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &790161811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 790161808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b70830edd55a274280500d87f001a42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BoardingManager
+  route: {fileID: 790161809}
+  botonera: {fileID: 5320437242877943292}
+  routeUI: {fileID: 5320437242877943291}
+  passengerText: {fileID: 5320437242877943290}
+  passengerBox: {fileID: 46461521}
+  defaultPortrait: {fileID: 1191851332268898813, guid: 2e97ceb4bcf26a54ba81e6f6572f1cc7, type: 3}
+  passengerImage: {fileID: 97580143}
+  busController: {fileID: 3079193406850347886}
+  fare: 100
+  penalty: 50
 --- !u!1 &864251410
 GameObject:
   m_ObjectHideFlags: 0
@@ -38390,6 +38469,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a561e991a595848459f27eb151ea2625, type: 3}
+--- !u!114 &3079193406850347886 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2182034658643845307, guid: a561e991a595848459f27eb151ea2625, type: 3}
+  m_PrefabInstance: {fileID: 3079193406850347885}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4f62996fdc6be14293e65fcb725305e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BusControllerTests
 --- !u!1001 &4764385091829592091
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38479,6 +38569,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1629741933940039234, guid: 30b96cfcdc401b34fbe0659c6d703fcc, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1629741933940039234, guid: 30b96cfcdc401b34fbe0659c6d703fcc, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1953198892086580051, guid: 30b96cfcdc401b34fbe0659c6d703fcc, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -38505,7 +38603,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2341303847054133014, guid: 30b96cfcdc401b34fbe0659c6d703fcc, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.0006242964
+      value: -0.0000002993402
+      objectReference: {fileID: 0}
+    - target: {fileID: 2341303847054133014, guid: 30b96cfcdc401b34fbe0659c6d703fcc, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0003598091
       objectReference: {fileID: 0}
     - target: {fileID: 2346492903942295250, guid: 30b96cfcdc401b34fbe0659c6d703fcc, type: 3}
       propertyPath: m_AnchorMax.y
@@ -38554,6 +38656,14 @@ PrefabInstance:
     - target: {fileID: 2925857702984816489, guid: 30b96cfcdc401b34fbe0659c6d703fcc, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3540473096631970949, guid: 30b96cfcdc401b34fbe0659c6d703fcc, type: 3}
+      propertyPath: m_Value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3573246235135521268, guid: 30b96cfcdc401b34fbe0659c6d703fcc, type: 3}
+      propertyPath: m_Size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5125514021796753960, guid: 30b96cfcdc401b34fbe0659c6d703fcc, type: 3}
       propertyPath: m_AnchorMax.x
@@ -38625,6 +38735,30 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6068553202478021140, guid: 30b96cfcdc401b34fbe0659c6d703fcc, type: 3}
       propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6198060086247675310, guid: 30b96cfcdc401b34fbe0659c6d703fcc, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6198060086247675310, guid: 30b96cfcdc401b34fbe0659c6d703fcc, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7786319376430183150, guid: 30b96cfcdc401b34fbe0659c6d703fcc, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7786319376430183150, guid: 30b96cfcdc401b34fbe0659c6d703fcc, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7786319376430183150, guid: 30b96cfcdc401b34fbe0659c6d703fcc, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7786319376430183150, guid: 30b96cfcdc401b34fbe0659c6d703fcc, type: 3}
+      propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7926860455500644844, guid: 30b96cfcdc401b34fbe0659c6d703fcc, type: 3}
@@ -38702,6 +38836,18 @@ PrefabInstance:
     - target: {fileID: 8712174270144734873, guid: 30b96cfcdc401b34fbe0659c6d703fcc, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8744577648499090312, guid: 30b96cfcdc401b34fbe0659c6d703fcc, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8744577648499090312, guid: 30b96cfcdc401b34fbe0659c6d703fcc, type: 3}
+      propertyPath: m_fontSize
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8744577648499090312, guid: 30b96cfcdc401b34fbe0659c6d703fcc, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8758555391402928420, guid: 30b96cfcdc401b34fbe0659c6d703fcc, type: 3}
       propertyPath: m_Pivot.x
@@ -38788,6 +38934,39 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 30b96cfcdc401b34fbe0659c6d703fcc, type: 3}
+--- !u!114 &5320437242877943290 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8744577648499090312, guid: 30b96cfcdc401b34fbe0659c6d703fcc, type: 3}
+  m_PrefabInstance: {fileID: 5320437242877943289}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+--- !u!114 &5320437242877943291 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5802267828884968115, guid: 30b96cfcdc401b34fbe0659c6d703fcc, type: 3}
+  m_PrefabInstance: {fileID: 5320437242877943289}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9673ed4c57abb584b9e551e70d6adaa5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RouteUI
+--- !u!114 &5320437242877943292 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8302990082367320484, guid: 30b96cfcdc401b34fbe0659c6d703fcc, type: 3}
+  m_PrefabInstance: {fileID: 5320437242877943289}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec5834fa910f8d34190721f7ac9c7c9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BotoneraManager
 --- !u!1001 &5959207081292219240
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38796,6 +38975,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1204057200}
     m_Modifications:
+    - target: {fileID: 1107130532476027091, guid: ee61da7b176f4b645a7bc053d1b10ac4, type: 3}
+      propertyPath: stopName
+      value: Av. Corrientes
+      objectReference: {fileID: 0}
+    - target: {fileID: 1107130532476027091, guid: ee61da7b176f4b645a7bc053d1b10ac4, type: 3}
+      propertyPath: passengers.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1107130532476027091, guid: ee61da7b176f4b645a7bc053d1b10ac4, type: 3}
+      propertyPath: passengers.Array.data[0].request
+      value: "Hasta la esquina nom\xE1s"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1107130532476027091, guid: ee61da7b176f4b645a7bc053d1b10ac4, type: 3}
+      propertyPath: passengers.Array.data[1].request
+      value: Hasta el final del recorrido
+      objectReference: {fileID: 0}
+    - target: {fileID: 1107130532476027091, guid: ee61da7b176f4b645a7bc053d1b10ac4, type: 3}
+      propertyPath: passengers.Array.data[1].correctTicket
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1526191939557949365, guid: ee61da7b176f4b645a7bc053d1b10ac4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.09

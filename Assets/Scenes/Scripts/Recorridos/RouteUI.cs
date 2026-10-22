@@ -30,7 +30,13 @@ public class RouteUI : MonoBehaviour
   private void Update()
   {
     BusStop next = route.NextStop;
-    if (next != null)
+    if (next != null && route.IsBoarding)
+    {
+      nextStopText.text = "Subiendo pasajeros en \n" + next.StopName;
+      timerText.text = "PAUSA";
+      timerText.color = normalColor;
+    }
+    else if (next != null)
     {
       nextStopText.text = "Próxima parada: \n" + next.StopName;
       float timeLeft = route.TimeLeft;
@@ -66,7 +72,7 @@ public class RouteUI : MonoBehaviour
     ShowMessage("Paradas a tiempo: " + route.StopsOnTime);
   }
 
-  private void ShowMessage(string text)
+  public void ShowMessage(string text)
   {
     messageText.text = text;
     messageTimer = messageDuration;

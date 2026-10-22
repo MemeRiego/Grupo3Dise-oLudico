@@ -8,8 +8,10 @@ public class BusStop : MonoBehaviour
   [SerializeField] private float maxStopSpeed = 0.3f; // por debajo de esto el bondi cuenta como frenado
   [SerializeField] private float requiredStopTime = 1f; // segundos frenado dentro de la zona
   [SerializeField] private GameObject marker; // se prende cuando es la próxima parada
+  [SerializeField] private Passenger[] passengers; // los que suben en esta parada
 
   public string StopName => stopName;
+  public Passenger[] Passengers => passengers;
   public event Action<BusStop> BusArrived;
 
   private bool isNext;

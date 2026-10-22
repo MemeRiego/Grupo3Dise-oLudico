@@ -20,6 +20,7 @@ public class RouteManager : MonoBehaviour
   public BusStop NextStop => running ? legs[currentIndex].stop : null;
   public float TimeLeft { get; private set; }
   public int StopsOnTime { get; private set; }
+  public bool IsBoarding { get; private set; } // true mientras suben pasajeros, el reloj no corre
 
   private int currentIndex;
   private float legTimer;
@@ -40,7 +41,7 @@ public class RouteManager : MonoBehaviour
   // Update is called once per frame
   void Update()
   {
-    if (!running) return;
+    if (!running || IsBoarding) return;
     legTimer += Time.deltaTime;
     TimeLeft = legs[currentIndex].timeLimit - legTimer;
   }
@@ -56,11 +57,19 @@ public class RouteManager : MonoBehaviour
 
   private void OnBusArrived(BusStop stop)
   {
-    if (stop != NextStop) return;
+    if (stop != NextStop || IsBoarding) return;
 
     bool onTime = TimeLeft > 0f;
     if (onTime) StopsOnTime++;
+    IsBoarding = true; // el reloj queda frenado hasta ContinueRoute
     StopReached?.Invoke(stop, onTime, legTimer);
+  }
+
+  // Lo llama BoardingManager cuando ya subieron todos los pasajeros.
+  public void ContinueRoute()
+  {
+    if (!IsBoarding) return;
+    IsBoarding = false;
 
     int next = currentIndex + 1;
     if (next < legs.Count) StartLeg(next);
