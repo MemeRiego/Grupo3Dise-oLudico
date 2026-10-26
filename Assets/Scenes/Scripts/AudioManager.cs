@@ -16,7 +16,7 @@ public class AudioManager : MonoBehaviour
     [SerializeField, Range(0f, 1f)] private float masterVolume = 1f;
     [SerializeField, Range(0f, 1f)] private float musicVolume = 0.5f;
     [SerializeField, Range(0f, 1f)] private float uiVolume = 1f;
-    [SerializeField, Range(0f, 1f)] private float sfxVolume = 1f;
+    [SerializeField, Range(0f, 1f)] private float vfxVolume = 1f;
     [SerializeField, Range(0f, 1f)] private float vehiclesVolume = 1f;
 
 
@@ -37,7 +37,7 @@ public class AudioManager : MonoBehaviour
         SetMasterVolume(masterVolume);
         SetMusicVolume(musicVolume);
         SetUIVolume(uiVolume);
-        SetSFXVolume(sfxVolume);
+        SetSFXVolume(vfxVolume);
         SetVehiclesVolume(vehiclesVolume);
     }
 
@@ -91,14 +91,14 @@ public class AudioManager : MonoBehaviour
 
     public void SetSFXVolume(float value)
     {
-        sfxVolume = Mathf.Clamp01(value);
-        SetVolume("SFXVolume", sfxVolume);
+        vfxVolume = Mathf.Clamp01(value);
+        SetVolume("VFXVolume", vfxVolume);
     }
 
     public void SetVehiclesVolume(float value)
     {
         vehiclesVolume = Mathf.Clamp01(value);
-        SetVolume("VehiclesVolume", vehiclesVolume);
+        SetVolume("EnviromentVolume", vehiclesVolume);
     }
 
     private void SetVolume(string parameter, float value)

@@ -435,9 +435,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AudioManager
   mixer: {fileID: 24100000, guid: 366d20273bf8abd4c869391624bd7f1e, type: 2}
-  musicSource: {fileID: 0}
-  uiSource: {fileID: 0}
-  sfxSource: {fileID: 0}
+  musicSource: {fileID: 7777954025275524196}
+  uiSource: {fileID: 7975681112991173410}
+  sfxSource: {fileID: 4998456348993455915}
   masterVolume: 1
   musicVolume: 0.5
   uiVolume: 1
