@@ -3,6 +3,9 @@ using UnityEngine.Audio;
 
 public class AudioManager : MonoBehaviour
 {
+    public static AudioManager Instance { get; private set; }
+
+
     [Header("Referencias")]
     [SerializeField] private AudioMixer mixer;
     [SerializeField] private AudioSource musicSource;
@@ -15,6 +18,19 @@ public class AudioManager : MonoBehaviour
     [SerializeField, Range(0f, 1f)] private float uiVolume = 1f;
     [SerializeField, Range(0f, 1f)] private float sfxVolume = 1f;
     [SerializeField, Range(0f, 1f)] private float vehiclesVolume = 1f;
+
+
+    private void Awake()
+    {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
+        Instance = this;
+        DontDestroyOnLoad(gameObject);
+    }
 
     private void Start()
     {
@@ -94,5 +110,11 @@ public class AudioManager : MonoBehaviour
 
         if (!mixer.SetFloat(parameter, decibels))
             Debug.LogWarning($"Falta configurar {parameter} en el AudioMixer.", this);
+    }
+
+    private void OnDestroy()
+    {
+        if (Instance == this)
+            Instance = null;
     }
 }
