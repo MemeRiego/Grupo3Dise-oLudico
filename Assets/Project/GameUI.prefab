@@ -251,7 +251,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 40
   m_fontStyle: 17
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 4096
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -2354,7 +2354,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 5125514021796753960}
   m_Direction: 0
   m_Value: 0
-  m_Size: 0.99966156
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3716,7 +3716,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.95759493, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -4667,7 +4667,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 6068553202478021140}
   m_Direction: 2
   m_Value: 0
-  m_Size: 1
+  m_Size: 0.99996465
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -6883,7 +6883,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.0002935369, y: 0.00003474746}
+  m_AnchoredPosition: {x: 0.0002935369, y: 0.00020079598}
   m_SizeDelta: {x: 0, y: 300}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &3899973955047716178
@@ -8323,6 +8323,7 @@ GameObject:
   - component: {fileID: 2577276135503347839}
   - component: {fileID: 5802267828884968115}
   - component: {fileID: 7430849965485249055}
+  - component: {fileID: 8807618341293279878}
   m_Layer: 5
   m_Name: GameUI
   m_TagString: Untagged
@@ -8452,6 +8453,24 @@ MonoBehaviour:
   uiSlider: {fileID: 3646846998374547517}
   vfxSlider: {fileID: 5568647705670370347}
   enviromentSlider: {fileID: 1917232326198541487}
+--- !u!114 &8807618341293279878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8632486510711843597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 095e4dce122249d4885f2271d1241a46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UIVelocimeter
+  vehicleBody: {fileID: 0}
+  needle: {fileID: 8254138217634008828}
+  maxSpeed: 120
+  speedMultiplier: 3.6
+  zeroAngle: 120
+  maxAngle: -120
 --- !u!1 &8652484696314958604
 GameObject:
   m_ObjectHideFlags: 0
@@ -8610,7 +8629,7 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 3464591320216820554}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.225268, y: 0.2709854}
+  m_AnchorMin: {x: 0.15542828, y: 0.23835859}
   m_AnchorMax: {x: 0.35670018, y: 0.78899086}
   m_AnchoredPosition: {x: 0.37750244, y: -2.1343994}
   m_SizeDelta: {x: -1.3292236, y: -4.8364105}
@@ -9317,7 +9336,7 @@ GameObject:
   - component: {fileID: 7155424770521556967}
   - component: {fileID: 8744450769573190812}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Aguja
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
