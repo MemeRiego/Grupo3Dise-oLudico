@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: 22e902472861f7f44b9abe312b51c76d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7508206933706774396
+    second: "Panel de recompensas met\xE1lico vac\xEDo-16_0"
+  - first:
+      213: -9029398574252408442
+    second: "Panel de recompensas met\xE1lico vac\xEDo-16_1"
+  - first:
+      213: 3438844271760462072
+    second: "Panel de recompensas met\xE1lico vac\xEDo-16_2"
+  - first:
+      213: -2283317718838431444
+    second: "Panel de recompensas met\xE1lico vac\xEDo-16_3"
+  - first:
+      213: 4666474812733756825
+    second: "Panel de recompensas met\xE1lico vac\xEDo-16_4"
+  - first:
+      213: -5370413702063725426
+    second: "Panel de recompensas met\xE1lico vac\xEDo-16_5"
+  - first:
+      213: -1419299051119281804
+    second: "Panel de recompensas met\xE1lico vac\xEDo-16_6"
+  - first:
+      213: -8884801227645372176
+    second: "Panel de recompensas met\xE1lico vac\xEDo-16_7"
+  - first:
+      213: -649227387686469374
+    second: "Panel de recompensas met\xE1lico vac\xEDo-16_8"
+  - first:
+      213: 5814865242031035138
+    second: "Panel de recompensas met\xE1lico vac\xEDo-16_9"
+  - first:
+      213: 2313890403662825246
+    second: "Panel de recompensas met\xE1lico vac\xEDo-16_10"
+  - first:
+      213: -3035460606589634261
+    second: "Panel de recompensas met\xE1lico vac\xEDo-16_11"
+  - first:
+      213: 5765123378734719004
+    second: "Panel de recompensas met\xE1lico vac\xEDo-16_12"
+  - first:
+      213: 2189659279934071880
+    second: "Panel de recompensas met\xE1lico vac\xEDo-16_13"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Panel de recompensas met\xE1lico vac\xEDo-16_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2153
+        height: 709
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7797bf0d62823860800000000000000
+      internalID: 7508206933706774396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Panel de recompensas met\xE1lico vac\xEDo-16_1"
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 685
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 681444626d121b280800000000000000
+      internalID: -9029398574252408442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Panel de recompensas met\xE1lico vac\xEDo-16_2"
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 692
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f05b2835aa39bf20800000000000000
+      internalID: 3438844271760462072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Panel de recompensas met\xE1lico vac\xEDo-16_3"
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 684
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c21b74bd1a60050e0800000000000000
+      internalID: -2283317718838431444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Panel de recompensas met\xE1lico vac\xEDo-16_4"
+      rect:
+        serializedVersion: 2
+        x: 1865
+        y: 692
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9959d4e3e16a2c040800000000000000
+      internalID: 4666474812733756825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Panel de recompensas met\xE1lico vac\xEDo-16_5"
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 676
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e84e99f01357875b0800000000000000
+      internalID: -5370413702063725426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Panel de recompensas met\xE1lico vac\xEDo-16_6"
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 668
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4797cf36803ad4ce0800000000000000
+      internalID: -1419299051119281804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Panel de recompensas met\xE1lico vac\xEDo-16_7"
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 661
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f83e3e6b58d2b480800000000000000
+      internalID: -8884801227645372176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Panel de recompensas met\xE1lico vac\xEDo-16_8"
+      rect:
+        serializedVersion: 2
+        x: 2047
+        y: 77
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2014e72712b7df6f0800000000000000
+      internalID: -649227387686469374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Panel de recompensas met\xE1lico vac\xEDo-16_9"
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 39
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2039600112d82b050800000000000000
+      internalID: 5814865242031035138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Panel de recompensas met\xE1lico vac\xEDo-16_10"
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 37
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e17028700179c1020800000000000000
+      internalID: 2313890403662825246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Panel de recompensas met\xE1lico vac\xEDo-16_11"
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 33
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b29788e29a0efd5d0800000000000000
+      internalID: -3035460606589634261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Panel de recompensas met\xE1lico vac\xEDo-16_12"
+      rect:
+        serializedVersion: 2
+        x: 2055
+        y: 35
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1068c30b25d10050800000000000000
+      internalID: 5765123378734719004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Panel de recompensas met\xE1lico vac\xEDo-16_13"
+      rect:
+        serializedVersion: 2
+        x: 2090
+        y: 41
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 844ab97838b336e10800000000000000
+      internalID: 2189659279934071880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Panel de recompensas met\xE1lico vac\xEDo-16_0": 7508206933706774396
+      "Panel de recompensas met\xE1lico vac\xEDo-16_1": -9029398574252408442
+      "Panel de recompensas met\xE1lico vac\xEDo-16_10": 2313890403662825246
+      "Panel de recompensas met\xE1lico vac\xEDo-16_11": -3035460606589634261
+      "Panel de recompensas met\xE1lico vac\xEDo-16_12": 5765123378734719004
+      "Panel de recompensas met\xE1lico vac\xEDo-16_13": 2189659279934071880
+      "Panel de recompensas met\xE1lico vac\xEDo-16_2": 3438844271760462072
+      "Panel de recompensas met\xE1lico vac\xEDo-16_3": -2283317718838431444
+      "Panel de recompensas met\xE1lico vac\xEDo-16_4": 4666474812733756825
+      "Panel de recompensas met\xE1lico vac\xEDo-16_5": -5370413702063725426
+      "Panel de recompensas met\xE1lico vac\xEDo-16_6": -1419299051119281804
+      "Panel de recompensas met\xE1lico vac\xEDo-16_7": -8884801227645372176
+      "Panel de recompensas met\xE1lico vac\xEDo-16_8": -649227387686469374
+      "Panel de recompensas met\xE1lico vac\xEDo-16_9": 5814865242031035138
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

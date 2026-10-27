@@ -1,0 +1,2041 @@
+fileFormatVersion: 2
+guid: 9d3f63f5206cd2141b53017d18112b80
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8686678548205099616
+    second: Lector SUBE azul con pantalla verde-37_0
+  - first:
+      213: -7369350365128925477
+    second: Lector SUBE azul con pantalla verde-37_1
+  - first:
+      213: 7826629997518748938
+    second: Lector SUBE azul con pantalla verde-37_2
+  - first:
+      213: -9089812880648488267
+    second: Lector SUBE azul con pantalla verde-37_3
+  - first:
+      213: -6019348836115153982
+    second: Lector SUBE azul con pantalla verde-37_4
+  - first:
+      213: -7061996607481817197
+    second: Lector SUBE azul con pantalla verde-37_5
+  - first:
+      213: -782161576002312201
+    second: Lector SUBE azul con pantalla verde-37_6
+  - first:
+      213: 9141968944655802112
+    second: Lector SUBE azul con pantalla verde-37_7
+  - first:
+      213: 7222953872377247150
+    second: Lector SUBE azul con pantalla verde-37_8
+  - first:
+      213: -1665363855750697815
+    second: Lector SUBE azul con pantalla verde-37_9
+  - first:
+      213: 6960299456301816247
+    second: Lector SUBE azul con pantalla verde-37_10
+  - first:
+      213: 1004393542254992644
+    second: Lector SUBE azul con pantalla verde-37_11
+  - first:
+      213: -3620979381279730410
+    second: Lector SUBE azul con pantalla verde-37_12
+  - first:
+      213: -6145033226333658831
+    second: Lector SUBE azul con pantalla verde-37_13
+  - first:
+      213: -6059647699405788736
+    second: Lector SUBE azul con pantalla verde-37_14
+  - first:
+      213: -8687174473456727035
+    second: Lector SUBE azul con pantalla verde-37_15
+  - first:
+      213: 7470245933880291106
+    second: Lector SUBE azul con pantalla verde-37_16
+  - first:
+      213: 345401420412536665
+    second: Lector SUBE azul con pantalla verde-37_17
+  - first:
+      213: 1593558647654646478
+    second: Lector SUBE azul con pantalla verde-37_18
+  - first:
+      213: -6208650925094001074
+    second: Lector SUBE azul con pantalla verde-37_19
+  - first:
+      213: -7859336013525399470
+    second: Lector SUBE azul con pantalla verde-37_20
+  - first:
+      213: -5263745578736140518
+    second: Lector SUBE azul con pantalla verde-37_21
+  - first:
+      213: 1355045816460191046
+    second: Lector SUBE azul con pantalla verde-37_22
+  - first:
+      213: 685591796686469963
+    second: Lector SUBE azul con pantalla verde-37_23
+  - first:
+      213: 864836490240523462
+    second: Lector SUBE azul con pantalla verde-37_24
+  - first:
+      213: 615015504084276383
+    second: Lector SUBE azul con pantalla verde-37_25
+  - first:
+      213: 3499947974149893606
+    second: Lector SUBE azul con pantalla verde-37_26
+  - first:
+      213: -711589806008204716
+    second: Lector SUBE azul con pantalla verde-37_27
+  - first:
+      213: -3526326045951019479
+    second: Lector SUBE azul con pantalla verde-37_28
+  - first:
+      213: -2712497623636715433
+    second: Lector SUBE azul con pantalla verde-37_29
+  - first:
+      213: -7805949165517921118
+    second: Lector SUBE azul con pantalla verde-37_30
+  - first:
+      213: -4127313481137165690
+    second: Lector SUBE azul con pantalla verde-37_31
+  - first:
+      213: 2280925423367001265
+    second: Lector SUBE azul con pantalla verde-37_32
+  - first:
+      213: 2974280201910704277
+    second: Lector SUBE azul con pantalla verde-37_33
+  - first:
+      213: -4765074201773593735
+    second: Lector SUBE azul con pantalla verde-37_34
+  - first:
+      213: -4471571136339653230
+    second: Lector SUBE azul con pantalla verde-37_35
+  - first:
+      213: 1402948138799534671
+    second: Lector SUBE azul con pantalla verde-37_36
+  - first:
+      213: 2955170033779612587
+    second: Lector SUBE azul con pantalla verde-37_37
+  - first:
+      213: -7076522301870081293
+    second: Lector SUBE azul con pantalla verde-37_38
+  - first:
+      213: -8012182254282302406
+    second: Lector SUBE azul con pantalla verde-37_39
+  - first:
+      213: -5202201327393294602
+    second: Lector SUBE azul con pantalla verde-37_40
+  - first:
+      213: -1485304256604072591
+    second: Lector SUBE azul con pantalla verde-37_41
+  - first:
+      213: -3617463114643358934
+    second: Lector SUBE azul con pantalla verde-37_42
+  - first:
+      213: -126714246406869201
+    second: Lector SUBE azul con pantalla verde-37_43
+  - first:
+      213: -1670456258700703995
+    second: Lector SUBE azul con pantalla verde-37_44
+  - first:
+      213: -5460643565492935080
+    second: Lector SUBE azul con pantalla verde-37_45
+  - first:
+      213: 1081848145692398148
+    second: Lector SUBE azul con pantalla verde-37_46
+  - first:
+      213: 2651569631819944971
+    second: Lector SUBE azul con pantalla verde-37_47
+  - first:
+      213: 6564567146068324954
+    second: Lector SUBE azul con pantalla verde-37_48
+  - first:
+      213: 1757728493277144973
+    second: Lector SUBE azul con pantalla verde-37_49
+  - first:
+      213: -6005608028308111073
+    second: Lector SUBE azul con pantalla verde-37_50
+  - first:
+      213: -2423409139692301050
+    second: Lector SUBE azul con pantalla verde-37_51
+  - first:
+      213: -6858180546894455076
+    second: Lector SUBE azul con pantalla verde-37_52
+  - first:
+      213: -3602380128225418825
+    second: Lector SUBE azul con pantalla verde-37_53
+  - first:
+      213: 7515054590857884142
+    second: Lector SUBE azul con pantalla verde-37_54
+  - first:
+      213: -6827343720543226521
+    second: Lector SUBE azul con pantalla verde-37_55
+  - first:
+      213: 6939240082542030233
+    second: Lector SUBE azul con pantalla verde-37_56
+  - first:
+      213: 8578284099478389135
+    second: Lector SUBE azul con pantalla verde-37_57
+  - first:
+      213: -6105812599800439197
+    second: Lector SUBE azul con pantalla verde-37_58
+  - first:
+      213: 2745464045383753514
+    second: Lector SUBE azul con pantalla verde-37_59
+  - first:
+      213: 602359115931088362
+    second: Lector SUBE azul con pantalla verde-37_60
+  - first:
+      213: 3805113964582627806
+    second: Lector SUBE azul con pantalla verde-37_61
+  - first:
+      213: -3794765462133959332
+    second: Lector SUBE azul con pantalla verde-37_62
+  - first:
+      213: 7191936157452413678
+    second: Lector SUBE azul con pantalla verde-37_63
+  - first:
+      213: -5108425430277165299
+    second: Lector SUBE azul con pantalla verde-37_64
+  - first:
+      213: 3162659859355623339
+    second: Lector SUBE azul con pantalla verde-37_65
+  - first:
+      213: 7538849695185217300
+    second: Lector SUBE azul con pantalla verde-37_66
+  - first:
+      213: 400564406798091402
+    second: Lector SUBE azul con pantalla verde-37_67
+  - first:
+      213: 5790678177618781470
+    second: Lector SUBE azul con pantalla verde-37_68
+  - first:
+      213: -5487132652683124666
+    second: Lector SUBE azul con pantalla verde-37_69
+  - first:
+      213: -4493666907207245919
+    second: Lector SUBE azul con pantalla verde-37_70
+  - first:
+      213: 2216141096592090536
+    second: Lector SUBE azul con pantalla verde-37_71
+  - first:
+      213: -8225501141149551978
+    second: Lector SUBE azul con pantalla verde-37_72
+  - first:
+      213: 6724796851602481684
+    second: Lector SUBE azul con pantalla verde-37_73
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_0
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 1503
+        width: 67
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06a55c79d184d8870800000000000000
+      internalID: 8686678548205099616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1009
+        height: 1498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bde581d23eecab990800000000000000
+      internalID: -7369350365128925477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1177
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0d7586f386cd9c60800000000000000
+      internalID: 7826629997518748938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_3
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1165
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ba3d2e485f7ad180800000000000000
+      internalID: -9089812880648488267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1137
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cbf13c102af67ca0800000000000000
+      internalID: -6019348836115153982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_5
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 1125
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3975806608fbefd90800000000000000
+      internalID: -7061996607481817197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_6
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 1047
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f72c61d0343525f0800000000000000
+      internalID: -782161576002312201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_7
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 1046
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00f9cd5a15ccede70800000000000000
+      internalID: 9141968944655802112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_8
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 1051
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea5f31037461d3460800000000000000
+      internalID: 7222953872377247150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_9
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 1026
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ac643c856073e8e0800000000000000
+      internalID: -1665363855750697815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_10
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 1023
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b9d63f6a73f79060800000000000000
+      internalID: 6960299456301816247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_11
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 995
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40d1eccea9250fd00800000000000000
+      internalID: 1004393542254992644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_12
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 971
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 615decfff62bfbdc0800000000000000
+      internalID: -3620979381279730410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_13
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 961
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 131e863a6d478baa0800000000000000
+      internalID: -6145033226333658831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_14
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 961
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c9a7e4d58ec7eba0800000000000000
+      internalID: -6059647699405788736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_15
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 957
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50c45cfc7d4f07780800000000000000
+      internalID: -8687174473456727035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 891
+        width: 36
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22fadb90915aba760800000000000000
+      internalID: 7470245933880291106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_17
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 935
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 957ca9803cc1bc400800000000000000
+      internalID: 345401420412536665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_18
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 915
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec20532a5257d1610800000000000000
+      internalID: 1593558647654646478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_19
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 893
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e462f53e0e076d9a0800000000000000
+      internalID: -6208650925094001074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_20
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 854
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 258426749870ee290800000000000000
+      internalID: -7859336013525399470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_21
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 823
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1f366fd84b63f6b0800000000000000
+      internalID: -5263745578736140518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_22
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 774
+        width: 15
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6452d70adf61ec210800000000000000
+      internalID: 1355045816460191046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_23
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 790
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4b3b6e4b16b38900800000000000000
+      internalID: 685591796686469963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_24
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 783
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ccf49da434800c00800000000000000
+      internalID: 864836490240523462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_25
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 769
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f941d4ca759f88800800000000000000
+      internalID: 615015504084276383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_26
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 719
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ed6d839320529030800000000000000
+      internalID: 3499947974149893606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_27
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 745
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 452871377dcef16f0800000000000000
+      internalID: -711589806008204716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_28
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 693
+        width: 57
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 926b1ecf429ff0fc0800000000000000
+      internalID: -3526326045951019479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_29
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 743
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 758da0168c54b5ad0800000000000000
+      internalID: -2712497623636715433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_30
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 709
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a42c867792bba390800000000000000
+      internalID: -7805949165517921118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_31
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 722
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68a6320a146d8b6c0800000000000000
+      internalID: -4127313481137165690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_32
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 693
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b492f2769977af10800000000000000
+      internalID: 2280925423367001265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_33
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 668
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5985d51d514c64920800000000000000
+      internalID: 2974280201910704277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_34
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 679
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97b28ea824e0fddb0800000000000000
+      internalID: -4765074201773593735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_35
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 657
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29dc59e2eb9c1f1c0800000000000000
+      internalID: -4471571136339653230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_36
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 677
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f42117b26e5487310800000000000000
+      internalID: 1402948138799534671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_37
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 641
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bab10521d7fd20920800000000000000
+      internalID: 2955170033779612587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_38
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 639
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fa77ef95742bcd90800000000000000
+      internalID: -7076522301870081293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_39
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 591
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3c90d9a0b20fc090800000000000000
+      internalID: -8012182254282302406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_40
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 593
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f638a684711ec7b0800000000000000
+      internalID: -5202201327393294602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_41
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 477
+        width: 53
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1751db9e5a3236be0800000000000000
+      internalID: -1485304256604072591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_42
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 575
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2bba9f96703ccdc0800000000000000
+      internalID: -3617463114643358934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_43
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 543
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2fefe27012dd3ef0800000000000000
+      internalID: -126714246406869201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_44
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 519
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 507015712e851d8e0800000000000000
+      internalID: -1670456258700703995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_45
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 512
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85665c1eb95e734b0800000000000000
+      internalID: -5460643565492935080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_46
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 417
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44219e8182f730f00800000000000000
+      internalID: 1081848145692398148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_47
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 364
+        width: 15
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0457d118844cc420800000000000000
+      internalID: 2651569631819944971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_48
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 419
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a523a9de9070a1b50800000000000000
+      internalID: 6564567146068324954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_49
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 405
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d87ed5570c4b46810800000000000000
+      internalID: 1757728493277144973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_50
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 391
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f11067c315bc7aca0800000000000000
+      internalID: -6005608028308111073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_51
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 367
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 605943b2a325e5ed0800000000000000
+      internalID: -2423409139692301050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_52
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 362
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cde9cd8f029d2d0a0800000000000000
+      internalID: -6858180546894455076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_53
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 341
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b1a23f0c56c10ec0800000000000000
+      internalID: -3602380128225418825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_54
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 335
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee1b0cb7556da4860800000000000000
+      internalID: 7515054590857884142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_55
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 323
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 765f6891f076041a0800000000000000
+      internalID: -6827343720543226521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_56
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 303
+        width: 11
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99de113e6122d4060800000000000000
+      internalID: 6939240082542030233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_57
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 289
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f818ac350ff2c0770800000000000000
+      internalID: 8578284099478389135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_58
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 293
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36e5acb5acbc34ba0800000000000000
+      internalID: -6105812599800439197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_59
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 275
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2f94b0d009d91620800000000000000
+      internalID: 2745464045383753514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_60
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 260
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae57a4cac620c5800800000000000000
+      internalID: 602359115931088362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_61
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 262
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed963dc8dfa7ec430800000000000000
+      internalID: 3805113964582627806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_62
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 241
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c55959feae8465bc0800000000000000
+      internalID: -3794765462133959332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_63
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 215
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eea2d38a4d3eec360800000000000000
+      internalID: 7191936157452413678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_64
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 151
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0fe1c2032a3b19b0800000000000000
+      internalID: -5108425430277165299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_65
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 143
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baf5746b26604eb20800000000000000
+      internalID: 3162659859355623339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_66
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 126
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 417a390fadf5f9860800000000000000
+      internalID: 7538849695185217300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_67
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 101
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a848dd8a4371f8500800000000000000
+      internalID: 400564406798091402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_68
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 61
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e15e2994f1f9c5050800000000000000
+      internalID: 5790678177618781470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_69
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 51
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6402069ace9c9d3b0800000000000000
+      internalID: -5487132652683124666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_70
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 37
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1afdbf0a1c943a1c0800000000000000
+      internalID: -4493666907207245919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_71
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 49
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a52482f59051ce10800000000000000
+      internalID: 2216141096592090536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_72
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 17
+        width: 41
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 692f53eea4629dd80800000000000000
+      internalID: -8225501141149551978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lector SUBE azul con pantalla verde-37_73
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 21
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4126e666b17435d50800000000000000
+      internalID: 6724796851602481684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Lector SUBE azul con pantalla verde-37_0: 8686678548205099616
+      Lector SUBE azul con pantalla verde-37_1: -7369350365128925477
+      Lector SUBE azul con pantalla verde-37_10: 6960299456301816247
+      Lector SUBE azul con pantalla verde-37_11: 1004393542254992644
+      Lector SUBE azul con pantalla verde-37_12: -3620979381279730410
+      Lector SUBE azul con pantalla verde-37_13: -6145033226333658831
+      Lector SUBE azul con pantalla verde-37_14: -6059647699405788736
+      Lector SUBE azul con pantalla verde-37_15: -8687174473456727035
+      Lector SUBE azul con pantalla verde-37_16: 7470245933880291106
+      Lector SUBE azul con pantalla verde-37_17: 345401420412536665
+      Lector SUBE azul con pantalla verde-37_18: 1593558647654646478
+      Lector SUBE azul con pantalla verde-37_19: -6208650925094001074
+      Lector SUBE azul con pantalla verde-37_2: 7826629997518748938
+      Lector SUBE azul con pantalla verde-37_20: -7859336013525399470
+      Lector SUBE azul con pantalla verde-37_21: -5263745578736140518
+      Lector SUBE azul con pantalla verde-37_22: 1355045816460191046
+      Lector SUBE azul con pantalla verde-37_23: 685591796686469963
+      Lector SUBE azul con pantalla verde-37_24: 864836490240523462
+      Lector SUBE azul con pantalla verde-37_25: 615015504084276383
+      Lector SUBE azul con pantalla verde-37_26: 3499947974149893606
+      Lector SUBE azul con pantalla verde-37_27: -711589806008204716
+      Lector SUBE azul con pantalla verde-37_28: -3526326045951019479
+      Lector SUBE azul con pantalla verde-37_29: -2712497623636715433
+      Lector SUBE azul con pantalla verde-37_3: -9089812880648488267
+      Lector SUBE azul con pantalla verde-37_30: -7805949165517921118
+      Lector SUBE azul con pantalla verde-37_31: -4127313481137165690
+      Lector SUBE azul con pantalla verde-37_32: 2280925423367001265
+      Lector SUBE azul con pantalla verde-37_33: 2974280201910704277
+      Lector SUBE azul con pantalla verde-37_34: -4765074201773593735
+      Lector SUBE azul con pantalla verde-37_35: -4471571136339653230
+      Lector SUBE azul con pantalla verde-37_36: 1402948138799534671
+      Lector SUBE azul con pantalla verde-37_37: 2955170033779612587
+      Lector SUBE azul con pantalla verde-37_38: -7076522301870081293
+      Lector SUBE azul con pantalla verde-37_39: -8012182254282302406
+      Lector SUBE azul con pantalla verde-37_4: -6019348836115153982
+      Lector SUBE azul con pantalla verde-37_40: -5202201327393294602
+      Lector SUBE azul con pantalla verde-37_41: -1485304256604072591
+      Lector SUBE azul con pantalla verde-37_42: -3617463114643358934
+      Lector SUBE azul con pantalla verde-37_43: -126714246406869201
+      Lector SUBE azul con pantalla verde-37_44: -1670456258700703995
+      Lector SUBE azul con pantalla verde-37_45: -5460643565492935080
+      Lector SUBE azul con pantalla verde-37_46: 1081848145692398148
+      Lector SUBE azul con pantalla verde-37_47: 2651569631819944971
+      Lector SUBE azul con pantalla verde-37_48: 6564567146068324954
+      Lector SUBE azul con pantalla verde-37_49: 1757728493277144973
+      Lector SUBE azul con pantalla verde-37_5: -7061996607481817197
+      Lector SUBE azul con pantalla verde-37_50: -6005608028308111073
+      Lector SUBE azul con pantalla verde-37_51: -2423409139692301050
+      Lector SUBE azul con pantalla verde-37_52: -6858180546894455076
+      Lector SUBE azul con pantalla verde-37_53: -3602380128225418825
+      Lector SUBE azul con pantalla verde-37_54: 7515054590857884142
+      Lector SUBE azul con pantalla verde-37_55: -6827343720543226521
+      Lector SUBE azul con pantalla verde-37_56: 6939240082542030233
+      Lector SUBE azul con pantalla verde-37_57: 8578284099478389135
+      Lector SUBE azul con pantalla verde-37_58: -6105812599800439197
+      Lector SUBE azul con pantalla verde-37_59: 2745464045383753514
+      Lector SUBE azul con pantalla verde-37_6: -782161576002312201
+      Lector SUBE azul con pantalla verde-37_60: 602359115931088362
+      Lector SUBE azul con pantalla verde-37_61: 3805113964582627806
+      Lector SUBE azul con pantalla verde-37_62: -3794765462133959332
+      Lector SUBE azul con pantalla verde-37_63: 7191936157452413678
+      Lector SUBE azul con pantalla verde-37_64: -5108425430277165299
+      Lector SUBE azul con pantalla verde-37_65: 3162659859355623339
+      Lector SUBE azul con pantalla verde-37_66: 7538849695185217300
+      Lector SUBE azul con pantalla verde-37_67: 400564406798091402
+      Lector SUBE azul con pantalla verde-37_68: 5790678177618781470
+      Lector SUBE azul con pantalla verde-37_69: -5487132652683124666
+      Lector SUBE azul con pantalla verde-37_7: 9141968944655802112
+      Lector SUBE azul con pantalla verde-37_70: -4493666907207245919
+      Lector SUBE azul con pantalla verde-37_71: 2216141096592090536
+      Lector SUBE azul con pantalla verde-37_72: -8225501141149551978
+      Lector SUBE azul con pantalla verde-37_73: 6724796851602481684
+      Lector SUBE azul con pantalla verde-37_8: 7222953872377247150
+      Lector SUBE azul con pantalla verde-37_9: -1665363855750697815
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

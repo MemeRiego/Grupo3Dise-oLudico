@@ -1,0 +1,871 @@
+fileFormatVersion: 2
+guid: 6b12113a8c7295343bc6c26fad120dd9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6969104252127559991
+    second: "Resaltado verde transl\xFAcido con textura de papel-50_0"
+  - first:
+      213: -8303726395346346595
+    second: "Resaltado verde transl\xFAcido con textura de papel-50_1"
+  - first:
+      213: 5255308121816781951
+    second: "Resaltado verde transl\xFAcido con textura de papel-50_2"
+  - first:
+      213: -3303089109976888689
+    second: "Resaltado verde transl\xFAcido con textura de papel-50_3"
+  - first:
+      213: -4237335457177293082
+    second: "Resaltado verde transl\xFAcido con textura de papel-50_4"
+  - first:
+      213: -8750365786801920227
+    second: "Resaltado verde transl\xFAcido con textura de papel-50_5"
+  - first:
+      213: 3205397059765720179
+    second: "Resaltado verde transl\xFAcido con textura de papel-50_6"
+  - first:
+      213: -8887113475770677465
+    second: "Resaltado verde transl\xFAcido con textura de papel-50_7"
+  - first:
+      213: -1399969479641203961
+    second: "Resaltado verde transl\xFAcido con textura de papel-50_8"
+  - first:
+      213: -3407418575863558316
+    second: "Resaltado verde transl\xFAcido con textura de papel-50_9"
+  - first:
+      213: 4555102664209718372
+    second: "Resaltado verde transl\xFAcido con textura de papel-50_10"
+  - first:
+      213: 6588031216671712426
+    second: "Resaltado verde transl\xFAcido con textura de papel-50_11"
+  - first:
+      213: -1963982101526923677
+    second: "Resaltado verde transl\xFAcido con textura de papel-50_12"
+  - first:
+      213: -7560864463304714940
+    second: "Resaltado verde transl\xFAcido con textura de papel-50_13"
+  - first:
+      213: 2321349239853707700
+    second: "Resaltado verde transl\xFAcido con textura de papel-50_14"
+  - first:
+      213: 8818294644619486660
+    second: "Resaltado verde transl\xFAcido con textura de papel-50_15"
+  - first:
+      213: 4276131352365298095
+    second: "Resaltado verde transl\xFAcido con textura de papel-50_16"
+  - first:
+      213: 1904639609508441477
+    second: "Resaltado verde transl\xFAcido con textura de papel-50_17"
+  - first:
+      213: -1439693183774023342
+    second: "Resaltado verde transl\xFAcido con textura de papel-50_18"
+  - first:
+      213: 6812348189680521208
+    second: "Resaltado verde transl\xFAcido con textura de papel-50_19"
+  - first:
+      213: 3427065880283495512
+    second: "Resaltado verde transl\xFAcido con textura de papel-50_20"
+  - first:
+      213: -2907577734901273661
+    second: "Resaltado verde transl\xFAcido con textura de papel-50_21"
+  - first:
+      213: 3696299112445034830
+    second: "Resaltado verde transl\xFAcido con textura de papel-50_22"
+  - first:
+      213: 4539312543160704647
+    second: "Resaltado verde transl\xFAcido con textura de papel-50_23"
+  - first:
+      213: -6223731677842141982
+    second: "Resaltado verde transl\xFAcido con textura de papel-50_24"
+  - first:
+      213: -937605794223818953
+    second: "Resaltado verde transl\xFAcido con textura de papel-50_25"
+  - first:
+      213: 8730902573656954641
+    second: "Resaltado verde transl\xFAcido con textura de papel-50_26"
+  - first:
+      213: -379260856836798406
+    second: "Resaltado verde transl\xFAcido con textura de papel-50_27"
+  - first:
+      213: 7340191276012161812
+    second: "Resaltado verde transl\xFAcido con textura de papel-50_28"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Resaltado verde transl\xFAcido con textura de papel-50_0"
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 554
+        width: 192
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7314ab6b46b37b060800000000000000
+      internalID: 6969104252127559991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Resaltado verde transl\xFAcido con textura de papel-50_1"
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 600
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9d9855a6dc33cc80800000000000000
+      internalID: -8303726395346346595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Resaltado verde transl\xFAcido con textura de papel-50_2"
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 562
+        width: 17
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f745d1a94ea9ee840800000000000000
+      internalID: 5255308121816781951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Resaltado verde transl\xFAcido con textura de papel-50_3"
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 592
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8acd5a74f11922d0800000000000000
+      internalID: -3303089109976888689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Resaltado verde transl\xFAcido con textura de papel-50_4"
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 586
+        width: 76
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eea7c02ad5f135c0800000000000000
+      internalID: -4237335457177293082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Resaltado verde transl\xFAcido con textura de papel-50_5"
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 582
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d17a0f6ada4709680800000000000000
+      internalID: -8750365786801920227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Resaltado verde transl\xFAcido con textura de papel-50_6"
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 516
+        width: 148
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 374da6794abdb7c20800000000000000
+      internalID: 3205397059765720179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Resaltado verde transl\xFAcido con textura de papel-50_7"
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 556
+        width: 67
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7270a163161aaa480800000000000000
+      internalID: -8887113475770677465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Resaltado verde transl\xFAcido con textura de papel-50_8"
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 592
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70bf895fc2f429ce0800000000000000
+      internalID: -1399969479641203961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Resaltado verde transl\xFAcido con textura de papel-50_9"
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 594
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45fc598cbda66b0d0800000000000000
+      internalID: -3407418575863558316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Resaltado verde transl\xFAcido con textura de papel-50_10"
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 547
+        width: 55
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46cd7a73db9f63f30800000000000000
+      internalID: 4555102664209718372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Resaltado verde transl\xFAcido con textura de papel-50_11"
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 594
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa4e6e69c736d6b50800000000000000
+      internalID: 6588031216671712426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Resaltado verde transl\xFAcido con textura de papel-50_12"
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 588
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 366334d2fa88eb4e0800000000000000
+      internalID: -1963982101526923677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Resaltado verde transl\xFAcido con textura de papel-50_13"
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 594
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44519dd64d9621790800000000000000
+      internalID: -7560864463304714940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Resaltado verde transl\xFAcido con textura de papel-50_14"
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 546
+        width: 176
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b17a19a5d6173020800000000000000
+      internalID: 2321349239853707700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Resaltado verde transl\xFAcido con textura de papel-50_15"
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 590
+        width: 76
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c526490240e06a70800000000000000
+      internalID: 8818294644619486660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Resaltado verde transl\xFAcido con textura de papel-50_16"
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 562
+        width: 126
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa1f4ae1fced75b30800000000000000
+      internalID: 4276131352365298095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Resaltado verde transl\xFAcido con textura de papel-50_17"
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 586
+        width: 87
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58da3e532a3ae6a10800000000000000
+      internalID: 1904639609508441477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Resaltado verde transl\xFAcido con textura de papel-50_18"
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 580
+        width: 116
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 251299b5dae250ce0800000000000000
+      internalID: -1439693183774023342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Resaltado verde transl\xFAcido con textura de papel-50_19"
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 583
+        width: 222
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ffce2cc5925a8e50800000000000000
+      internalID: 6812348189680521208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Resaltado verde transl\xFAcido con textura de papel-50_20"
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 93
+        width: 2061
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85cb820c2426f8f20800000000000000
+      internalID: 3427065880283495512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Resaltado verde transl\xFAcido con textura de papel-50_21"
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 144
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cbef52847536a7d0800000000000000
+      internalID: -2907577734901273661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Resaltado verde transl\xFAcido con textura de papel-50_22"
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 130
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e41c0ec7574eb4330800000000000000
+      internalID: 3696299112445034830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Resaltado verde transl\xFAcido con textura de papel-50_23"
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 135
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78e919b25b0eefe30800000000000000
+      internalID: 4539312543160704647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Resaltado verde transl\xFAcido con textura de papel-50_24"
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 132
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ec8fd4830dd0a9a0800000000000000
+      internalID: -6223731677842141982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Resaltado verde transl\xFAcido con textura de papel-50_25"
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 130
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 737f0ff6f74fcf2f0800000000000000
+      internalID: -937605794223818953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Resaltado verde transl\xFAcido con textura de papel-50_26"
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 112
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 117dd57e1a56a2970800000000000000
+      internalID: 8730902573656954641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Resaltado verde transl\xFAcido con textura de papel-50_27"
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 112
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a38480792489cbaf0800000000000000
+      internalID: -379260856836798406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Resaltado verde transl\xFAcido con textura de papel-50_28"
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 136
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41b402653199dd560800000000000000
+      internalID: 7340191276012161812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Resaltado verde transl\xFAcido con textura de papel-50_0": 6969104252127559991
+      "Resaltado verde transl\xFAcido con textura de papel-50_1": -8303726395346346595
+      "Resaltado verde transl\xFAcido con textura de papel-50_10": 4555102664209718372
+      "Resaltado verde transl\xFAcido con textura de papel-50_11": 6588031216671712426
+      "Resaltado verde transl\xFAcido con textura de papel-50_12": -1963982101526923677
+      "Resaltado verde transl\xFAcido con textura de papel-50_13": -7560864463304714940
+      "Resaltado verde transl\xFAcido con textura de papel-50_14": 2321349239853707700
+      "Resaltado verde transl\xFAcido con textura de papel-50_15": 8818294644619486660
+      "Resaltado verde transl\xFAcido con textura de papel-50_16": 4276131352365298095
+      "Resaltado verde transl\xFAcido con textura de papel-50_17": 1904639609508441477
+      "Resaltado verde transl\xFAcido con textura de papel-50_18": -1439693183774023342
+      "Resaltado verde transl\xFAcido con textura de papel-50_19": 6812348189680521208
+      "Resaltado verde transl\xFAcido con textura de papel-50_2": 5255308121816781951
+      "Resaltado verde transl\xFAcido con textura de papel-50_20": 3427065880283495512
+      "Resaltado verde transl\xFAcido con textura de papel-50_21": -2907577734901273661
+      "Resaltado verde transl\xFAcido con textura de papel-50_22": 3696299112445034830
+      "Resaltado verde transl\xFAcido con textura de papel-50_23": 4539312543160704647
+      "Resaltado verde transl\xFAcido con textura de papel-50_24": -6223731677842141982
+      "Resaltado verde transl\xFAcido con textura de papel-50_25": -937605794223818953
+      "Resaltado verde transl\xFAcido con textura de papel-50_26": 8730902573656954641
+      "Resaltado verde transl\xFAcido con textura de papel-50_27": -379260856836798406
+      "Resaltado verde transl\xFAcido con textura de papel-50_28": 7340191276012161812
+      "Resaltado verde transl\xFAcido con textura de papel-50_3": -3303089109976888689
+      "Resaltado verde transl\xFAcido con textura de papel-50_4": -4237335457177293082
+      "Resaltado verde transl\xFAcido con textura de papel-50_5": -8750365786801920227
+      "Resaltado verde transl\xFAcido con textura de papel-50_6": 3205397059765720179
+      "Resaltado verde transl\xFAcido con textura de papel-50_7": -8887113475770677465
+      "Resaltado verde transl\xFAcido con textura de papel-50_8": -1399969479641203961
+      "Resaltado verde transl\xFAcido con textura de papel-50_9": -3407418575863558316
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

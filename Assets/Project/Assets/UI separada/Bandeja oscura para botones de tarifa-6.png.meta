@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: 1e935042102c18845a6140047ca0b2dc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7174486900451666666
+    second: Bandeja oscura para botones de tarifa-6_0
+  - first:
+      213: 3098216882581357583
+    second: Bandeja oscura para botones de tarifa-6_1
+  - first:
+      213: -8956172234526488002
+    second: Bandeja oscura para botones de tarifa-6_2
+  - first:
+      213: -527637920800134947
+    second: Bandeja oscura para botones de tarifa-6_3
+  - first:
+      213: 2407946036888151056
+    second: Bandeja oscura para botones de tarifa-6_4
+  - first:
+      213: -705262089001425731
+    second: Bandeja oscura para botones de tarifa-6_5
+  - first:
+      213: -4676980685772702723
+    second: Bandeja oscura para botones de tarifa-6_6
+  - first:
+      213: -5029870933205236079
+    second: Bandeja oscura para botones de tarifa-6_7
+  - first:
+      213: 4685542107289214633
+    second: Bandeja oscura para botones de tarifa-6_8
+  - first:
+      213: 93326377065170973
+    second: Bandeja oscura para botones de tarifa-6_9
+  - first:
+      213: 4034667102742677600
+    second: Bandeja oscura para botones de tarifa-6_10
+  - first:
+      213: 7097685262093602012
+    second: Bandeja oscura para botones de tarifa-6_11
+  - first:
+      213: -2601021598936094641
+    second: Bandeja oscura para botones de tarifa-6_12
+  - first:
+      213: 8740079849394568434
+    second: Bandeja oscura para botones de tarifa-6_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bandeja oscura para botones de tarifa-6_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 31
+        width: 1292
+        height: 1175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aea6d1be2d5e09360800000000000000
+      internalID: 7174486900451666666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bandeja oscura para botones de tarifa-6_1
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1184
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f044163f6d31ffa20800000000000000
+      internalID: 3098216882581357583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bandeja oscura para botones de tarifa-6_2
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 1180
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3a05d5fdc845b380800000000000000
+      internalID: -8956172234526488002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bandeja oscura para botones de tarifa-6_3
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 1170
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd8aea84b147da8f0800000000000000
+      internalID: -527637920800134947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bandeja oscura para botones de tarifa-6_4
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1147
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0142707a92eba6120800000000000000
+      internalID: 2407946036888151056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bandeja oscura para botones de tarifa-6_5
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 1014
+        width: 40
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db4258fddd76636f0800000000000000
+      internalID: -705262089001425731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bandeja oscura para botones de tarifa-6_6
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 1000
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfbb72398d6081fb0800000000000000
+      internalID: -4676980685772702723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bandeja oscura para botones de tarifa-6_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 805
+        width: 5
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1964d30290f423ab0800000000000000
+      internalID: -5029870933205236079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bandeja oscura para botones de tarifa-6_8
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 522
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aedb15b8b3660140800000000000000
+      internalID: 4685542107289214633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bandeja oscura para botones de tarifa-6_9
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 233
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d18c42178df8b4100800000000000000
+      internalID: 93326377065170973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bandeja oscura para botones de tarifa-6_10
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 170
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0688ee57a540ef730800000000000000
+      internalID: 4034667102742677600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bandeja oscura para botones de tarifa-6_11
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 209
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdc4d96042b008260800000000000000
+      internalID: 7097685262093602012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bandeja oscura para botones de tarifa-6_12
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 43
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f48ab46f2a057ebd0800000000000000
+      internalID: -2601021598936094641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bandeja oscura para botones de tarifa-6_13
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 31
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fc76bbe0500b4970800000000000000
+      internalID: 8740079849394568434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Bandeja oscura para botones de tarifa-6_0: 7174486900451666666
+      Bandeja oscura para botones de tarifa-6_1: 3098216882581357583
+      Bandeja oscura para botones de tarifa-6_10: 4034667102742677600
+      Bandeja oscura para botones de tarifa-6_11: 7097685262093602012
+      Bandeja oscura para botones de tarifa-6_12: -2601021598936094641
+      Bandeja oscura para botones de tarifa-6_13: 8740079849394568434
+      Bandeja oscura para botones de tarifa-6_2: -8956172234526488002
+      Bandeja oscura para botones de tarifa-6_3: -527637920800134947
+      Bandeja oscura para botones de tarifa-6_4: 2407946036888151056
+      Bandeja oscura para botones de tarifa-6_5: -705262089001425731
+      Bandeja oscura para botones de tarifa-6_6: -4676980685772702723
+      Bandeja oscura para botones de tarifa-6_7: -5029870933205236079
+      Bandeja oscura para botones de tarifa-6_8: 4685542107289214633
+      Bandeja oscura para botones de tarifa-6_9: 93326377065170973
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

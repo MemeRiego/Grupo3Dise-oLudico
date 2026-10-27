@@ -1,0 +1,975 @@
+fileFormatVersion: 2
+guid: aadbea419f41f7a489b89a96e3393ac7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 65640041459402839
+    second: "Marco de barra de estado vac\xEDo-44_0"
+  - first:
+      213: -1545817051296876874
+    second: "Marco de barra de estado vac\xEDo-44_1"
+  - first:
+      213: 1513972138876969860
+    second: "Marco de barra de estado vac\xEDo-44_2"
+  - first:
+      213: 67120053077734712
+    second: "Marco de barra de estado vac\xEDo-44_3"
+  - first:
+      213: 8640041771873522146
+    second: "Marco de barra de estado vac\xEDo-44_4"
+  - first:
+      213: -5925416519218308505
+    second: "Marco de barra de estado vac\xEDo-44_5"
+  - first:
+      213: -8483823345859989329
+    second: "Marco de barra de estado vac\xEDo-44_6"
+  - first:
+      213: 6813323894414971355
+    second: "Marco de barra de estado vac\xEDo-44_7"
+  - first:
+      213: 4990766135108245667
+    second: "Marco de barra de estado vac\xEDo-44_8"
+  - first:
+      213: -2114412880544792954
+    second: "Marco de barra de estado vac\xEDo-44_9"
+  - first:
+      213: 9121121913769541998
+    second: "Marco de barra de estado vac\xEDo-44_10"
+  - first:
+      213: 7419431991436840432
+    second: "Marco de barra de estado vac\xEDo-44_11"
+  - first:
+      213: -3989560241848144751
+    second: "Marco de barra de estado vac\xEDo-44_12"
+  - first:
+      213: -5949471279411000286
+    second: "Marco de barra de estado vac\xEDo-44_13"
+  - first:
+      213: -7786421407210092691
+    second: "Marco de barra de estado vac\xEDo-44_14"
+  - first:
+      213: -3995804485184383892
+    second: "Marco de barra de estado vac\xEDo-44_15"
+  - first:
+      213: 298032311899049749
+    second: "Marco de barra de estado vac\xEDo-44_16"
+  - first:
+      213: 3494220924972091655
+    second: "Marco de barra de estado vac\xEDo-44_17"
+  - first:
+      213: -4110893943050678410
+    second: "Marco de barra de estado vac\xEDo-44_18"
+  - first:
+      213: -5557949807787696384
+    second: "Marco de barra de estado vac\xEDo-44_19"
+  - first:
+      213: -2546657789670284853
+    second: "Marco de barra de estado vac\xEDo-44_20"
+  - first:
+      213: 4429741016889694814
+    second: "Marco de barra de estado vac\xEDo-44_21"
+  - first:
+      213: -8654673083826503162
+    second: "Marco de barra de estado vac\xEDo-44_22"
+  - first:
+      213: -558500045016919506
+    second: "Marco de barra de estado vac\xEDo-44_23"
+  - first:
+      213: 8982188749189871884
+    second: "Marco de barra de estado vac\xEDo-44_24"
+  - first:
+      213: -295485351351303702
+    second: "Marco de barra de estado vac\xEDo-44_25"
+  - first:
+      213: -3478307755984984166
+    second: "Marco de barra de estado vac\xEDo-44_26"
+  - first:
+      213: -5181755338422746896
+    second: "Marco de barra de estado vac\xEDo-44_27"
+  - first:
+      213: -2731986975715468220
+    second: "Marco de barra de estado vac\xEDo-44_28"
+  - first:
+      213: -73347082173131686
+    second: "Marco de barra de estado vac\xEDo-44_29"
+  - first:
+      213: -2755888275476419986
+    second: "Marco de barra de estado vac\xEDo-44_30"
+  - first:
+      213: 3021969549366380502
+    second: "Marco de barra de estado vac\xEDo-44_31"
+  - first:
+      213: -2245872247463289169
+    second: "Marco de barra de estado vac\xEDo-44_32"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Marco de barra de estado vac\xEDo-44_0"
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 31
+        width: 2121
+        height: 523
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 758ca3a154339e000800000000000000
+      internalID: 65640041459402839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Marco de barra de estado vac\xEDo-44_1"
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 550
+        width: 198
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b635b9f4972c8ae0800000000000000
+      internalID: -1545817051296876874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Marco de barra de estado vac\xEDo-44_2"
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 562
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 483a99193a5b20510800000000000000
+      internalID: 1513972138876969860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Marco de barra de estado vac\xEDo-44_3"
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 536
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 835f00925557ee000800000000000000
+      internalID: 67120053077734712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Marco de barra de estado vac\xEDo-44_4"
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 634
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e1de01f63897e770800000000000000
+      internalID: 8640041771873522146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Marco de barra de estado vac\xEDo-44_5"
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 550
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76ad2c9e111b4cda0800000000000000
+      internalID: -5925416519218308505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Marco de barra de estado vac\xEDo-44_6"
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 600
+        width: 113
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa079dcbd97634a80800000000000000
+      internalID: -8483823345859989329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Marco de barra de estado vac\xEDo-44_7"
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 556
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd11942cbf9cd8e50800000000000000
+      internalID: 6813323894414971355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Marco de barra de estado vac\xEDo-44_8"
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 628
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a81d209b53c24540800000000000000
+      internalID: 4990766135108245667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Marco de barra de estado vac\xEDo-44_9"
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 570
+        width: 24
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68efd9210b818a2e0800000000000000
+      internalID: -2114412880544792954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Marco de barra de estado vac\xEDo-44_10"
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 614
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e61c3470e0cb49e70800000000000000
+      internalID: 9121121913769541998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Marco de barra de estado vac\xEDo-44_11"
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 570
+        width: 136
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fd03cc161e17f660800000000000000
+      internalID: 7419431991436840432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Marco de barra de estado vac\xEDo-44_12"
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 530
+        width: 202
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19cae9ef81c32a8c0800000000000000
+      internalID: -3989560241848144751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Marco de barra de estado vac\xEDo-44_13"
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 596
+        width: 116
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22c815d946b3f6da0800000000000000
+      internalID: -5949471279411000286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Marco de barra de estado vac\xEDo-44_14"
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 552
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d67cebffbf211f390800000000000000
+      internalID: -7786421407210092691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Marco de barra de estado vac\xEDo-44_15"
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 546
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c641caccdfc0c88c0800000000000000
+      internalID: -3995804485184383892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Marco de barra de estado vac\xEDo-44_16"
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 579
+        width: 66
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51fc4520fc2d22400800000000000000
+      internalID: 298032311899049749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Marco de barra de estado vac\xEDo-44_17"
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 632
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 709c2b70b67fd7030800000000000000
+      internalID: 3494220924972091655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Marco de barra de estado vac\xEDo-44_18"
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 549
+        width: 150
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67fc82f3dbb23f6c0800000000000000
+      internalID: -4110893943050678410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Marco de barra de estado vac\xEDo-44_19"
+      rect:
+        serializedVersion: 2
+        x: 1766
+        y: 563
+        width: 109
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00f1d5bd8123ed2b0800000000000000
+      internalID: -5557949807787696384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Marco de barra de estado vac\xEDo-44_20"
+      rect:
+        serializedVersion: 2
+        x: 1939
+        y: 564
+        width: 115
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc1a83aab3478acd0800000000000000
+      internalID: -2546657789670284853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Marco de barra de estado vac\xEDo-44_21"
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 528
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5a10be2cf9997d30800000000000000
+      internalID: 4429741016889694814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Marco de barra de estado vac\xEDo-44_22"
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 530
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60203674fac64e780800000000000000
+      internalID: -8654673083826503162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Marco de barra de estado vac\xEDo-44_23"
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 538
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e221ab90b2fcf38f0800000000000000
+      internalID: -558500045016919506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Marco de barra de estado vac\xEDo-44_24"
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 516
+        width: 39
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c09f8f4e31527ac70800000000000000
+      internalID: 8982188749189871884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Marco de barra de estado vac\xEDo-44_25"
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 530
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae1cf5473a936ebf0800000000000000
+      internalID: -295485351351303702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Marco de barra de estado vac\xEDo-44_26"
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 532
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a97670956819abfc0800000000000000
+      internalID: -3478307755984984166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Marco de barra de estado vac\xEDo-44_27"
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 530
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f0045c49f4b618b0800000000000000
+      internalID: -5181755338422746896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Marco de barra de estado vac\xEDo-44_28"
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 160
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44c5c7df158061ad0800000000000000
+      internalID: -2731986975715468220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Marco de barra de estado vac\xEDo-44_29"
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 144
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5452c5a73b6bfef0800000000000000
+      internalID: -73347082173131686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Marco de barra de estado vac\xEDo-44_30"
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 142
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6a609bf63e11c9d0800000000000000
+      internalID: -2755888275476419986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Marco de barra de estado vac\xEDo-44_31"
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 149
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d7c7084b4130f920800000000000000
+      internalID: 3021969549366380502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Marco de barra de estado vac\xEDo-44_32"
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 146
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faeda0f071f05d0e0800000000000000
+      internalID: -2245872247463289169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Marco de barra de estado vac\xEDo-44_0": 65640041459402839
+      "Marco de barra de estado vac\xEDo-44_1": -1545817051296876874
+      "Marco de barra de estado vac\xEDo-44_10": 9121121913769541998
+      "Marco de barra de estado vac\xEDo-44_11": 7419431991436840432
+      "Marco de barra de estado vac\xEDo-44_12": -3989560241848144751
+      "Marco de barra de estado vac\xEDo-44_13": -5949471279411000286
+      "Marco de barra de estado vac\xEDo-44_14": -7786421407210092691
+      "Marco de barra de estado vac\xEDo-44_15": -3995804485184383892
+      "Marco de barra de estado vac\xEDo-44_16": 298032311899049749
+      "Marco de barra de estado vac\xEDo-44_17": 3494220924972091655
+      "Marco de barra de estado vac\xEDo-44_18": -4110893943050678410
+      "Marco de barra de estado vac\xEDo-44_19": -5557949807787696384
+      "Marco de barra de estado vac\xEDo-44_2": 1513972138876969860
+      "Marco de barra de estado vac\xEDo-44_20": -2546657789670284853
+      "Marco de barra de estado vac\xEDo-44_21": 4429741016889694814
+      "Marco de barra de estado vac\xEDo-44_22": -8654673083826503162
+      "Marco de barra de estado vac\xEDo-44_23": -558500045016919506
+      "Marco de barra de estado vac\xEDo-44_24": 8982188749189871884
+      "Marco de barra de estado vac\xEDo-44_25": -295485351351303702
+      "Marco de barra de estado vac\xEDo-44_26": -3478307755984984166
+      "Marco de barra de estado vac\xEDo-44_27": -5181755338422746896
+      "Marco de barra de estado vac\xEDo-44_28": -2731986975715468220
+      "Marco de barra de estado vac\xEDo-44_29": -73347082173131686
+      "Marco de barra de estado vac\xEDo-44_3": 67120053077734712
+      "Marco de barra de estado vac\xEDo-44_30": -2755888275476419986
+      "Marco de barra de estado vac\xEDo-44_31": 3021969549366380502
+      "Marco de barra de estado vac\xEDo-44_32": -2245872247463289169
+      "Marco de barra de estado vac\xEDo-44_4": 8640041771873522146
+      "Marco de barra de estado vac\xEDo-44_5": -5925416519218308505
+      "Marco de barra de estado vac\xEDo-44_6": -8483823345859989329
+      "Marco de barra de estado vac\xEDo-44_7": 6813323894414971355
+      "Marco de barra de estado vac\xEDo-44_8": 4990766135108245667
+      "Marco de barra de estado vac\xEDo-44_9": -2114412880544792954
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

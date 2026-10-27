@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 1a1c2353582bdf94a9a40db74cf8a045
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2450394931253301833
+    second: "Panel estad\xEDstico vac\xEDo azul marino-49_0"
+  - first:
+      213: 792856524765850178
+    second: "Panel estad\xEDstico vac\xEDo azul marino-49_1"
+  - first:
+      213: -8846847215684110468
+    second: "Panel estad\xEDstico vac\xEDo azul marino-49_2"
+  - first:
+      213: -8023151940669373836
+    second: "Panel estad\xEDstico vac\xEDo azul marino-49_3"
+  - first:
+      213: -8155378128271462410
+    second: "Panel estad\xEDstico vac\xEDo azul marino-49_4"
+  - first:
+      213: -1472771025547996192
+    second: "Panel estad\xEDstico vac\xEDo azul marino-49_5"
+  - first:
+      213: -8897368121764718036
+    second: "Panel estad\xEDstico vac\xEDo azul marino-49_6"
+  - first:
+      213: -4550461576178961122
+    second: "Panel estad\xEDstico vac\xEDo azul marino-49_7"
+  - first:
+      213: 4771139912697716070
+    second: "Panel estad\xEDstico vac\xEDo azul marino-49_8"
+  - first:
+      213: 3989373186872884508
+    second: "Panel estad\xEDstico vac\xEDo azul marino-49_9"
+  - first:
+      213: 5909928911131755199
+    second: "Panel estad\xEDstico vac\xEDo azul marino-49_10"
+  - first:
+      213: 5342292550262859321
+    second: "Panel estad\xEDstico vac\xEDo azul marino-49_11"
+  - first:
+      213: -3967987616070337988
+    second: "Panel estad\xEDstico vac\xEDo azul marino-49_12"
+  - first:
+      213: -217125089563055406
+    second: "Panel estad\xEDstico vac\xEDo azul marino-49_13"
+  - first:
+      213: -3918672577055729011
+    second: "Panel estad\xEDstico vac\xEDo azul marino-49_14"
+  - first:
+      213: -7096562356303833384
+    second: "Panel estad\xEDstico vac\xEDo azul marino-49_15"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Panel estad\xEDstico vac\xEDo azul marino-49_0"
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 0
+        width: 2042
+        height: 734
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94255cc053d810220800000000000000
+      internalID: 2450394931253301833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Panel estad\xEDstico vac\xEDo azul marino-49_1"
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 729
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24ae48cfecac00b00800000000000000
+      internalID: 792856524765850178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Panel estad\xEDstico vac\xEDo azul marino-49_2"
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 705
+        width: 21
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c77bef6745fa93580800000000000000
+      internalID: -8846847215684110468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Panel estad\xEDstico vac\xEDo azul marino-49_3"
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 37
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4728a6581d908a090800000000000000
+      internalID: -8023151940669373836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Panel estad\xEDstico vac\xEDo azul marino-49_4"
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 31
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ffa3672dc642de80800000000000000
+      internalID: -8155378128271462410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Panel estad\xEDstico vac\xEDo azul marino-49_5"
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 31
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e359ba2e8aaf8be0800000000000000
+      internalID: -1472771025547996192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Panel estad\xEDstico vac\xEDo azul marino-49_6"
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 14
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2a545265d2368480800000000000000
+      internalID: -8897368121764718036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Panel estad\xEDstico vac\xEDo azul marino-49_7"
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 31
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e15f9cb4e4389d0c0800000000000000
+      internalID: -4550461576178961122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Panel estad\xEDstico vac\xEDo azul marino-49_8"
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 31
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66d1906d87e763240800000000000000
+      internalID: 4771139912697716070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Panel estad\xEDstico vac\xEDo azul marino-49_9"
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 31
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1db600e6c91d5730800000000000000
+      internalID: 3989373186872884508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Panel estad\xEDstico vac\xEDo azul marino-49_10"
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 35
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb2c1d35809440250800000000000000
+      internalID: 5909928911131755199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Panel estad\xEDstico vac\xEDo azul marino-49_11"
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 17
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93622a015c2a32a40800000000000000
+      internalID: 5342292550262859321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Panel estad\xEDstico vac\xEDo azul marino-49_12"
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 15
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3a7af65940eee8c0800000000000000
+      internalID: -3967987616070337988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Panel estad\xEDstico vac\xEDo azul marino-49_13"
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 17
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dae4c4a1ed9cfcf0800000000000000
+      internalID: -217125089563055406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Panel estad\xEDstico vac\xEDo azul marino-49_14"
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 17
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8a578d9d041e99c0800000000000000
+      internalID: -3918672577055729011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Panel estad\xEDstico vac\xEDo azul marino-49_15"
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 18
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d6d91ad222f38d90800000000000000
+      internalID: -7096562356303833384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Panel estad\xEDstico vac\xEDo azul marino-49_0": 2450394931253301833
+      "Panel estad\xEDstico vac\xEDo azul marino-49_1": 792856524765850178
+      "Panel estad\xEDstico vac\xEDo azul marino-49_10": 5909928911131755199
+      "Panel estad\xEDstico vac\xEDo azul marino-49_11": 5342292550262859321
+      "Panel estad\xEDstico vac\xEDo azul marino-49_12": -3967987616070337988
+      "Panel estad\xEDstico vac\xEDo azul marino-49_13": -217125089563055406
+      "Panel estad\xEDstico vac\xEDo azul marino-49_14": -3918672577055729011
+      "Panel estad\xEDstico vac\xEDo azul marino-49_15": -7096562356303833384
+      "Panel estad\xEDstico vac\xEDo azul marino-49_2": -8846847215684110468
+      "Panel estad\xEDstico vac\xEDo azul marino-49_3": -8023151940669373836
+      "Panel estad\xEDstico vac\xEDo azul marino-49_4": -8155378128271462410
+      "Panel estad\xEDstico vac\xEDo azul marino-49_5": -1472771025547996192
+      "Panel estad\xEDstico vac\xEDo azul marino-49_6": -8897368121764718036
+      "Panel estad\xEDstico vac\xEDo azul marino-49_7": -4550461576178961122
+      "Panel estad\xEDstico vac\xEDo azul marino-49_8": 4771139912697716070
+      "Panel estad\xEDstico vac\xEDo azul marino-49_9": 3989373186872884508
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

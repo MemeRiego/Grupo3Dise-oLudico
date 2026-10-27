@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: f4d3fd4db12afe14faa35695650c1d95
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7709902243964805388
+    second: "Icono amarillo de reputaci\xF3n-32_0"
+  - first:
+      213: 1504021759927361146
+    second: "Icono amarillo de reputaci\xF3n-32_1"
+  - first:
+      213: -9216683112800084931
+    second: "Icono amarillo de reputaci\xF3n-32_2"
+  - first:
+      213: -4274906844506747650
+    second: "Icono amarillo de reputaci\xF3n-32_3"
+  - first:
+      213: -8807931017836742327
+    second: "Icono amarillo de reputaci\xF3n-32_4"
+  - first:
+      213: 5048318053153354087
+    second: "Icono amarillo de reputaci\xF3n-32_5"
+  - first:
+      213: -2017678168453325590
+    second: "Icono amarillo de reputaci\xF3n-32_6"
+  - first:
+      213: -7091015287231730566
+    second: "Icono amarillo de reputaci\xF3n-32_7"
+  - first:
+      213: 1240216543894670188
+    second: "Icono amarillo de reputaci\xF3n-32_8"
+  - first:
+      213: -3003506535749865194
+    second: "Icono amarillo de reputaci\xF3n-32_9"
+  - first:
+      213: 3635161169339830062
+    second: "Icono amarillo de reputaci\xF3n-32_10"
+  - first:
+      213: -3291725937735369958
+    second: "Icono amarillo de reputaci\xF3n-32_11"
+  - first:
+      213: 2879891660754662412
+    second: "Icono amarillo de reputaci\xF3n-32_12"
+  - first:
+      213: 4070995839924754206
+    second: "Icono amarillo de reputaci\xF3n-32_13"
+  - first:
+      213: 2669464131406830577
+    second: "Icono amarillo de reputaci\xF3n-32_14"
+  - first:
+      213: 3615943087026658981
+    second: "Icono amarillo de reputaci\xF3n-32_15"
+  - first:
+      213: -2730599007905593860
+    second: "Icono amarillo de reputaci\xF3n-32_16"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Icono amarillo de reputaci\xF3n-32_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 31
+        width: 1493
+        height: 943
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fe9d7702cce00590800000000000000
+      internalID: -7709902243964805388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Icono amarillo de reputaci\xF3n-32_1"
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 935
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7e9dee62db5fd410800000000000000
+      internalID: 1504021759927361146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Icono amarillo de reputaci\xF3n-32_2"
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 929
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3c953e7a83c71080800000000000000
+      internalID: -9216683112800084931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Icono amarillo de reputaci\xF3n-32_3"
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 399
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efc0a45dfda7ca4c0800000000000000
+      internalID: -4274906844506747650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Icono amarillo de reputaci\xF3n-32_4"
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 351
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94932bbd761f3c580800000000000000
+      internalID: -8807931017836742327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Icono amarillo de reputaci\xF3n-32_5"
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 333
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 761b56fa58a3f0640800000000000000
+      internalID: 5048318053153354087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Icono amarillo de reputaci\xF3n-32_6"
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 326
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aec574a5564cff3e0800000000000000
+      internalID: -2017678168453325590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Icono amarillo de reputaci\xF3n-32_7"
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 277
+        width: 14
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7c20b38a27a79d90800000000000000
+      internalID: -7091015287231730566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Icono amarillo de reputaci\xF3n-32_8"
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 111
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6b876f2062263110800000000000000
+      internalID: 1240216543894670188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Icono amarillo de reputaci\xF3n-32_9"
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 110
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 611b01018b66156d0800000000000000
+      internalID: -3003506535749865194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Icono amarillo de reputaci\xF3n-32_10"
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 107
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2f4bc7d2dfa27230800000000000000
+      internalID: 3635161169339830062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Icono amarillo de reputaci\xF3n-32_11"
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 113
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1bf75f23b07152d0800000000000000
+      internalID: -3291725937735369958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Icono amarillo de reputaci\xF3n-32_12"
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 95
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0434e6053e67f720800000000000000
+      internalID: 2879891660754662412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Icono amarillo de reputaci\xF3n-32_13"
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 95
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e17dec8b5251f7830800000000000000
+      internalID: 4070995839924754206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Icono amarillo de reputaci\xF3n-32_14"
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 97
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fb962deb77db0520800000000000000
+      internalID: 2669464131406830577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Icono amarillo de reputaci\xF3n-32_15"
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 101
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aed04e54196e2230800000000000000
+      internalID: 3615943087026658981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Icono amarillo de reputaci\xF3n-32_16"
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 98
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf5c0cd6ba6fa1ad0800000000000000
+      internalID: -2730599007905593860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Icono amarillo de reputaci\xF3n-32_0": -7709902243964805388
+      "Icono amarillo de reputaci\xF3n-32_1": 1504021759927361146
+      "Icono amarillo de reputaci\xF3n-32_10": 3635161169339830062
+      "Icono amarillo de reputaci\xF3n-32_11": -3291725937735369958
+      "Icono amarillo de reputaci\xF3n-32_12": 2879891660754662412
+      "Icono amarillo de reputaci\xF3n-32_13": 4070995839924754206
+      "Icono amarillo de reputaci\xF3n-32_14": 2669464131406830577
+      "Icono amarillo de reputaci\xF3n-32_15": 3615943087026658981
+      "Icono amarillo de reputaci\xF3n-32_16": -2730599007905593860
+      "Icono amarillo de reputaci\xF3n-32_2": -9216683112800084931
+      "Icono amarillo de reputaci\xF3n-32_3": -4274906844506747650
+      "Icono amarillo de reputaci\xF3n-32_4": -8807931017836742327
+      "Icono amarillo de reputaci\xF3n-32_5": 5048318053153354087
+      "Icono amarillo de reputaci\xF3n-32_6": -2017678168453325590
+      "Icono amarillo de reputaci\xF3n-32_7": -7091015287231730566
+      "Icono amarillo de reputaci\xF3n-32_8": 1240216543894670188
+      "Icono amarillo de reputaci\xF3n-32_9": -3003506535749865194
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

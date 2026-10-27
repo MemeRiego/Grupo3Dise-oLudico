@@ -1,0 +1,1365 @@
+fileFormatVersion: 2
+guid: 6bb7e4f81f65045479c971a7fbd8b99e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3744538758967437675
+    second: "Bot\xF3n de tarifa marfil con borde oscuro-2_0"
+  - first:
+      213: -3701966338552983720
+    second: "Bot\xF3n de tarifa marfil con borde oscuro-2_1"
+  - first:
+      213: -1475026379667480249
+    second: "Bot\xF3n de tarifa marfil con borde oscuro-2_2"
+  - first:
+      213: 2903282985700247466
+    second: "Bot\xF3n de tarifa marfil con borde oscuro-2_3"
+  - first:
+      213: -2127996192387330470
+    second: "Bot\xF3n de tarifa marfil con borde oscuro-2_4"
+  - first:
+      213: 6962856308400203419
+    second: "Bot\xF3n de tarifa marfil con borde oscuro-2_5"
+  - first:
+      213: 9138377079302237621
+    second: "Bot\xF3n de tarifa marfil con borde oscuro-2_6"
+  - first:
+      213: -796909771825576040
+    second: "Bot\xF3n de tarifa marfil con borde oscuro-2_7"
+  - first:
+      213: 6813109495754540388
+    second: "Bot\xF3n de tarifa marfil con borde oscuro-2_8"
+  - first:
+      213: 7768494241475343650
+    second: "Bot\xF3n de tarifa marfil con borde oscuro-2_9"
+  - first:
+      213: 4180307882517173006
+    second: "Bot\xF3n de tarifa marfil con borde oscuro-2_10"
+  - first:
+      213: 1489110456824427004
+    second: "Bot\xF3n de tarifa marfil con borde oscuro-2_11"
+  - first:
+      213: 1374850568008933717
+    second: "Bot\xF3n de tarifa marfil con borde oscuro-2_12"
+  - first:
+      213: -385606112543070142
+    second: "Bot\xF3n de tarifa marfil con borde oscuro-2_13"
+  - first:
+      213: -6031309457911233014
+    second: "Bot\xF3n de tarifa marfil con borde oscuro-2_14"
+  - first:
+      213: 8725181777221593140
+    second: "Bot\xF3n de tarifa marfil con borde oscuro-2_15"
+  - first:
+      213: -9021126741132798813
+    second: "Bot\xF3n de tarifa marfil con borde oscuro-2_16"
+  - first:
+      213: 1718534754869859545
+    second: "Bot\xF3n de tarifa marfil con borde oscuro-2_17"
+  - first:
+      213: 1279162548047417577
+    second: "Bot\xF3n de tarifa marfil con borde oscuro-2_18"
+  - first:
+      213: 1779024083470390803
+    second: "Bot\xF3n de tarifa marfil con borde oscuro-2_19"
+  - first:
+      213: 2856663887902359487
+    second: "Bot\xF3n de tarifa marfil con borde oscuro-2_20"
+  - first:
+      213: 6761369719927757703
+    second: "Bot\xF3n de tarifa marfil con borde oscuro-2_21"
+  - first:
+      213: -2332871501758385591
+    second: "Bot\xF3n de tarifa marfil con borde oscuro-2_22"
+  - first:
+      213: -4652651272266617405
+    second: "Bot\xF3n de tarifa marfil con borde oscuro-2_23"
+  - first:
+      213: 3026534354263029861
+    second: "Bot\xF3n de tarifa marfil con borde oscuro-2_24"
+  - first:
+      213: -6781210704748718999
+    second: "Bot\xF3n de tarifa marfil con borde oscuro-2_25"
+  - first:
+      213: -903427062859153538
+    second: "Bot\xF3n de tarifa marfil con borde oscuro-2_26"
+  - first:
+      213: 3840738501912986920
+    second: "Bot\xF3n de tarifa marfil con borde oscuro-2_27"
+  - first:
+      213: 3049410064908418696
+    second: "Bot\xF3n de tarifa marfil con borde oscuro-2_28"
+  - first:
+      213: -5117442446748710999
+    second: "Bot\xF3n de tarifa marfil con borde oscuro-2_29"
+  - first:
+      213: 493238212430521886
+    second: "Bot\xF3n de tarifa marfil con borde oscuro-2_30"
+  - first:
+      213: -864203437427303040
+    second: "Bot\xF3n de tarifa marfil con borde oscuro-2_31"
+  - first:
+      213: 4817787022034250670
+    second: "Bot\xF3n de tarifa marfil con borde oscuro-2_32"
+  - first:
+      213: -8991408545997146528
+    second: "Bot\xF3n de tarifa marfil con borde oscuro-2_33"
+  - first:
+      213: 1202018420507162598
+    second: "Bot\xF3n de tarifa marfil con borde oscuro-2_34"
+  - first:
+      213: -4067867242903271460
+    second: "Bot\xF3n de tarifa marfil con borde oscuro-2_35"
+  - first:
+      213: 217204854541361401
+    second: "Bot\xF3n de tarifa marfil con borde oscuro-2_36"
+  - first:
+      213: -6106044088870695298
+    second: "Bot\xF3n de tarifa marfil con borde oscuro-2_37"
+  - first:
+      213: -7098454205175554707
+    second: "Bot\xF3n de tarifa marfil con borde oscuro-2_38"
+  - first:
+      213: 1366560897833440539
+    second: "Bot\xF3n de tarifa marfil con borde oscuro-2_39"
+  - first:
+      213: 5267587301180529931
+    second: "Bot\xF3n de tarifa marfil con borde oscuro-2_40"
+  - first:
+      213: -999249232342312563
+    second: "Bot\xF3n de tarifa marfil con borde oscuro-2_41"
+  - first:
+      213: -4969609019344564282
+    second: "Bot\xF3n de tarifa marfil con borde oscuro-2_42"
+  - first:
+      213: -3894683546341120656
+    second: "Bot\xF3n de tarifa marfil con borde oscuro-2_43"
+  - first:
+      213: 5001080807646537093
+    second: "Bot\xF3n de tarifa marfil con borde oscuro-2_44"
+  - first:
+      213: 6665393699839912046
+    second: "Bot\xF3n de tarifa marfil con borde oscuro-2_45"
+  - first:
+      213: 8959804199793161298
+    second: "Bot\xF3n de tarifa marfil con borde oscuro-2_46"
+  - first:
+      213: -4299032329062652272
+    second: "Bot\xF3n de tarifa marfil con borde oscuro-2_47"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Bot\xF3n de tarifa marfil con borde oscuro-2_0"
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 851
+        width: 216
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b69afef692647f330800000000000000
+      internalID: 3744538758967437675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n de tarifa marfil con borde oscuro-2_1"
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 892
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85f881c9a39ff9cc0800000000000000
+      internalID: -3701966338552983720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n de tarifa marfil con borde oscuro-2_2"
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 895
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 741e69d9257a78be0800000000000000
+      internalID: -1475026379667480249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n de tarifa marfil con borde oscuro-2_3"
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 826
+        width: 83
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa749154e788a4820800000000000000
+      internalID: 2903282985700247466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n de tarifa marfil con borde oscuro-2_4"
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 893
+        width: 34
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5e8e55dcb6d772e0800000000000000
+      internalID: -2127996192387330470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n de tarifa marfil con borde oscuro-2_5"
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 894
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b962844fbe801a060800000000000000
+      internalID: 6962856308400203419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n de tarifa marfil con borde oscuro-2_6"
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 826
+        width: 46
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bda163598902de70800000000000000
+      internalID: 9138377079302237621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n de tarifa marfil con borde oscuro-2_7"
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 907
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8978c44e8cec0f4f0800000000000000
+      internalID: -796909771825576040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n de tarifa marfil con borde oscuro-2_8"
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 889
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4654a4e2df60d8e50800000000000000
+      internalID: 6813109495754540388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n de tarifa marfil con borde oscuro-2_9"
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 876
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2253ec67a5c3fcb60800000000000000
+      internalID: 7768494241475343650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n de tarifa marfil con borde oscuro-2_10"
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 871
+        width: 98
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e039335fedf630a30800000000000000
+      internalID: 4180307882517173006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n de tarifa marfil con borde oscuro-2_11"
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 867
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf1f65222126aa410800000000000000
+      internalID: 1489110456824427004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n de tarifa marfil con borde oscuro-2_12"
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 891
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 551aa6dae43741310800000000000000
+      internalID: 1374850568008933717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n de tarifa marfil con borde oscuro-2_13"
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 881
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 248a6ae984d06aaf0800000000000000
+      internalID: -385606112543070142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n de tarifa marfil con borde oscuro-2_14"
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 897
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a064fb6d00c7c4ca0800000000000000
+      internalID: -6031309457911233014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n de tarifa marfil con borde oscuro-2_15"
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 891
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43821003992161970800000000000000
+      internalID: 8725181777221593140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n de tarifa marfil con borde oscuro-2_16"
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 895
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a4900166058ec280800000000000000
+      internalID: -9021126741132798813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n de tarifa marfil con borde oscuro-2_17"
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 834
+        width: 126
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d45e2e114679d710800000000000000
+      internalID: 1718534754869859545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n de tarifa marfil con borde oscuro-2_18"
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 859
+        width: 56
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e099566f8f70c110800000000000000
+      internalID: 1279162548047417577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n de tarifa marfil con borde oscuro-2_19"
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 843
+        width: 66
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3161e1e6afc50b810800000000000000
+      internalID: 1779024083470390803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n de tarifa marfil con borde oscuro-2_20"
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 877
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbf3b19bba8e4a720800000000000000
+      internalID: 2856663887902359487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n de tarifa marfil con borde oscuro-2_21"
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 845
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78b506fdfe535dd50800000000000000
+      internalID: 6761369719927757703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n de tarifa marfil con borde oscuro-2_22"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 102
+        width: 1651
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9423f0faab9ff9fd0800000000000000
+      internalID: -2332871501758385591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n de tarifa marfil con borde oscuro-2_23"
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 759
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cd67c491567e6fb0800000000000000
+      internalID: -4652651272266617405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n de tarifa marfil con borde oscuro-2_24"
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 551
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5683d5eb5f8600a20800000000000000
+      internalID: 3026534354263029861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n de tarifa marfil con borde oscuro-2_25"
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 424
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 964506cdacc44e1a0800000000000000
+      internalID: -6781210704748718999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n de tarifa marfil con borde oscuro-2_26"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 362
+        width: 7
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7f3ec57fd16673f0800000000000000
+      internalID: -903427062859153538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n de tarifa marfil con borde oscuro-2_27"
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 409
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82580b1815b0d4530800000000000000
+      internalID: 3840738501912986920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n de tarifa marfil con borde oscuro-2_28"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 297
+        width: 12
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88efd5d2c4ea15a20800000000000000
+      internalID: 3049410064908418696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n de tarifa marfil con borde oscuro-2_29"
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 145
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a7890345313bf8b0800000000000000
+      internalID: -5117442446748710999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n de tarifa marfil con borde oscuro-2_30"
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 130
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e16e1997a8558d600800000000000000
+      internalID: 493238212430521886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n de tarifa marfil con borde oscuro-2_31"
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 136
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08d597a6d8bb104f0800000000000000
+      internalID: -864203437427303040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n de tarifa marfil con borde oscuro-2_32"
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 127
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaba6d355c73cd240800000000000000
+      internalID: 4817787022034250670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n de tarifa marfil con borde oscuro-2_33"
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 131
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 066bd61e099183380800000000000000
+      internalID: -8991408545997146528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n de tarifa marfil con borde oscuro-2_34"
+      rect:
+        serializedVersion: 2
+        x: 1453
+        y: 137
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e73ec7826d6ea010800000000000000
+      internalID: 1202018420507162598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n de tarifa marfil con borde oscuro-2_35"
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 129
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd78d498b480c87c0800000000000000
+      internalID: -4067867242903271460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n de tarifa marfil con borde oscuro-2_36"
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 131
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f0ad661aaaa30300800000000000000
+      internalID: 217204854541361401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n de tarifa marfil con borde oscuro-2_37"
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 129
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7e0dfb9049f24ba0800000000000000
+      internalID: -6106044088870695298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n de tarifa marfil con borde oscuro-2_38"
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 128
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6d122672893d7d90800000000000000
+      internalID: -7098454205175554707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n de tarifa marfil con borde oscuro-2_39"
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 110
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b151d4f65eff6f210800000000000000
+      internalID: 1366560897833440539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n de tarifa marfil con borde oscuro-2_40"
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 115
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0d5936ddba3a1940800000000000000
+      internalID: 5267587301180529931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n de tarifa marfil con borde oscuro-2_41"
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 115
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8997201e14f122f0800000000000000
+      internalID: -999249232342312563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n de tarifa marfil con borde oscuro-2_42"
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 107
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cfc3615de6680bb0800000000000000
+      internalID: -4969609019344564282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n de tarifa marfil con borde oscuro-2_43"
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 115
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07567c313fd43f9c0800000000000000
+      internalID: -3894683546341120656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n de tarifa marfil con borde oscuro-2_44"
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 112
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 585abc86f78676540800000000000000
+      internalID: 5001080807646537093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n de tarifa marfil con borde oscuro-2_45"
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 112
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e68a517514c308c50800000000000000
+      internalID: 6665393699839912046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n de tarifa marfil con borde oscuro-2_46"
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 115
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25479b9d27e975c70800000000000000
+      internalID: 8959804199793161298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n de tarifa marfil con borde oscuro-2_47"
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 111
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 096ec4cbfd4c654c0800000000000000
+      internalID: -4299032329062652272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Bot\xF3n de tarifa marfil con borde oscuro-2_0": 3744538758967437675
+      "Bot\xF3n de tarifa marfil con borde oscuro-2_1": -3701966338552983720
+      "Bot\xF3n de tarifa marfil con borde oscuro-2_10": 4180307882517173006
+      "Bot\xF3n de tarifa marfil con borde oscuro-2_11": 1489110456824427004
+      "Bot\xF3n de tarifa marfil con borde oscuro-2_12": 1374850568008933717
+      "Bot\xF3n de tarifa marfil con borde oscuro-2_13": -385606112543070142
+      "Bot\xF3n de tarifa marfil con borde oscuro-2_14": -6031309457911233014
+      "Bot\xF3n de tarifa marfil con borde oscuro-2_15": 8725181777221593140
+      "Bot\xF3n de tarifa marfil con borde oscuro-2_16": -9021126741132798813
+      "Bot\xF3n de tarifa marfil con borde oscuro-2_17": 1718534754869859545
+      "Bot\xF3n de tarifa marfil con borde oscuro-2_18": 1279162548047417577
+      "Bot\xF3n de tarifa marfil con borde oscuro-2_19": 1779024083470390803
+      "Bot\xF3n de tarifa marfil con borde oscuro-2_2": -1475026379667480249
+      "Bot\xF3n de tarifa marfil con borde oscuro-2_20": 2856663887902359487
+      "Bot\xF3n de tarifa marfil con borde oscuro-2_21": 6761369719927757703
+      "Bot\xF3n de tarifa marfil con borde oscuro-2_22": -2332871501758385591
+      "Bot\xF3n de tarifa marfil con borde oscuro-2_23": -4652651272266617405
+      "Bot\xF3n de tarifa marfil con borde oscuro-2_24": 3026534354263029861
+      "Bot\xF3n de tarifa marfil con borde oscuro-2_25": -6781210704748718999
+      "Bot\xF3n de tarifa marfil con borde oscuro-2_26": -903427062859153538
+      "Bot\xF3n de tarifa marfil con borde oscuro-2_27": 3840738501912986920
+      "Bot\xF3n de tarifa marfil con borde oscuro-2_28": 3049410064908418696
+      "Bot\xF3n de tarifa marfil con borde oscuro-2_29": -5117442446748710999
+      "Bot\xF3n de tarifa marfil con borde oscuro-2_3": 2903282985700247466
+      "Bot\xF3n de tarifa marfil con borde oscuro-2_30": 493238212430521886
+      "Bot\xF3n de tarifa marfil con borde oscuro-2_31": -864203437427303040
+      "Bot\xF3n de tarifa marfil con borde oscuro-2_32": 4817787022034250670
+      "Bot\xF3n de tarifa marfil con borde oscuro-2_33": -8991408545997146528
+      "Bot\xF3n de tarifa marfil con borde oscuro-2_34": 1202018420507162598
+      "Bot\xF3n de tarifa marfil con borde oscuro-2_35": -4067867242903271460
+      "Bot\xF3n de tarifa marfil con borde oscuro-2_36": 217204854541361401
+      "Bot\xF3n de tarifa marfil con borde oscuro-2_37": -6106044088870695298
+      "Bot\xF3n de tarifa marfil con borde oscuro-2_38": -7098454205175554707
+      "Bot\xF3n de tarifa marfil con borde oscuro-2_39": 1366560897833440539
+      "Bot\xF3n de tarifa marfil con borde oscuro-2_4": -2127996192387330470
+      "Bot\xF3n de tarifa marfil con borde oscuro-2_40": 5267587301180529931
+      "Bot\xF3n de tarifa marfil con borde oscuro-2_41": -999249232342312563
+      "Bot\xF3n de tarifa marfil con borde oscuro-2_42": -4969609019344564282
+      "Bot\xF3n de tarifa marfil con borde oscuro-2_43": -3894683546341120656
+      "Bot\xF3n de tarifa marfil con borde oscuro-2_44": 5001080807646537093
+      "Bot\xF3n de tarifa marfil con borde oscuro-2_45": 6665393699839912046
+      "Bot\xF3n de tarifa marfil con borde oscuro-2_46": 8959804199793161298
+      "Bot\xF3n de tarifa marfil con borde oscuro-2_47": -4299032329062652272
+      "Bot\xF3n de tarifa marfil con borde oscuro-2_5": 6962856308400203419
+      "Bot\xF3n de tarifa marfil con borde oscuro-2_6": 9138377079302237621
+      "Bot\xF3n de tarifa marfil con borde oscuro-2_7": -796909771825576040
+      "Bot\xF3n de tarifa marfil con borde oscuro-2_8": 6813109495754540388
+      "Bot\xF3n de tarifa marfil con borde oscuro-2_9": 7768494241475343650
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

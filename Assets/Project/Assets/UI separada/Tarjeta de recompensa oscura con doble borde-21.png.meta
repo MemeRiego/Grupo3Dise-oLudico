@@ -1,0 +1,3055 @@
+fileFormatVersion: 2
+guid: a3aa2dc6bd9593f4aada22b9ad3a1a19
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6763840976200692833
+    second: Tarjeta de recompensa oscura con doble borde-21_0
+  - first:
+      213: -449887375956446469
+    second: Tarjeta de recompensa oscura con doble borde-21_1
+  - first:
+      213: 4278821198390012008
+    second: Tarjeta de recompensa oscura con doble borde-21_2
+  - first:
+      213: -1972516805757649459
+    second: Tarjeta de recompensa oscura con doble borde-21_3
+  - first:
+      213: 1954301477862199557
+    second: Tarjeta de recompensa oscura con doble borde-21_4
+  - first:
+      213: 1408336475383063554
+    second: Tarjeta de recompensa oscura con doble borde-21_5
+  - first:
+      213: 8543012404627518926
+    second: Tarjeta de recompensa oscura con doble borde-21_6
+  - first:
+      213: 3048146480051081862
+    second: Tarjeta de recompensa oscura con doble borde-21_7
+  - first:
+      213: 1380772507203909024
+    second: Tarjeta de recompensa oscura con doble borde-21_8
+  - first:
+      213: -9133458817112413339
+    second: Tarjeta de recompensa oscura con doble borde-21_9
+  - first:
+      213: 3927771297323676924
+    second: Tarjeta de recompensa oscura con doble borde-21_10
+  - first:
+      213: -1285139473624032827
+    second: Tarjeta de recompensa oscura con doble borde-21_11
+  - first:
+      213: -8679648675751964053
+    second: Tarjeta de recompensa oscura con doble borde-21_12
+  - first:
+      213: -7789163237834208396
+    second: Tarjeta de recompensa oscura con doble borde-21_13
+  - first:
+      213: -3278501333863062959
+    second: Tarjeta de recompensa oscura con doble borde-21_14
+  - first:
+      213: 3620130997589914423
+    second: Tarjeta de recompensa oscura con doble borde-21_15
+  - first:
+      213: 137407874145688281
+    second: Tarjeta de recompensa oscura con doble borde-21_16
+  - first:
+      213: 3672764120961067029
+    second: Tarjeta de recompensa oscura con doble borde-21_17
+  - first:
+      213: -5029218497453958160
+    second: Tarjeta de recompensa oscura con doble borde-21_18
+  - first:
+      213: -2988164460678748554
+    second: Tarjeta de recompensa oscura con doble borde-21_19
+  - first:
+      213: 11487721370969540
+    second: Tarjeta de recompensa oscura con doble borde-21_20
+  - first:
+      213: -1959857092211807335
+    second: Tarjeta de recompensa oscura con doble borde-21_21
+  - first:
+      213: 3285491292450571941
+    second: Tarjeta de recompensa oscura con doble borde-21_22
+  - first:
+      213: 5991292358441822672
+    second: Tarjeta de recompensa oscura con doble borde-21_23
+  - first:
+      213: 5958924327509960636
+    second: Tarjeta de recompensa oscura con doble borde-21_24
+  - first:
+      213: -8966955628333079362
+    second: Tarjeta de recompensa oscura con doble borde-21_25
+  - first:
+      213: -4473288736848795135
+    second: Tarjeta de recompensa oscura con doble borde-21_26
+  - first:
+      213: -2582076460040985227
+    second: Tarjeta de recompensa oscura con doble borde-21_27
+  - first:
+      213: -6577941828376505875
+    second: Tarjeta de recompensa oscura con doble borde-21_28
+  - first:
+      213: -8936546403817786143
+    second: Tarjeta de recompensa oscura con doble borde-21_29
+  - first:
+      213: -9089964262483906105
+    second: Tarjeta de recompensa oscura con doble borde-21_30
+  - first:
+      213: 2167515953704186108
+    second: Tarjeta de recompensa oscura con doble borde-21_31
+  - first:
+      213: 381974022309391770
+    second: Tarjeta de recompensa oscura con doble borde-21_32
+  - first:
+      213: -5231011344273974096
+    second: Tarjeta de recompensa oscura con doble borde-21_33
+  - first:
+      213: -9166673248344929256
+    second: Tarjeta de recompensa oscura con doble borde-21_34
+  - first:
+      213: -1971583719226227188
+    second: Tarjeta de recompensa oscura con doble borde-21_35
+  - first:
+      213: -8099936985976125108
+    second: Tarjeta de recompensa oscura con doble borde-21_36
+  - first:
+      213: 8157115944742102918
+    second: Tarjeta de recompensa oscura con doble borde-21_37
+  - first:
+      213: 3085867955253861070
+    second: Tarjeta de recompensa oscura con doble borde-21_38
+  - first:
+      213: -6673919682864387959
+    second: Tarjeta de recompensa oscura con doble borde-21_39
+  - first:
+      213: -5475383318060927404
+    second: Tarjeta de recompensa oscura con doble borde-21_40
+  - first:
+      213: -5765345148299481066
+    second: Tarjeta de recompensa oscura con doble borde-21_41
+  - first:
+      213: 4449185024961391651
+    second: Tarjeta de recompensa oscura con doble borde-21_42
+  - first:
+      213: 452744129715066422
+    second: Tarjeta de recompensa oscura con doble borde-21_43
+  - first:
+      213: 977042979214089717
+    second: Tarjeta de recompensa oscura con doble borde-21_44
+  - first:
+      213: -3643703780170213959
+    second: Tarjeta de recompensa oscura con doble borde-21_45
+  - first:
+      213: -579365297823511641
+    second: Tarjeta de recompensa oscura con doble borde-21_46
+  - first:
+      213: -5064572859004301755
+    second: Tarjeta de recompensa oscura con doble borde-21_47
+  - first:
+      213: 4381338294100816534
+    second: Tarjeta de recompensa oscura con doble borde-21_48
+  - first:
+      213: -3133501346698839013
+    second: Tarjeta de recompensa oscura con doble borde-21_49
+  - first:
+      213: -7061498196125990530
+    second: Tarjeta de recompensa oscura con doble borde-21_50
+  - first:
+      213: 2751957226081250806
+    second: Tarjeta de recompensa oscura con doble borde-21_51
+  - first:
+      213: -6679685945944082650
+    second: Tarjeta de recompensa oscura con doble borde-21_52
+  - first:
+      213: -1013301263209855956
+    second: Tarjeta de recompensa oscura con doble borde-21_53
+  - first:
+      213: -8379053423978100996
+    second: Tarjeta de recompensa oscura con doble borde-21_54
+  - first:
+      213: 5673841550783687897
+    second: Tarjeta de recompensa oscura con doble borde-21_55
+  - first:
+      213: 7577558063588028086
+    second: Tarjeta de recompensa oscura con doble borde-21_56
+  - first:
+      213: 7568067089750445548
+    second: Tarjeta de recompensa oscura con doble borde-21_57
+  - first:
+      213: -1556521118384517356
+    second: Tarjeta de recompensa oscura con doble borde-21_58
+  - first:
+      213: -4046288102104254334
+    second: Tarjeta de recompensa oscura con doble borde-21_59
+  - first:
+      213: -3738422492292688722
+    second: Tarjeta de recompensa oscura con doble borde-21_60
+  - first:
+      213: -9007874214393127624
+    second: Tarjeta de recompensa oscura con doble borde-21_61
+  - first:
+      213: 7333748927261136323
+    second: Tarjeta de recompensa oscura con doble borde-21_62
+  - first:
+      213: 806968225094147155
+    second: Tarjeta de recompensa oscura con doble borde-21_63
+  - first:
+      213: 7668996826651307359
+    second: Tarjeta de recompensa oscura con doble borde-21_64
+  - first:
+      213: -4555507653360042766
+    second: Tarjeta de recompensa oscura con doble borde-21_65
+  - first:
+      213: 976698037792621110
+    second: Tarjeta de recompensa oscura con doble borde-21_66
+  - first:
+      213: -671245771675624956
+    second: Tarjeta de recompensa oscura con doble borde-21_67
+  - first:
+      213: -4801116367434360044
+    second: Tarjeta de recompensa oscura con doble borde-21_68
+  - first:
+      213: -7721830786606419575
+    second: Tarjeta de recompensa oscura con doble borde-21_69
+  - first:
+      213: -7351887127586169620
+    second: Tarjeta de recompensa oscura con doble borde-21_70
+  - first:
+      213: 233382540186219943
+    second: Tarjeta de recompensa oscura con doble borde-21_71
+  - first:
+      213: 4970429904063872414
+    second: Tarjeta de recompensa oscura con doble borde-21_72
+  - first:
+      213: -6971462949203746329
+    second: Tarjeta de recompensa oscura con doble borde-21_73
+  - first:
+      213: 5274500305694055397
+    second: Tarjeta de recompensa oscura con doble borde-21_74
+  - first:
+      213: -4639671461216553435
+    second: Tarjeta de recompensa oscura con doble borde-21_75
+  - first:
+      213: -4406031243186598084
+    second: Tarjeta de recompensa oscura con doble borde-21_76
+  - first:
+      213: 7160850705891499393
+    second: Tarjeta de recompensa oscura con doble borde-21_77
+  - first:
+      213: -410741149826292017
+    second: Tarjeta de recompensa oscura con doble borde-21_78
+  - first:
+      213: 4037413800208663825
+    second: Tarjeta de recompensa oscura con doble borde-21_79
+  - first:
+      213: 2865411722787825835
+    second: Tarjeta de recompensa oscura con doble borde-21_80
+  - first:
+      213: -2934376632002405356
+    second: Tarjeta de recompensa oscura con doble borde-21_81
+  - first:
+      213: 3171589655154239671
+    second: Tarjeta de recompensa oscura con doble borde-21_82
+  - first:
+      213: 5318720509389007741
+    second: Tarjeta de recompensa oscura con doble borde-21_83
+  - first:
+      213: -7052688321420402509
+    second: Tarjeta de recompensa oscura con doble borde-21_84
+  - first:
+      213: 6709961960349848801
+    second: Tarjeta de recompensa oscura con doble borde-21_85
+  - first:
+      213: -7692365387681982363
+    second: Tarjeta de recompensa oscura con doble borde-21_86
+  - first:
+      213: -5185036802509373916
+    second: Tarjeta de recompensa oscura con doble borde-21_87
+  - first:
+      213: 1966948979244958751
+    second: Tarjeta de recompensa oscura con doble borde-21_88
+  - first:
+      213: -779578041800073340
+    second: Tarjeta de recompensa oscura con doble borde-21_89
+  - first:
+      213: 4433177472144866195
+    second: Tarjeta de recompensa oscura con doble borde-21_90
+  - first:
+      213: -7435708869209772823
+    second: Tarjeta de recompensa oscura con doble borde-21_91
+  - first:
+      213: 938686787684444068
+    second: Tarjeta de recompensa oscura con doble borde-21_92
+  - first:
+      213: 6613216147837744359
+    second: Tarjeta de recompensa oscura con doble borde-21_93
+  - first:
+      213: -2289036507322781630
+    second: Tarjeta de recompensa oscura con doble borde-21_94
+  - first:
+      213: -4707804259263916009
+    second: Tarjeta de recompensa oscura con doble borde-21_95
+  - first:
+      213: 9190619226166088019
+    second: Tarjeta de recompensa oscura con doble borde-21_96
+  - first:
+      213: -1094566155292352998
+    second: Tarjeta de recompensa oscura con doble borde-21_97
+  - first:
+      213: 2021555428317686685
+    second: Tarjeta de recompensa oscura con doble borde-21_98
+  - first:
+      213: -1596937408459319691
+    second: Tarjeta de recompensa oscura con doble borde-21_99
+  - first:
+      213: 4546767591881303593
+    second: Tarjeta de recompensa oscura con doble borde-21_100
+  - first:
+      213: 4691122099087520453
+    second: Tarjeta de recompensa oscura con doble borde-21_101
+  - first:
+      213: -4432840297424440647
+    second: Tarjeta de recompensa oscura con doble borde-21_102
+  - first:
+      213: -543780422413238235
+    second: Tarjeta de recompensa oscura con doble borde-21_103
+  - first:
+      213: 7427353720318033536
+    second: Tarjeta de recompensa oscura con doble borde-21_104
+  - first:
+      213: 5911303731017436951
+    second: Tarjeta de recompensa oscura con doble borde-21_105
+  - first:
+      213: -1130367486161088398
+    second: Tarjeta de recompensa oscura con doble borde-21_106
+  - first:
+      213: 4906267410768660114
+    second: Tarjeta de recompensa oscura con doble borde-21_107
+  - first:
+      213: 2399891659537567732
+    second: Tarjeta de recompensa oscura con doble borde-21_108
+  - first:
+      213: 7296862945284055742
+    second: Tarjeta de recompensa oscura con doble borde-21_109
+  - first:
+      213: -8397874095951448407
+    second: Tarjeta de recompensa oscura con doble borde-21_110
+  - first:
+      213: 8862938432806115692
+    second: Tarjeta de recompensa oscura con doble borde-21_111
+  - first:
+      213: -7020559123095243438
+    second: Tarjeta de recompensa oscura con doble borde-21_112
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_0
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 690
+        width: 76
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9b8350f7720222a0800000000000000
+      internalID: -6763840976200692833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_1
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 708
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf2fe2fa0dda1c9f0800000000000000
+      internalID: -449887375956446469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_2
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 649
+        width: 85
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 868a273b53d616b30800000000000000
+      internalID: 4278821198390012008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_3
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 681
+        width: 76
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcdb35f7a6630a4e0800000000000000
+      internalID: -1972516805757649459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_4
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 640
+        width: 170
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5015ffbf6d21f1b10800000000000000
+      internalID: 1954301477862199557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_5
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 648
+        width: 61
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 204ee6b009a6b8310800000000000000
+      internalID: 1408336475383063554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_6
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 674
+        width: 37
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec53499e480ee8670800000000000000
+      internalID: 8543012404627518926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_7
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 695
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6825dc6e2113d4a20800000000000000
+      internalID: 3048146480051081862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_8
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 712
+        width: 40
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a5b387974d792310800000000000000
+      internalID: 1380772507203909024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_9
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 628
+        width: 60
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56bea53d89f6f3180800000000000000
+      internalID: -9133458817112413339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_10
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 661
+        width: 73
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf4f3f74f2f328630800000000000000
+      internalID: 3927771297323676924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_11
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 659
+        width: 59
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c99ecb25744a2ee0800000000000000
+      internalID: -1285139473624032827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_12
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 669
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b625d922481bb8780800000000000000
+      internalID: -8679648675751964053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_13
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 683
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b4c5fcd4557e390800000000000000
+      internalID: -7789163237834208396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_14
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 663
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 152a277386c6082d0800000000000000
+      internalID: -3278501333863062959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_15
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 640
+        width: 75
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7333ab746f94d3230800000000000000
+      internalID: 3620130997589914423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_16
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 693
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9da9bc7cbbb28e100800000000000000
+      internalID: 137407874145688281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_17
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 634
+        width: 43
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5182fa5428748f230800000000000000
+      internalID: 3672764120961067029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_18
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 659
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fbde692c60a43ab0800000000000000
+      internalID: -5029218497453958160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_19
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 651
+        width: 53
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 676ebc64148e786d0800000000000000
+      internalID: -2988164460678748554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_20
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 684
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c5689f8500d82000800000000000000
+      internalID: 11487721370969540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_21
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 662
+        width: 85
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99b6f20cb503dc4e0800000000000000
+      internalID: -1959857092211807335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_22
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 681
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a6c7275ce8689d20800000000000000
+      internalID: 3285491292450571941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_23
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 695
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d9ef6228a8552350800000000000000
+      internalID: 5991292358441822672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_24
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 659
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb72aa8aa1a52b250800000000000000
+      internalID: 5958924327509960636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_25
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 644
+        width: 74
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb464807d59fe8380800000000000000
+      internalID: -8966955628333079362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_26
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 675
+        width: 67
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10a2f56289fabe1c0800000000000000
+      internalID: -4473288736848795135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_27
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 642
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 575eb58d32f9a2cd0800000000000000
+      internalID: -2582076460040985227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_28
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 681
+        width: 47
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de15f6e22c476b4a0800000000000000
+      internalID: -6577941828376505875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_29
+      rect:
+        serializedVersion: 2
+        x: 1927
+        y: 666
+        width: 41
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e475a1c4620bf380800000000000000
+      internalID: -8936546403817786143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_30
+      rect:
+        serializedVersion: 2
+        x: 1993
+        y: 683
+        width: 41
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c1b6a9f9a5f9d180800000000000000
+      internalID: -9089964262483906105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_31
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 679
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf0b781a640941e10800000000000000
+      internalID: 2167515953704186108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_32
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 673
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9dad29795b0d4500800000000000000
+      internalID: 381974022309391770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_33
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 675
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bcd280c5e6b767b0800000000000000
+      internalID: -5231011344273974096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_34
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 660
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81c035c6f3f69c080800000000000000
+      internalID: -9166673248344929256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_35
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 675
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c06c392ad0783a4e0800000000000000
+      internalID: -1971583719226227188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_36
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 681
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4948dff93e379f80800000000000000
+      internalID: -8099936985976125108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_37
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 644
+        width: 104
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6872706cbb5e33170800000000000000
+      internalID: 8157115944742102918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_38
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 675
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecadaa04e8433da20800000000000000
+      internalID: 3085867955253861070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_39
+      rect:
+        serializedVersion: 2
+        x: 2031
+        y: 675
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 988616b88697163a0800000000000000
+      internalID: -6673919682864387959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_40
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 666
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 456f0edc1e78304b0800000000000000
+      internalID: -5475383318060927404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_41
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 651
+        width: 54
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 610761c32216dffa0800000000000000
+      internalID: -5765345148299481066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_42
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 671
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32cafc8153eaebd30800000000000000
+      internalID: 4449185024961391651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_43
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 661
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6365fc12368784600800000000000000
+      internalID: 452744129715066422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_44
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 661
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fd585ab9672f8d00800000000000000
+      internalID: 977042979214089717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_45
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 642
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b5d43497b6fe6dc0800000000000000
+      internalID: -3643703780170213959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_46
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 666
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ab8a0cc45ea5f7f0800000000000000
+      internalID: -579365297823511641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_47
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 663
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54ec6f761d507b9b0800000000000000
+      internalID: -5064572859004301755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_48
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 663
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 692f1b417f3adcc30800000000000000
+      internalID: 4381338294100816534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_49
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 626
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1cbece80219384d0800000000000000
+      internalID: -3133501346698839013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_50
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 651
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7149d5ddc4800e90800000000000000
+      internalID: -7061498196125990530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_51
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 646
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fd64a1448ae03620800000000000000
+      internalID: 2751957226081250806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_52
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 646
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62775dcc50dfc43a0800000000000000
+      internalID: -6679685945944082650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_53
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 642
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c240cebaed700f1f0800000000000000
+      internalID: -1013301263209855956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_54
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 640
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf6c3c51e4f97bb80800000000000000
+      internalID: -8379053423978100996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_55
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 641
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dc205244d88dbe40800000000000000
+      internalID: 5673841550783687897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_56
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 651
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6beaf0549e4e82960800000000000000
+      internalID: 7577558063588028086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_57
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 626
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ced46e8bbec270960800000000000000
+      internalID: 7568067089750445548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_58
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 659
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f0c452a40266ae0800000000000000
+      internalID: -1556521118384517356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_59
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 659
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 288bf27c862b8d7c0800000000000000
+      internalID: -4046288102104254334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_60
+      rect:
+        serializedVersion: 2
+        x: 1657
+        y: 659
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea4509edc847e1cc0800000000000000
+      internalID: -3738422492292688722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_61
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 651
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83d52b5b02a9df280800000000000000
+      internalID: -9007874214393127624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_62
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 655
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c55d412bc5b6c560800000000000000
+      internalID: 7333748927261136323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_63
+      rect:
+        serializedVersion: 2
+        x: 1754
+        y: 628
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35c93c1435de23b00800000000000000
+      internalID: 806968225094147155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_64
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 629
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5d26245bffbd6a60800000000000000
+      internalID: 7668996826651307359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_65
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 19
+        width: 2084
+        height: 609
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fcb6e5ece597c0c0800000000000000
+      internalID: -4555507653360042766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_66
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 63
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 632437bc0bded8d00800000000000000
+      internalID: 976698037792621110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_67
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 65
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40a9a4ee6814fa6f0800000000000000
+      internalID: -671245771675624956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_68
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 65
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41bd2c9e9120f5db0800000000000000
+      internalID: -4801116367434360044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_69
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 112
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98136a4cfcb86d490800000000000000
+      internalID: -7721830786606419575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_70
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 95
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cec95730c99d8f990800000000000000
+      internalID: -7351887127586169620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_71
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 65
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a5f39c0f242d3300800000000000000
+      internalID: 233382540186219943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_72
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 81
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9db4bcc9a38af440800000000000000
+      internalID: 4970429904063872414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_73
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 97
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e1e9e35263604f90800000000000000
+      internalID: -6971462949203746329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_74
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 65
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eb5590251ac23940800000000000000
+      internalID: 5274500305694055397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_75
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 47
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5267ba753639c9fb0800000000000000
+      internalID: -4639671461216553435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_76
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 81
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3f0790bde1aad2c0800000000000000
+      internalID: -4406031243186598084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_77
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 85
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18d9446f6c3706360800000000000000
+      internalID: 7160850705891499393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_78
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 75
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc6e7f5b911cc4af0800000000000000
+      internalID: -410741149826292017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_79
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 87
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11582bcc576c70830800000000000000
+      internalID: 4037413800208663825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_80
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 63
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba82200c7ccf3c720800000000000000
+      internalID: 2865411722787825835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_81
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 65
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41c1a4c00000747d0800000000000000
+      internalID: -2934376632002405356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_82
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 69
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b8a5c0dcffb30c20800000000000000
+      internalID: 3171589655154239671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_83
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 93
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7b67bd9f14efc940800000000000000
+      internalID: 5318720509389007741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_84
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 71
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b0e032a651df1e90800000000000000
+      internalID: -7052688321420402509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_85
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 95
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e4590f1ad29e1d50800000000000000
+      internalID: 6709961960349848801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_86
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 67
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56894b09f6a3f3590800000000000000
+      internalID: -7692365387681982363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_87
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 95
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42ef917ef7c0b08b0800000000000000
+      internalID: -5185036802509373916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_88
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 93
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f14863fdca10c4b10800000000000000
+      internalID: 1966948979244958751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_89
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 79
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48fdfcfb6e16e25f0800000000000000
+      internalID: -779578041800073340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_90
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 93
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39b75754c6fc58d30800000000000000
+      internalID: 4433177472144866195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_91
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 63
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eca785fd2e0fc890800000000000000
+      internalID: -7435708869209772823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_92
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 69
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a7a847f8a2e60d00800000000000000
+      internalID: 938686787684444068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_93
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 77
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e4feb25c0dd6cb50800000000000000
+      internalID: 6613216147837744359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_94
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 63
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 240ff17ac65bb30e0800000000000000
+      internalID: -2289036507322781630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_95
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 59
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 718d08e18f48aaeb0800000000000000
+      internalID: -4707804259263916009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_96
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 49
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35151810e73ab8f70800000000000000
+      internalID: 9190619226166088019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_97
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 73
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1e52aa81e15fc0f0800000000000000
+      internalID: -1094566155292352998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_98
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 73
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9b63ae83f10e0c10800000000000000
+      internalID: 2021555428317686685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_99
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 93
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 576df3053e986d9e0800000000000000
+      internalID: -1596937408459319691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_100
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 83
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 926e756f80d591f30800000000000000
+      internalID: 4546767591881303593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_101
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 49
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c2b81ac1b63a1140800000000000000
+      internalID: 4691122099087520453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_102
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 85
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b2baf55c336b72c0800000000000000
+      internalID: -4432840297424440647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_103
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 65
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5204f3e369a1478f0800000000000000
+      internalID: -543780422413238235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_104
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 95
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08e7bb85bd2431760800000000000000
+      internalID: 7427353720318033536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_105
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 83
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71f4cb68c6b290250800000000000000
+      internalID: 5911303731017436951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_106
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 79
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27097b1a2c02050f0800000000000000
+      internalID: -1130367486161088398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_107
+      rect:
+        serializedVersion: 2
+        x: 2001
+        y: 63
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29601ff2730961440800000000000000
+      internalID: 4906267410768660114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_108
+      rect:
+        serializedVersion: 2
+        x: 2043
+        y: 51
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ffc82acfb02e4120800000000000000
+      internalID: 2399891659537567732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_109
+      rect:
+        serializedVersion: 2
+        x: 2073
+        y: 77
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb2ed54303aa34560800000000000000
+      internalID: 7296862945284055742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_110
+      rect:
+        serializedVersion: 2
+        x: 2073
+        y: 65
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a6fb5ae002c47b80800000000000000
+      internalID: -8397874095951448407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_111
+      rect:
+        serializedVersion: 2
+        x: 2089
+        y: 69
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c69d099fb8b7ffa70800000000000000
+      internalID: 8862938432806115692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tarjeta de recompensa oscura con doble borde-21_112
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 78
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 255b74f8ca6f19e90800000000000000
+      internalID: -7020559123095243438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Tarjeta de recompensa oscura con doble borde-21_0: -6763840976200692833
+      Tarjeta de recompensa oscura con doble borde-21_1: -449887375956446469
+      Tarjeta de recompensa oscura con doble borde-21_10: 3927771297323676924
+      Tarjeta de recompensa oscura con doble borde-21_100: 4546767591881303593
+      Tarjeta de recompensa oscura con doble borde-21_101: 4691122099087520453
+      Tarjeta de recompensa oscura con doble borde-21_102: -4432840297424440647
+      Tarjeta de recompensa oscura con doble borde-21_103: -543780422413238235
+      Tarjeta de recompensa oscura con doble borde-21_104: 7427353720318033536
+      Tarjeta de recompensa oscura con doble borde-21_105: 5911303731017436951
+      Tarjeta de recompensa oscura con doble borde-21_106: -1130367486161088398
+      Tarjeta de recompensa oscura con doble borde-21_107: 4906267410768660114
+      Tarjeta de recompensa oscura con doble borde-21_108: 2399891659537567732
+      Tarjeta de recompensa oscura con doble borde-21_109: 7296862945284055742
+      Tarjeta de recompensa oscura con doble borde-21_11: -1285139473624032827
+      Tarjeta de recompensa oscura con doble borde-21_110: -8397874095951448407
+      Tarjeta de recompensa oscura con doble borde-21_111: 8862938432806115692
+      Tarjeta de recompensa oscura con doble borde-21_112: -7020559123095243438
+      Tarjeta de recompensa oscura con doble borde-21_12: -8679648675751964053
+      Tarjeta de recompensa oscura con doble borde-21_13: -7789163237834208396
+      Tarjeta de recompensa oscura con doble borde-21_14: -3278501333863062959
+      Tarjeta de recompensa oscura con doble borde-21_15: 3620130997589914423
+      Tarjeta de recompensa oscura con doble borde-21_16: 137407874145688281
+      Tarjeta de recompensa oscura con doble borde-21_17: 3672764120961067029
+      Tarjeta de recompensa oscura con doble borde-21_18: -5029218497453958160
+      Tarjeta de recompensa oscura con doble borde-21_19: -2988164460678748554
+      Tarjeta de recompensa oscura con doble borde-21_2: 4278821198390012008
+      Tarjeta de recompensa oscura con doble borde-21_20: 11487721370969540
+      Tarjeta de recompensa oscura con doble borde-21_21: -1959857092211807335
+      Tarjeta de recompensa oscura con doble borde-21_22: 3285491292450571941
+      Tarjeta de recompensa oscura con doble borde-21_23: 5991292358441822672
+      Tarjeta de recompensa oscura con doble borde-21_24: 5958924327509960636
+      Tarjeta de recompensa oscura con doble borde-21_25: -8966955628333079362
+      Tarjeta de recompensa oscura con doble borde-21_26: -4473288736848795135
+      Tarjeta de recompensa oscura con doble borde-21_27: -2582076460040985227
+      Tarjeta de recompensa oscura con doble borde-21_28: -6577941828376505875
+      Tarjeta de recompensa oscura con doble borde-21_29: -8936546403817786143
+      Tarjeta de recompensa oscura con doble borde-21_3: -1972516805757649459
+      Tarjeta de recompensa oscura con doble borde-21_30: -9089964262483906105
+      Tarjeta de recompensa oscura con doble borde-21_31: 2167515953704186108
+      Tarjeta de recompensa oscura con doble borde-21_32: 381974022309391770
+      Tarjeta de recompensa oscura con doble borde-21_33: -5231011344273974096
+      Tarjeta de recompensa oscura con doble borde-21_34: -9166673248344929256
+      Tarjeta de recompensa oscura con doble borde-21_35: -1971583719226227188
+      Tarjeta de recompensa oscura con doble borde-21_36: -8099936985976125108
+      Tarjeta de recompensa oscura con doble borde-21_37: 8157115944742102918
+      Tarjeta de recompensa oscura con doble borde-21_38: 3085867955253861070
+      Tarjeta de recompensa oscura con doble borde-21_39: -6673919682864387959
+      Tarjeta de recompensa oscura con doble borde-21_4: 1954301477862199557
+      Tarjeta de recompensa oscura con doble borde-21_40: -5475383318060927404
+      Tarjeta de recompensa oscura con doble borde-21_41: -5765345148299481066
+      Tarjeta de recompensa oscura con doble borde-21_42: 4449185024961391651
+      Tarjeta de recompensa oscura con doble borde-21_43: 452744129715066422
+      Tarjeta de recompensa oscura con doble borde-21_44: 977042979214089717
+      Tarjeta de recompensa oscura con doble borde-21_45: -3643703780170213959
+      Tarjeta de recompensa oscura con doble borde-21_46: -579365297823511641
+      Tarjeta de recompensa oscura con doble borde-21_47: -5064572859004301755
+      Tarjeta de recompensa oscura con doble borde-21_48: 4381338294100816534
+      Tarjeta de recompensa oscura con doble borde-21_49: -3133501346698839013
+      Tarjeta de recompensa oscura con doble borde-21_5: 1408336475383063554
+      Tarjeta de recompensa oscura con doble borde-21_50: -7061498196125990530
+      Tarjeta de recompensa oscura con doble borde-21_51: 2751957226081250806
+      Tarjeta de recompensa oscura con doble borde-21_52: -6679685945944082650
+      Tarjeta de recompensa oscura con doble borde-21_53: -1013301263209855956
+      Tarjeta de recompensa oscura con doble borde-21_54: -8379053423978100996
+      Tarjeta de recompensa oscura con doble borde-21_55: 5673841550783687897
+      Tarjeta de recompensa oscura con doble borde-21_56: 7577558063588028086
+      Tarjeta de recompensa oscura con doble borde-21_57: 7568067089750445548
+      Tarjeta de recompensa oscura con doble borde-21_58: -1556521118384517356
+      Tarjeta de recompensa oscura con doble borde-21_59: -4046288102104254334
+      Tarjeta de recompensa oscura con doble borde-21_6: 8543012404627518926
+      Tarjeta de recompensa oscura con doble borde-21_60: -3738422492292688722
+      Tarjeta de recompensa oscura con doble borde-21_61: -9007874214393127624
+      Tarjeta de recompensa oscura con doble borde-21_62: 7333748927261136323
+      Tarjeta de recompensa oscura con doble borde-21_63: 806968225094147155
+      Tarjeta de recompensa oscura con doble borde-21_64: 7668996826651307359
+      Tarjeta de recompensa oscura con doble borde-21_65: -4555507653360042766
+      Tarjeta de recompensa oscura con doble borde-21_66: 976698037792621110
+      Tarjeta de recompensa oscura con doble borde-21_67: -671245771675624956
+      Tarjeta de recompensa oscura con doble borde-21_68: -4801116367434360044
+      Tarjeta de recompensa oscura con doble borde-21_69: -7721830786606419575
+      Tarjeta de recompensa oscura con doble borde-21_7: 3048146480051081862
+      Tarjeta de recompensa oscura con doble borde-21_70: -7351887127586169620
+      Tarjeta de recompensa oscura con doble borde-21_71: 233382540186219943
+      Tarjeta de recompensa oscura con doble borde-21_72: 4970429904063872414
+      Tarjeta de recompensa oscura con doble borde-21_73: -6971462949203746329
+      Tarjeta de recompensa oscura con doble borde-21_74: 5274500305694055397
+      Tarjeta de recompensa oscura con doble borde-21_75: -4639671461216553435
+      Tarjeta de recompensa oscura con doble borde-21_76: -4406031243186598084
+      Tarjeta de recompensa oscura con doble borde-21_77: 7160850705891499393
+      Tarjeta de recompensa oscura con doble borde-21_78: -410741149826292017
+      Tarjeta de recompensa oscura con doble borde-21_79: 4037413800208663825
+      Tarjeta de recompensa oscura con doble borde-21_8: 1380772507203909024
+      Tarjeta de recompensa oscura con doble borde-21_80: 2865411722787825835
+      Tarjeta de recompensa oscura con doble borde-21_81: -2934376632002405356
+      Tarjeta de recompensa oscura con doble borde-21_82: 3171589655154239671
+      Tarjeta de recompensa oscura con doble borde-21_83: 5318720509389007741
+      Tarjeta de recompensa oscura con doble borde-21_84: -7052688321420402509
+      Tarjeta de recompensa oscura con doble borde-21_85: 6709961960349848801
+      Tarjeta de recompensa oscura con doble borde-21_86: -7692365387681982363
+      Tarjeta de recompensa oscura con doble borde-21_87: -5185036802509373916
+      Tarjeta de recompensa oscura con doble borde-21_88: 1966948979244958751
+      Tarjeta de recompensa oscura con doble borde-21_89: -779578041800073340
+      Tarjeta de recompensa oscura con doble borde-21_9: -9133458817112413339
+      Tarjeta de recompensa oscura con doble borde-21_90: 4433177472144866195
+      Tarjeta de recompensa oscura con doble borde-21_91: -7435708869209772823
+      Tarjeta de recompensa oscura con doble borde-21_92: 938686787684444068
+      Tarjeta de recompensa oscura con doble borde-21_93: 6613216147837744359
+      Tarjeta de recompensa oscura con doble borde-21_94: -2289036507322781630
+      Tarjeta de recompensa oscura con doble borde-21_95: -4707804259263916009
+      Tarjeta de recompensa oscura con doble borde-21_96: 9190619226166088019
+      Tarjeta de recompensa oscura con doble borde-21_97: -1094566155292352998
+      Tarjeta de recompensa oscura con doble borde-21_98: 2021555428317686685
+      Tarjeta de recompensa oscura con doble borde-21_99: -1596937408459319691
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

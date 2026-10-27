@@ -1,0 +1,975 @@
+fileFormatVersion: 2
+guid: 437cab4ec4d2ae04b8eaa49533e1caef
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1913456074202787646
+    second: Icono sonriente verde positivo-36_0
+  - first:
+      213: 3323937701795266483
+    second: Icono sonriente verde positivo-36_1
+  - first:
+      213: 8520821315200066897
+    second: Icono sonriente verde positivo-36_2
+  - first:
+      213: -4938720436066892285
+    second: Icono sonriente verde positivo-36_3
+  - first:
+      213: -3193767759735530266
+    second: Icono sonriente verde positivo-36_4
+  - first:
+      213: -2185447829462885927
+    second: Icono sonriente verde positivo-36_5
+  - first:
+      213: 5295158059955303770
+    second: Icono sonriente verde positivo-36_6
+  - first:
+      213: -1995037309075389498
+    second: Icono sonriente verde positivo-36_7
+  - first:
+      213: -2987502855141987651
+    second: Icono sonriente verde positivo-36_8
+  - first:
+      213: -196973507646536939
+    second: Icono sonriente verde positivo-36_9
+  - first:
+      213: -1637426822085223613
+    second: Icono sonriente verde positivo-36_10
+  - first:
+      213: -3363293138001864364
+    second: Icono sonriente verde positivo-36_11
+  - first:
+      213: -6106146786283915955
+    second: Icono sonriente verde positivo-36_12
+  - first:
+      213: 6502606761533758637
+    second: Icono sonriente verde positivo-36_13
+  - first:
+      213: -3356554604178933548
+    second: Icono sonriente verde positivo-36_14
+  - first:
+      213: -450845630557405723
+    second: Icono sonriente verde positivo-36_15
+  - first:
+      213: 2206198399824351405
+    second: Icono sonriente verde positivo-36_16
+  - first:
+      213: -4037112102402980357
+    second: Icono sonriente verde positivo-36_17
+  - first:
+      213: -2058379043067406749
+    second: Icono sonriente verde positivo-36_18
+  - first:
+      213: 6386197361678684788
+    second: Icono sonriente verde positivo-36_19
+  - first:
+      213: -2057942002845028928
+    second: Icono sonriente verde positivo-36_20
+  - first:
+      213: 2929001440317420669
+    second: Icono sonriente verde positivo-36_21
+  - first:
+      213: 333895574954483926
+    second: Icono sonriente verde positivo-36_22
+  - first:
+      213: -6343581449380517444
+    second: Icono sonriente verde positivo-36_23
+  - first:
+      213: -6355722936836107281
+    second: Icono sonriente verde positivo-36_24
+  - first:
+      213: -2923437607842455884
+    second: Icono sonriente verde positivo-36_25
+  - first:
+      213: -3316916518039467443
+    second: Icono sonriente verde positivo-36_26
+  - first:
+      213: 6891515277521678318
+    second: Icono sonriente verde positivo-36_27
+  - first:
+      213: 6958308792912543015
+    second: Icono sonriente verde positivo-36_28
+  - first:
+      213: -6854561659434643744
+    second: Icono sonriente verde positivo-36_29
+  - first:
+      213: 7214893349560812423
+    second: Icono sonriente verde positivo-36_30
+  - first:
+      213: -5551014350005486309
+    second: Icono sonriente verde positivo-36_31
+  - first:
+      213: -976312491330327631
+    second: Icono sonriente verde positivo-36_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Icono sonriente verde positivo-36_0
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 1118
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c054d3a6d90275e0800000000000000
+      internalID: -1913456074202787646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icono sonriente verde positivo-36_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 49
+        width: 1319
+        height: 1064
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bff8039abff02e20800000000000000
+      internalID: 3323937701795266483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icono sonriente verde positivo-36_2
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 1061
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 155a31747d9004670800000000000000
+      internalID: 8520821315200066897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icono sonriente verde positivo-36_3
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1059
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 306454b0ee3267bb0800000000000000
+      internalID: -4938720436066892285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icono sonriente verde positivo-36_4
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 1071
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ec5ed1d4257da3d0800000000000000
+      internalID: -3193767759735530266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icono sonriente verde positivo-36_5
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 1066
+        width: 33
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d957b137cabba1e0800000000000000
+      internalID: -2185447829462885927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icono sonriente verde positivo-36_6
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 1069
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a55be29533e2c7940800000000000000
+      internalID: 5295158059955303770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icono sonriente verde positivo-36_7
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 1065
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c309e633243054e0800000000000000
+      internalID: -1995037309075389498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icono sonriente verde positivo-36_8
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 1059
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbaebc15bf14a86d0800000000000000
+      internalID: -2987502855141987651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icono sonriente verde positivo-36_9
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 1047
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 513c09e63a5344df0800000000000000
+      internalID: -196973507646536939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icono sonriente verde positivo-36_10
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 719
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34bd9e31bf0b649e0800000000000000
+      internalID: -1637426822085223613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icono sonriente verde positivo-36_11
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 727
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 459d3e1e5be2351d0800000000000000
+      internalID: -3363293138001864364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icono sonriente verde positivo-36_12
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 660
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d45772189db924ba0800000000000000
+      internalID: -6106146786283915955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icono sonriente verde positivo-36_13
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 696
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dacd547b566ed3a50800000000000000
+      internalID: 6502606761533758637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icono sonriente verde positivo-36_14
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 633
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d876bc0f5f1b61d0800000000000000
+      internalID: -3356554604178933548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icono sonriente verde positivo-36_15
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 662
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5edb616a9464eb9f0800000000000000
+      internalID: -450845630557405723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icono sonriente verde positivo-36_16
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 598
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da0d09571cdfd9e10800000000000000
+      internalID: 2206198399824351405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icono sonriente verde positivo-36_17
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 594
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf507d1beeb49f7c0800000000000000
+      internalID: -4037112102402980357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icono sonriente verde positivo-36_18
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 574
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 366dbd48a2b2f63e0800000000000000
+      internalID: -2058379043067406749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icono sonriente verde positivo-36_19
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 526
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47215683aa450a850800000000000000
+      internalID: 6386197361678684788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icono sonriente verde positivo-36_20
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 534
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cde010e6a8b073e0800000000000000
+      internalID: -2057942002845028928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icono sonriente verde positivo-36_21
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 491
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d743abc9a47e5a820800000000000000
+      internalID: 2929001440317420669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icono sonriente verde positivo-36_22
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 496
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d0ac31a14c32a400800000000000000
+      internalID: 333895574954483926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icono sonriente verde positivo-36_23
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 476
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb9aae1184217f7a0800000000000000
+      internalID: -6343581449380517444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icono sonriente verde positivo-36_24
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 436
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe3d41bb9afebc7a0800000000000000
+      internalID: -6355722936836107281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icono sonriente verde positivo-36_25
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 419
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4be58851cfcdd67d0800000000000000
+      internalID: -2923437607842455884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icono sonriente verde positivo-36_26
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 402
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4ac1a82002f7f1d0800000000000000
+      internalID: -3316916518039467443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icono sonriente verde positivo-36_27
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 394
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eef6bd0d1a493af50800000000000000
+      internalID: 6891515277521678318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icono sonriente verde positivo-36_28
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 96
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72d770ffaf0e09060800000000000000
+      internalID: 6958308792912543015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icono sonriente verde positivo-36_29
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 96
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eec26edc74bfd0a0800000000000000
+      internalID: -6854561659434643744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icono sonriente verde positivo-36_30
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 84
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78386e87643702460800000000000000
+      internalID: 7214893349560812423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icono sonriente verde positivo-36_31
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 80
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1db3d4fbd5d6f2b0800000000000000
+      internalID: -5551014350005486309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icono sonriente verde positivo-36_32
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 80
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bbaa7c36f07372f0800000000000000
+      internalID: -976312491330327631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Icono sonriente verde positivo-36_0: -1913456074202787646
+      Icono sonriente verde positivo-36_1: 3323937701795266483
+      Icono sonriente verde positivo-36_10: -1637426822085223613
+      Icono sonriente verde positivo-36_11: -3363293138001864364
+      Icono sonriente verde positivo-36_12: -6106146786283915955
+      Icono sonriente verde positivo-36_13: 6502606761533758637
+      Icono sonriente verde positivo-36_14: -3356554604178933548
+      Icono sonriente verde positivo-36_15: -450845630557405723
+      Icono sonriente verde positivo-36_16: 2206198399824351405
+      Icono sonriente verde positivo-36_17: -4037112102402980357
+      Icono sonriente verde positivo-36_18: -2058379043067406749
+      Icono sonriente verde positivo-36_19: 6386197361678684788
+      Icono sonriente verde positivo-36_2: 8520821315200066897
+      Icono sonriente verde positivo-36_20: -2057942002845028928
+      Icono sonriente verde positivo-36_21: 2929001440317420669
+      Icono sonriente verde positivo-36_22: 333895574954483926
+      Icono sonriente verde positivo-36_23: -6343581449380517444
+      Icono sonriente verde positivo-36_24: -6355722936836107281
+      Icono sonriente verde positivo-36_25: -2923437607842455884
+      Icono sonriente verde positivo-36_26: -3316916518039467443
+      Icono sonriente verde positivo-36_27: 6891515277521678318
+      Icono sonriente verde positivo-36_28: 6958308792912543015
+      Icono sonriente verde positivo-36_29: -6854561659434643744
+      Icono sonriente verde positivo-36_3: -4938720436066892285
+      Icono sonriente verde positivo-36_30: 7214893349560812423
+      Icono sonriente verde positivo-36_31: -5551014350005486309
+      Icono sonriente verde positivo-36_32: -976312491330327631
+      Icono sonriente verde positivo-36_4: -3193767759735530266
+      Icono sonriente verde positivo-36_5: -2185447829462885927
+      Icono sonriente verde positivo-36_6: 5295158059955303770
+      Icono sonriente verde positivo-36_7: -1995037309075389498
+      Icono sonriente verde positivo-36_8: -2987502855141987651
+      Icono sonriente verde positivo-36_9: -196973507646536939
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

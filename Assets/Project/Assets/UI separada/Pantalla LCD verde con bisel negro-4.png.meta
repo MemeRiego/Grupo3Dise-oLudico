@@ -1,0 +1,1287 @@
+fileFormatVersion: 2
+guid: d82eb4c81cdacad4dab9cde105da4e39
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4519035618440389812
+    second: Pantalla LCD verde con bisel negro-4_0
+  - first:
+      213: 8896835855052290129
+    second: Pantalla LCD verde con bisel negro-4_1
+  - first:
+      213: -8383136212114471478
+    second: Pantalla LCD verde con bisel negro-4_2
+  - first:
+      213: 3025670336473959035
+    second: Pantalla LCD verde con bisel negro-4_3
+  - first:
+      213: -2368061574055517959
+    second: Pantalla LCD verde con bisel negro-4_4
+  - first:
+      213: 6188304304044405849
+    second: Pantalla LCD verde con bisel negro-4_5
+  - first:
+      213: -608916396425030813
+    second: Pantalla LCD verde con bisel negro-4_6
+  - first:
+      213: -3696622274564555480
+    second: Pantalla LCD verde con bisel negro-4_7
+  - first:
+      213: 4520814673596763225
+    second: Pantalla LCD verde con bisel negro-4_8
+  - first:
+      213: -6405664924099680532
+    second: Pantalla LCD verde con bisel negro-4_9
+  - first:
+      213: 8215290455688449135
+    second: Pantalla LCD verde con bisel negro-4_10
+  - first:
+      213: -9117853660375520927
+    second: Pantalla LCD verde con bisel negro-4_11
+  - first:
+      213: 96290736972493721
+    second: Pantalla LCD verde con bisel negro-4_12
+  - first:
+      213: -64230091382781343
+    second: Pantalla LCD verde con bisel negro-4_13
+  - first:
+      213: -6060015223365354320
+    second: Pantalla LCD verde con bisel negro-4_14
+  - first:
+      213: -65597585083530607
+    second: Pantalla LCD verde con bisel negro-4_15
+  - first:
+      213: -6334966288937861168
+    second: Pantalla LCD verde con bisel negro-4_16
+  - first:
+      213: 6873642538769876055
+    second: Pantalla LCD verde con bisel negro-4_17
+  - first:
+      213: 5890998828118103196
+    second: Pantalla LCD verde con bisel negro-4_18
+  - first:
+      213: -7418159432769624130
+    second: Pantalla LCD verde con bisel negro-4_19
+  - first:
+      213: -6506365858734723174
+    second: Pantalla LCD verde con bisel negro-4_20
+  - first:
+      213: -4579734411216669314
+    second: Pantalla LCD verde con bisel negro-4_21
+  - first:
+      213: -5536664927773574789
+    second: Pantalla LCD verde con bisel negro-4_22
+  - first:
+      213: 966252682173733868
+    second: Pantalla LCD verde con bisel negro-4_23
+  - first:
+      213: -9183565052789396262
+    second: Pantalla LCD verde con bisel negro-4_24
+  - first:
+      213: 2492908499606652933
+    second: Pantalla LCD verde con bisel negro-4_25
+  - first:
+      213: 5530127833871367629
+    second: Pantalla LCD verde con bisel negro-4_26
+  - first:
+      213: 6076125079803948139
+    second: Pantalla LCD verde con bisel negro-4_27
+  - first:
+      213: 2249853329937800359
+    second: Pantalla LCD verde con bisel negro-4_28
+  - first:
+      213: -7801588338549068069
+    second: Pantalla LCD verde con bisel negro-4_29
+  - first:
+      213: 3838011688326805439
+    second: Pantalla LCD verde con bisel negro-4_30
+  - first:
+      213: -3252673517931112382
+    second: Pantalla LCD verde con bisel negro-4_31
+  - first:
+      213: -7987370620139719767
+    second: Pantalla LCD verde con bisel negro-4_32
+  - first:
+      213: 190326221506822198
+    second: Pantalla LCD verde con bisel negro-4_33
+  - first:
+      213: 3160317800088595655
+    second: Pantalla LCD verde con bisel negro-4_34
+  - first:
+      213: 1728125836882530332
+    second: Pantalla LCD verde con bisel negro-4_35
+  - first:
+      213: 5641548183126838904
+    second: Pantalla LCD verde con bisel negro-4_36
+  - first:
+      213: -3945640141785016252
+    second: Pantalla LCD verde con bisel negro-4_37
+  - first:
+      213: -3303665256061443221
+    second: Pantalla LCD verde con bisel negro-4_38
+  - first:
+      213: -4348809580501882475
+    second: Pantalla LCD verde con bisel negro-4_39
+  - first:
+      213: 817275600897229911
+    second: Pantalla LCD verde con bisel negro-4_40
+  - first:
+      213: 2385504133328140734
+    second: Pantalla LCD verde con bisel negro-4_41
+  - first:
+      213: -9164360512720433414
+    second: Pantalla LCD verde con bisel negro-4_42
+  - first:
+      213: 7614948473472407350
+    second: Pantalla LCD verde con bisel negro-4_43
+  - first:
+      213: 3026925204240510233
+    second: Pantalla LCD verde con bisel negro-4_44
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pantalla LCD verde con bisel negro-4_0
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 672
+        width: 161
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b42a7cb3f6d6be30800000000000000
+      internalID: 4519035618440389812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pantalla LCD verde con bisel negro-4_1
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 707
+        width: 62
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 158b95d9219e77b70800000000000000
+      internalID: 8896835855052290129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pantalla LCD verde con bisel negro-4_2
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 745
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac50435e70e19ab80800000000000000
+      internalID: -8383136212114471478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pantalla LCD verde con bisel negro-4_3
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 713
+        width: 19
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7a87fce3275df920800000000000000
+      internalID: 3025670336473959035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pantalla LCD verde con bisel negro-4_4
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 729
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f02b208b84f22fd0800000000000000
+      internalID: -2368061574055517959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pantalla LCD verde con bisel negro-4_5
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 700
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 954769c3af541e550800000000000000
+      internalID: 6188304304044405849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pantalla LCD verde con bisel negro-4_6
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 668
+        width: 127
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 363dc2d73c1bc87f0800000000000000
+      internalID: -608916396425030813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pantalla LCD verde con bisel negro-4_7
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 719
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82d78c770a5f2bcc0800000000000000
+      internalID: -3696622274564555480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pantalla LCD verde con bisel negro-4_8
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 683
+        width: 73
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95ccb1b4ef82dbe30800000000000000
+      internalID: 4520814673596763225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pantalla LCD verde con bisel negro-4_9
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 703
+        width: 174
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce6ebd0b0b18a17a0800000000000000
+      internalID: -6405664924099680532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pantalla LCD verde con bisel negro-4_10
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 705
+        width: 71
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6c87f99423920270800000000000000
+      internalID: 8215290455688449135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pantalla LCD verde con bisel negro-4_11
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 729
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16962538760e67180800000000000000
+      internalID: -9117853660375520927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pantalla LCD verde con bisel negro-4_12
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 719
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 993f7644ae7165100800000000000000
+      internalID: 96290736972493721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pantalla LCD verde con bisel negro-4_13
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 719
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16a0d3b721fcb1ff0800000000000000
+      internalID: -64230091382781343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pantalla LCD verde con bisel negro-4_14
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 703
+        width: 106
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bc39ddf24086eba0800000000000000
+      internalID: -6060015223365354320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pantalla LCD verde con bisel negro-4_15
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 729
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19209fa0853f61ff0800000000000000
+      internalID: -65597585083530607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pantalla LCD verde con bisel negro-4_16
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 689
+        width: 55
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dfb8cb69bda518a0800000000000000
+      internalID: -6334966288937861168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pantalla LCD verde con bisel negro-4_17
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 727
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 754846c8875146f50800000000000000
+      internalID: 6873642538769876055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pantalla LCD verde con bisel negro-4_18
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 683
+        width: 43
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c94d83ae83801c150800000000000000
+      internalID: 5890998828118103196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pantalla LCD verde con bisel negro-4_19
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 729
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb7ad8a8c476d0990800000000000000
+      internalID: -7418159432769624130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pantalla LCD verde con bisel negro-4_20
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 729
+        width: 31
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9f236349beb4b5a0800000000000000
+      internalID: -6506365858734723174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pantalla LCD verde con bisel negro-4_21
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 715
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e753cc541d38170c0800000000000000
+      internalID: -4579734411216669314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pantalla LCD verde con bisel negro-4_22
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 707
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7931bb2590d923b0800000000000000
+      internalID: -5536664927773574789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pantalla LCD verde con bisel negro-4_23
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 703
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cebdb3ce1b1d86d00800000000000000
+      internalID: 966252682173733868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pantalla LCD verde con bisel negro-4_24
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 731
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adcebc8bd3c6d8080800000000000000
+      internalID: -9183565052789396262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pantalla LCD verde con bisel negro-4_25
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 683
+        width: 83
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5084b988217989220800000000000000
+      internalID: 2492908499606652933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pantalla LCD verde con bisel negro-4_26
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 674
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcd376c07f5febc40800000000000000
+      internalID: 5530127833871367629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pantalla LCD verde con bisel negro-4_27
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 680
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6c6e80419bb25450800000000000000
+      internalID: 6076125079803948139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pantalla LCD verde con bisel negro-4_28
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 689
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ac1cafeea5193f10800000000000000
+      internalID: 2249853329937800359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pantalla LCD verde con bisel negro-4_29
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 668
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdee3fc9db03bb390800000000000000
+      internalID: -7801588338549068069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pantalla LCD verde con bisel negro-4_30
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 689
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb7348ebb4b534530800000000000000
+      internalID: 3838011688326805439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pantalla LCD verde con bisel negro-4_31
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 685
+        width: 33
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24855693bae2cd2d0800000000000000
+      internalID: -3252673517931112382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pantalla LCD verde con bisel negro-4_32
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 33
+        width: 1957
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a33e296db8272190800000000000000
+      internalID: -7987370620139719767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pantalla LCD verde con bisel negro-4_33
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 50
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6304b58a0bc24a200800000000000000
+      internalID: 190326221506822198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pantalla LCD verde con bisel negro-4_34
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 48
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ccef9b8b44bbdb20800000000000000
+      internalID: 3160317800088595655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pantalla LCD verde con bisel negro-4_35
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 48
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c10de8aea498bf710800000000000000
+      internalID: 1728125836882530332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pantalla LCD verde con bisel negro-4_36
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 66
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87e868eae2eca4e40800000000000000
+      internalID: 5641548183126838904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pantalla LCD verde con bisel negro-4_37
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 62
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 448d16922354e39c0800000000000000
+      internalID: -3945640141785016252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pantalla LCD verde con bisel negro-4_38
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 52
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6368a304f50722d0800000000000000
+      internalID: -3303665256061443221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pantalla LCD verde con bisel negro-4_39
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 51
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 599ae5e3abce5a3c0800000000000000
+      internalID: -4348809580501882475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pantalla LCD verde con bisel negro-4_40
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 52
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 754c21334db875b00800000000000000
+      internalID: 817275600897229911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pantalla LCD verde con bisel negro-4_41
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 74
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb9ff3dce530b1120800000000000000
+      internalID: 2385504133328140734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pantalla LCD verde con bisel negro-4_42
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 48
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afe8ea52ba6a1d080800000000000000
+      internalID: -9164360512720433414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pantalla LCD verde con bisel negro-4_43
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 50
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 637d9387a4bbda960800000000000000
+      internalID: 7614948473472407350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pantalla LCD verde con bisel negro-4_44
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 50
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91dae689f6cc10a20800000000000000
+      internalID: 3026925204240510233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Pantalla LCD verde con bisel negro-4_0: 4519035618440389812
+      Pantalla LCD verde con bisel negro-4_1: 8896835855052290129
+      Pantalla LCD verde con bisel negro-4_10: 8215290455688449135
+      Pantalla LCD verde con bisel negro-4_11: -9117853660375520927
+      Pantalla LCD verde con bisel negro-4_12: 96290736972493721
+      Pantalla LCD verde con bisel negro-4_13: -64230091382781343
+      Pantalla LCD verde con bisel negro-4_14: -6060015223365354320
+      Pantalla LCD verde con bisel negro-4_15: -65597585083530607
+      Pantalla LCD verde con bisel negro-4_16: -6334966288937861168
+      Pantalla LCD verde con bisel negro-4_17: 6873642538769876055
+      Pantalla LCD verde con bisel negro-4_18: 5890998828118103196
+      Pantalla LCD verde con bisel negro-4_19: -7418159432769624130
+      Pantalla LCD verde con bisel negro-4_2: -8383136212114471478
+      Pantalla LCD verde con bisel negro-4_20: -6506365858734723174
+      Pantalla LCD verde con bisel negro-4_21: -4579734411216669314
+      Pantalla LCD verde con bisel negro-4_22: -5536664927773574789
+      Pantalla LCD verde con bisel negro-4_23: 966252682173733868
+      Pantalla LCD verde con bisel negro-4_24: -9183565052789396262
+      Pantalla LCD verde con bisel negro-4_25: 2492908499606652933
+      Pantalla LCD verde con bisel negro-4_26: 5530127833871367629
+      Pantalla LCD verde con bisel negro-4_27: 6076125079803948139
+      Pantalla LCD verde con bisel negro-4_28: 2249853329937800359
+      Pantalla LCD verde con bisel negro-4_29: -7801588338549068069
+      Pantalla LCD verde con bisel negro-4_3: 3025670336473959035
+      Pantalla LCD verde con bisel negro-4_30: 3838011688326805439
+      Pantalla LCD verde con bisel negro-4_31: -3252673517931112382
+      Pantalla LCD verde con bisel negro-4_32: -7987370620139719767
+      Pantalla LCD verde con bisel negro-4_33: 190326221506822198
+      Pantalla LCD verde con bisel negro-4_34: 3160317800088595655
+      Pantalla LCD verde con bisel negro-4_35: 1728125836882530332
+      Pantalla LCD verde con bisel negro-4_36: 5641548183126838904
+      Pantalla LCD verde con bisel negro-4_37: -3945640141785016252
+      Pantalla LCD verde con bisel negro-4_38: -3303665256061443221
+      Pantalla LCD verde con bisel negro-4_39: -4348809580501882475
+      Pantalla LCD verde con bisel negro-4_4: -2368061574055517959
+      Pantalla LCD verde con bisel negro-4_40: 817275600897229911
+      Pantalla LCD verde con bisel negro-4_41: 2385504133328140734
+      Pantalla LCD verde con bisel negro-4_42: -9164360512720433414
+      Pantalla LCD verde con bisel negro-4_43: 7614948473472407350
+      Pantalla LCD verde con bisel negro-4_44: 3026925204240510233
+      Pantalla LCD verde con bisel negro-4_5: 6188304304044405849
+      Pantalla LCD verde con bisel negro-4_6: -608916396425030813
+      Pantalla LCD verde con bisel negro-4_7: -3696622274564555480
+      Pantalla LCD verde con bisel negro-4_8: 4520814673596763225
+      Pantalla LCD verde con bisel negro-4_9: -6405664924099680532
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

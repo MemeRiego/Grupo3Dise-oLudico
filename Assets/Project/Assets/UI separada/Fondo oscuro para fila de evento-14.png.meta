@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: 9687273aa3b061d4eb231a5d8edb01ca
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7480321049115745918
+    second: Fondo oscuro para fila de evento-14_0
+  - first:
+      213: -366973111135430430
+    second: Fondo oscuro para fila de evento-14_1
+  - first:
+      213: 3653473362188605800
+    second: Fondo oscuro para fila de evento-14_2
+  - first:
+      213: 7215603228573305935
+    second: Fondo oscuro para fila de evento-14_3
+  - first:
+      213: -9202662835011164251
+    second: Fondo oscuro para fila de evento-14_4
+  - first:
+      213: 5320637999818473759
+    second: Fondo oscuro para fila de evento-14_5
+  - first:
+      213: -3414911028188782802
+    second: Fondo oscuro para fila de evento-14_6
+  - first:
+      213: 7375818054516676345
+    second: Fondo oscuro para fila de evento-14_7
+  - first:
+      213: -9048207854357434924
+    second: Fondo oscuro para fila de evento-14_8
+  - first:
+      213: 67102589689055965
+    second: Fondo oscuro para fila de evento-14_9
+  - first:
+      213: 5195016320254414959
+    second: Fondo oscuro para fila de evento-14_10
+  - first:
+      213: -4456420227616012985
+    second: Fondo oscuro para fila de evento-14_11
+  - first:
+      213: -7595826818854405566
+    second: Fondo oscuro para fila de evento-14_12
+  - first:
+      213: 1166626994030595855
+    second: Fondo oscuro para fila de evento-14_13
+  - first:
+      213: 8935731187092820848
+    second: Fondo oscuro para fila de evento-14_14
+  - first:
+      213: 602718887776450994
+    second: Fondo oscuro para fila de evento-14_15
+  - first:
+      213: -8179375657600952179
+    second: Fondo oscuro para fila de evento-14_16
+  - first:
+      213: -8050692755765523817
+    second: Fondo oscuro para fila de evento-14_17
+  - first:
+      213: 163639202160316581
+    second: Fondo oscuro para fila de evento-14_18
+  - first:
+      213: -1106337067620089493
+    second: Fondo oscuro para fila de evento-14_19
+  - first:
+      213: -4206799782897116244
+    second: Fondo oscuro para fila de evento-14_20
+  - first:
+      213: 4987497302689215673
+    second: Fondo oscuro para fila de evento-14_21
+  - first:
+      213: 6982383191317437200
+    second: Fondo oscuro para fila de evento-14_22
+  - first:
+      213: 8361667280570660808
+    second: Fondo oscuro para fila de evento-14_23
+  - first:
+      213: 5925500486488087708
+    second: Fondo oscuro para fila de evento-14_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fondo oscuro para fila de evento-14_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 95
+        width: 2143
+        height: 593
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 281249563af803890800000000000000
+      internalID: -7480321049115745918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fondo oscuro para fila de evento-14_1
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 677
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e817a456ef38eaf0800000000000000
+      internalID: -366973111135430430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fondo oscuro para fila de evento-14_2
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 659
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8699a9d7aaeb3b230800000000000000
+      internalID: 3653473362188605800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fondo oscuro para fila de evento-14_3
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 659
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4c064f08e8f22460800000000000000
+      internalID: 7215603228573305935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fondo oscuro para fila de evento-14_4
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 663
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a7687bc8e2994080800000000000000
+      internalID: -9202662835011164251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fondo oscuro para fila de evento-14_5
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 660
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1100a52214b6d940800000000000000
+      internalID: 5320637999818473759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fondo oscuro para fila de evento-14_6
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 657
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2f5e39438ccb90d0800000000000000
+      internalID: -3414911028188782802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fondo oscuro para fila de evento-14_7
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 661
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f6116b117b2c5660800000000000000
+      internalID: 7375818054516676345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fondo oscuro para fila de evento-14_8
+      rect:
+        serializedVersion: 2
+        x: 1985
+        y: 661
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dd202b55ee4e6280800000000000000
+      internalID: -9048207854357434924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fondo oscuro para fila de evento-14_9
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 651
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddacce523756ee000800000000000000
+      internalID: 67102589689055965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fondo oscuro para fila de evento-14_10
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 557
+        width: 30
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f601f13a1d7681840800000000000000
+      internalID: 5195016320254414959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fondo oscuro para fila de evento-14_11
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 557
+        width: 83
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74505130a6d9722c0800000000000000
+      internalID: -4456420227616012985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fondo oscuro para fila de evento-14_12
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 557
+        width: 80
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24a3ccea0c3369690800000000000000
+      internalID: -7595826818854405566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fondo oscuro para fila de evento-14_13
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 147
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0f439ce111b03010800000000000000
+      internalID: 1166626994030595855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fondo oscuro para fila de evento-14_14
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 134
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0731c0fcb28120c70800000000000000
+      internalID: 8935731187092820848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fondo oscuro para fila de evento-14_15
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 144
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b9755592a94d5800800000000000000
+      internalID: 602718887776450994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fondo oscuro para fila de evento-14_16
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 136
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d88d734fc250d7e80800000000000000
+      internalID: -8179375657600952179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fondo oscuro para fila de evento-14_17
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 127
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79a09c0d791364090800000000000000
+      internalID: -8050692755765523817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fondo oscuro para fila de evento-14_18
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 135
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a01814ccfc554200800000000000000
+      internalID: 163639202160316581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fondo oscuro para fila de evento-14_19
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 130
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6148a27c4085a0f0800000000000000
+      internalID: -1106337067620089493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fondo oscuro para fila de evento-14_20
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 128
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cab1a33d2e17e95c0800000000000000
+      internalID: -4206799782897116244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fondo oscuro para fila de evento-14_21
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 134
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b472053f56273540800000000000000
+      internalID: 4987497302689215673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fondo oscuro para fila de evento-14_22
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 111
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01b522ca48866e060800000000000000
+      internalID: 6982383191317437200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fondo oscuro para fila de evento-14_23
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 114
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c7bb64f61c9a0470800000000000000
+      internalID: 8361667280570660808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fondo oscuro para fila de evento-14_24
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 112
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9cd68d3c4b9b3250800000000000000
+      internalID: 5925500486488087708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Fondo oscuro para fila de evento-14_0: -7480321049115745918
+      Fondo oscuro para fila de evento-14_1: -366973111135430430
+      Fondo oscuro para fila de evento-14_10: 5195016320254414959
+      Fondo oscuro para fila de evento-14_11: -4456420227616012985
+      Fondo oscuro para fila de evento-14_12: -7595826818854405566
+      Fondo oscuro para fila de evento-14_13: 1166626994030595855
+      Fondo oscuro para fila de evento-14_14: 8935731187092820848
+      Fondo oscuro para fila de evento-14_15: 602718887776450994
+      Fondo oscuro para fila de evento-14_16: -8179375657600952179
+      Fondo oscuro para fila de evento-14_17: -8050692755765523817
+      Fondo oscuro para fila de evento-14_18: 163639202160316581
+      Fondo oscuro para fila de evento-14_19: -1106337067620089493
+      Fondo oscuro para fila de evento-14_2: 3653473362188605800
+      Fondo oscuro para fila de evento-14_20: -4206799782897116244
+      Fondo oscuro para fila de evento-14_21: 4987497302689215673
+      Fondo oscuro para fila de evento-14_22: 6982383191317437200
+      Fondo oscuro para fila de evento-14_23: 8361667280570660808
+      Fondo oscuro para fila de evento-14_24: 5925500486488087708
+      Fondo oscuro para fila de evento-14_3: 7215603228573305935
+      Fondo oscuro para fila de evento-14_4: -9202662835011164251
+      Fondo oscuro para fila de evento-14_5: 5320637999818473759
+      Fondo oscuro para fila de evento-14_6: -3414911028188782802
+      Fondo oscuro para fila de evento-14_7: 7375818054516676345
+      Fondo oscuro para fila de evento-14_8: -9048207854357434924
+      Fondo oscuro para fila de evento-14_9: 67102589689055965
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

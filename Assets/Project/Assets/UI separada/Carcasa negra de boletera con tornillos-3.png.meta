@@ -1,0 +1,377 @@
+fileFormatVersion: 2
+guid: 07585e57933aa8c4aa80013f463a98f0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6017413947676440554
+    second: Carcasa negra de boletera con tornillos-3_0
+  - first:
+      213: 6852945425547039440
+    second: Carcasa negra de boletera con tornillos-3_1
+  - first:
+      213: -3541833774065084473
+    second: Carcasa negra de boletera con tornillos-3_2
+  - first:
+      213: 8077161298652431387
+    second: Carcasa negra de boletera con tornillos-3_3
+  - first:
+      213: 6173697806271702213
+    second: Carcasa negra de boletera con tornillos-3_4
+  - first:
+      213: 8251728316691636474
+    second: Carcasa negra de boletera con tornillos-3_5
+  - first:
+      213: 6360288184866724849
+    second: Carcasa negra de boletera con tornillos-3_6
+  - first:
+      213: -1664388675691166353
+    second: Carcasa negra de boletera con tornillos-3_7
+  - first:
+      213: -5441609902761127443
+    second: Carcasa negra de boletera con tornillos-3_8
+  - first:
+      213: -6214248641871687241
+    second: Carcasa negra de boletera con tornillos-3_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Carcasa negra de boletera con tornillos-3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 34
+        width: 1054
+        height: 1422
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae73cb19a16228350800000000000000
+      internalID: 6017413947676440554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carcasa negra de boletera con tornillos-3_1
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d29eda5e8d8a1f50800000000000000
+      internalID: 6852945425547039440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carcasa negra de boletera con tornillos-3_2
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 13
+        width: 169
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c79e5ba2f0e8dec0800000000000000
+      internalID: -3541833774065084473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carcasa negra de boletera con tornillos-3_3
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 35
+        width: 55
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1406bf0867d71070800000000000000
+      internalID: 8077161298652431387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carcasa negra de boletera con tornillos-3_4
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 31
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c4ee65f1716da550800000000000000
+      internalID: 6173697806271702213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carcasa negra de boletera con tornillos-3_5
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 0
+        width: 251
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af0ef6b3f27048270800000000000000
+      internalID: 8251728316691636474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carcasa negra de boletera con tornillos-3_6
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 37
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fb5818e768444850800000000000000
+      internalID: 6360288184866724849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carcasa negra de boletera con tornillos-3_7
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 0
+        width: 90
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f65ce395157e6e8e0800000000000000
+      internalID: -1664388675691166353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carcasa negra de boletera con tornillos-3_8
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 35
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de1dca3df948b74b0800000000000000
+      internalID: -5441609902761127443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carcasa negra de boletera con tornillos-3_9
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 31
+        width: 51
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b1d843e8cd82c9a0800000000000000
+      internalID: -6214248641871687241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Carcasa negra de boletera con tornillos-3_0: 6017413947676440554
+      Carcasa negra de boletera con tornillos-3_1: 6852945425547039440
+      Carcasa negra de boletera con tornillos-3_2: -3541833774065084473
+      Carcasa negra de boletera con tornillos-3_3: 8077161298652431387
+      Carcasa negra de boletera con tornillos-3_4: 6173697806271702213
+      Carcasa negra de boletera con tornillos-3_5: 8251728316691636474
+      Carcasa negra de boletera con tornillos-3_6: 6360288184866724849
+      Carcasa negra de boletera con tornillos-3_7: -1664388675691166353
+      Carcasa negra de boletera con tornillos-3_8: -5441609902761127443
+      Carcasa negra de boletera con tornillos-3_9: -6214248641871687241
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

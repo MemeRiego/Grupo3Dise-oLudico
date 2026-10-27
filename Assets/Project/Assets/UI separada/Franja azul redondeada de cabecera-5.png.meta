@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: f2a62a9cbcc942c48a1b388344a6b4dd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7926952294985958745
+    second: Franja azul redondeada de cabecera-5_0
+  - first:
+      213: 5686234455614991530
+    second: Franja azul redondeada de cabecera-5_1
+  - first:
+      213: 4824318572863164693
+    second: Franja azul redondeada de cabecera-5_2
+  - first:
+      213: 8897016069327263709
+    second: Franja azul redondeada de cabecera-5_3
+  - first:
+      213: -6631954429015903561
+    second: Franja azul redondeada de cabecera-5_4
+  - first:
+      213: -9018608709686433264
+    second: Franja azul redondeada de cabecera-5_5
+  - first:
+      213: -2734805615372604061
+    second: Franja azul redondeada de cabecera-5_6
+  - first:
+      213: -5523648383301374037
+    second: Franja azul redondeada de cabecera-5_7
+  - first:
+      213: 1232782189990115125
+    second: Franja azul redondeada de cabecera-5_8
+  - first:
+      213: -3906194661348166891
+    second: Franja azul redondeada de cabecera-5_9
+  - first:
+      213: 3174694652174564337
+    second: Franja azul redondeada de cabecera-5_10
+  - first:
+      213: 7906289699523255194
+    second: Franja azul redondeada de cabecera-5_11
+  - first:
+      213: 6284056320221604582
+    second: Franja azul redondeada de cabecera-5_12
+  - first:
+      213: 5441386312586665111
+    second: Franja azul redondeada de cabecera-5_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Franja azul redondeada de cabecera-5_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2140
+        height: 727
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aaf4e1f2eecdf190800000000000000
+      internalID: -7926952294985958745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Franja azul redondeada de cabecera-5_1
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 722
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaca4844c1099ee40800000000000000
+      internalID: 5686234455614991530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Franja azul redondeada de cabecera-5_2
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 707
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51114d28e2c63f240800000000000000
+      internalID: 4824318572863164693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Franja azul redondeada de cabecera-5_3
+      rect:
+        serializedVersion: 2
+        x: 1714
+        y: 718
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd791350afc887b70800000000000000
+      internalID: 8897016069327263709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Franja azul redondeada de cabecera-5_4
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 701
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b2bdeb959096f3a0800000000000000
+      internalID: -6631954429015903561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Franja azul redondeada de cabecera-5_5
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 685
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01a65e2492777d280800000000000000
+      internalID: -9018608709686433264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Franja azul redondeada de cabecera-5_6
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 701
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36de8fd48c40c0ad0800000000000000
+      internalID: -2734805615372604061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Franja azul redondeada de cabecera-5_7
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 703
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baf29299f0f0853b0800000000000000
+      internalID: -5523648383301374037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Franja azul redondeada de cabecera-5_8
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 687
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 537f9c7ced8bb1110800000000000000
+      internalID: 1232782189990115125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Franja azul redondeada de cabecera-5_9
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 685
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 513b0d2c6a86ac9c0800000000000000
+      internalID: -3906194661348166891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Franja azul redondeada de cabecera-5_10
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 685
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fb723547f7ce0c20800000000000000
+      internalID: 3174694652174564337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Franja azul redondeada de cabecera-5_11
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 683
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9bd967a798c8bd60800000000000000
+      internalID: 7906289699523255194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Franja azul redondeada de cabecera-5_12
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 36
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ea6b5bcde3753750800000000000000
+      internalID: 6284056320221604582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Franja azul redondeada de cabecera-5_13
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 16
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79c96678500b38b40800000000000000
+      internalID: 5441386312586665111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Franja azul redondeada de cabecera-5_0: -7926952294985958745
+      Franja azul redondeada de cabecera-5_1: 5686234455614991530
+      Franja azul redondeada de cabecera-5_10: 3174694652174564337
+      Franja azul redondeada de cabecera-5_11: 7906289699523255194
+      Franja azul redondeada de cabecera-5_12: 6284056320221604582
+      Franja azul redondeada de cabecera-5_13: 5441386312586665111
+      Franja azul redondeada de cabecera-5_2: 4824318572863164693
+      Franja azul redondeada de cabecera-5_3: 8897016069327263709
+      Franja azul redondeada de cabecera-5_4: -6631954429015903561
+      Franja azul redondeada de cabecera-5_5: -9018608709686433264
+      Franja azul redondeada de cabecera-5_6: -2734805615372604061
+      Franja azul redondeada de cabecera-5_7: -5523648383301374037
+      Franja azul redondeada de cabecera-5_8: 1232782189990115125
+      Franja azul redondeada de cabecera-5_9: -3906194661348166891
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

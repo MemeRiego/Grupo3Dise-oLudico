@@ -1,0 +1,377 @@
+fileFormatVersion: 2
+guid: 0787e89cbea2d0647b9af8aeb60f577b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4908804091889911390
+    second: "Segmento dorado de reputaci\xF3n-46_0"
+  - first:
+      213: 2514100930838560934
+    second: "Segmento dorado de reputaci\xF3n-46_1"
+  - first:
+      213: 3403549819376432414
+    second: "Segmento dorado de reputaci\xF3n-46_2"
+  - first:
+      213: 6465931552615201544
+    second: "Segmento dorado de reputaci\xF3n-46_3"
+  - first:
+      213: 7556191081769522254
+    second: "Segmento dorado de reputaci\xF3n-46_4"
+  - first:
+      213: -4213344928758819263
+    second: "Segmento dorado de reputaci\xF3n-46_5"
+  - first:
+      213: 7063206429428319457
+    second: "Segmento dorado de reputaci\xF3n-46_6"
+  - first:
+      213: -6765670367353747039
+    second: "Segmento dorado de reputaci\xF3n-46_7"
+  - first:
+      213: 828898764096438770
+    second: "Segmento dorado de reputaci\xF3n-46_8"
+  - first:
+      213: -4338776020988434360
+    second: "Segmento dorado de reputaci\xF3n-46_9"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Segmento dorado de reputaci\xF3n-46_0"
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 40
+        width: 1760
+        height: 636
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e56051940539f1440800000000000000
+      internalID: 4908804091889911390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Segmento dorado de reputaci\xF3n-46_1"
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 667
+        width: 90
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a08c10f971e3e220800000000000000
+      internalID: 2514100930838560934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Segmento dorado de reputaci\xF3n-46_2"
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 610
+        width: 56
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e15f6472786db3f20800000000000000
+      internalID: 3403549819376432414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Segmento dorado de reputaci\xF3n-46_3"
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 667
+        width: 40
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80b7e973d7a9bb950800000000000000
+      internalID: 6465931552615201544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Segmento dorado de reputaci\xF3n-46_4"
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 665
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e44d8d321cbfcd860800000000000000
+      internalID: 7556191081769522254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Segmento dorado de reputaci\xF3n-46_5"
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 667
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 146132d4c113785c0800000000000000
+      internalID: -4213344928758819263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Segmento dorado de reputaci\xF3n-46_6"
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 661
+        width: 70
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e4845933dc850260800000000000000
+      internalID: 7063206429428319457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Segmento dorado de reputaci\xF3n-46_7"
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 667
+        width: 217
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a94e7e95a28b12a0800000000000000
+      internalID: -6765670367353747039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Segmento dorado de reputaci\xF3n-46_8"
+      rect:
+        serializedVersion: 2
+        x: 2031
+        y: 420
+        width: 59
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f18ab4c807d08b00800000000000000
+      internalID: 828898764096438770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Segmento dorado de reputaci\xF3n-46_9"
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 602
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 848600d523299c3c0800000000000000
+      internalID: -4338776020988434360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Segmento dorado de reputaci\xF3n-46_0": 4908804091889911390
+      "Segmento dorado de reputaci\xF3n-46_1": 2514100930838560934
+      "Segmento dorado de reputaci\xF3n-46_2": 3403549819376432414
+      "Segmento dorado de reputaci\xF3n-46_3": 6465931552615201544
+      "Segmento dorado de reputaci\xF3n-46_4": 7556191081769522254
+      "Segmento dorado de reputaci\xF3n-46_5": -4213344928758819263
+      "Segmento dorado de reputaci\xF3n-46_6": 7063206429428319457
+      "Segmento dorado de reputaci\xF3n-46_7": -6765670367353747039
+      "Segmento dorado de reputaci\xF3n-46_8": 828898764096438770
+      "Segmento dorado de reputaci\xF3n-46_9": -4338776020988434360
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

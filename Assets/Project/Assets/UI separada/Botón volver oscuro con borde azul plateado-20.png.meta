@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: f3bd4c966d12f864f831c43335907108
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1372913445385647484
+    second: "Bot\xF3n volver oscuro con borde azul plateado-20_0"
+  - first:
+      213: -5585258294643892314
+    second: "Bot\xF3n volver oscuro con borde azul plateado-20_1"
+  - first:
+      213: -835858646782431853
+    second: "Bot\xF3n volver oscuro con borde azul plateado-20_2"
+  - first:
+      213: 2267884948982104212
+    second: "Bot\xF3n volver oscuro con borde azul plateado-20_3"
+  - first:
+      213: 1041520202075123822
+    second: "Bot\xF3n volver oscuro con borde azul plateado-20_4"
+  - first:
+      213: 5520825032464033058
+    second: "Bot\xF3n volver oscuro con borde azul plateado-20_5"
+  - first:
+      213: -7164780048479289352
+    second: "Bot\xF3n volver oscuro con borde azul plateado-20_6"
+  - first:
+      213: 3237432056024405878
+    second: "Bot\xF3n volver oscuro con borde azul plateado-20_7"
+  - first:
+      213: 7178035470096269010
+    second: "Bot\xF3n volver oscuro con borde azul plateado-20_8"
+  - first:
+      213: -8520274658333812933
+    second: "Bot\xF3n volver oscuro con borde azul plateado-20_9"
+  - first:
+      213: -6984694533253476867
+    second: "Bot\xF3n volver oscuro con borde azul plateado-20_10"
+  - first:
+      213: 7020081460098212252
+    second: "Bot\xF3n volver oscuro con borde azul plateado-20_11"
+  - first:
+      213: -699033455972621053
+    second: "Bot\xF3n volver oscuro con borde azul plateado-20_12"
+  - first:
+      213: 7110495364826277246
+    second: "Bot\xF3n volver oscuro con borde azul plateado-20_13"
+  - first:
+      213: 3678359597616728795
+    second: "Bot\xF3n volver oscuro con borde azul plateado-20_14"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Bot\xF3n volver oscuro con borde azul plateado-20_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2180
+        height: 699
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48a4e64de7e62fce0800000000000000
+      internalID: -1372913445385647484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n volver oscuro con borde azul plateado-20_1"
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 683
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6af52f84c2d2d72b0800000000000000
+      internalID: -5585258294643892314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n volver oscuro con borde azul plateado-20_2"
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 681
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39d28144dfe6664f0800000000000000
+      internalID: -835858646782431853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n volver oscuro con borde azul plateado-20_3"
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 686
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49088876855297f10800000000000000
+      internalID: 2267884948982104212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n volver oscuro con borde azul plateado-20_4"
+      rect:
+        serializedVersion: 2
+        x: 1828
+        y: 684
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e60b4170b19347e00800000000000000
+      internalID: 1041520202075123822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n volver oscuro con borde azul plateado-20_5"
+      rect:
+        serializedVersion: 2
+        x: 1846
+        y: 681
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2256a1fcd19ed9c40800000000000000
+      internalID: 5520825032464033058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n volver oscuro con borde azul plateado-20_6"
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 681
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fff59ca186919c90800000000000000
+      internalID: -7164780048479289352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n volver oscuro con borde azul plateado-20_7"
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 82
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6771cc36d4badec20800000000000000
+      internalID: 3237432056024405878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n volver oscuro con borde azul plateado-20_8"
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 80
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2defd3caa318d9360800000000000000
+      internalID: 7178035470096269010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n volver oscuro con borde azul plateado-20_9"
+      rect:
+        serializedVersion: 2
+        x: 1739
+        y: 80
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3710413757e1c980800000000000000
+      internalID: -8520274658333812933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n volver oscuro con borde azul plateado-20_10"
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 88
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfd40d81451611f90800000000000000
+      internalID: -6984694533253476867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n volver oscuro con borde azul plateado-20_11"
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 66
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c91a57bd4e65c6160800000000000000
+      internalID: 7020081460098212252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n volver oscuro con borde azul plateado-20_12"
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 59
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30563a286c88c46f0800000000000000
+      internalID: -699033455972621053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n volver oscuro con borde azul plateado-20_13"
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 66
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e75288d7cdd8da260800000000000000
+      internalID: 7110495364826277246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Bot\xF3n volver oscuro con borde azul plateado-20_14"
+      rect:
+        serializedVersion: 2
+        x: 1647
+        y: 48
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bda0814b0982c0330800000000000000
+      internalID: 3678359597616728795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Bot\xF3n volver oscuro con borde azul plateado-20_0": -1372913445385647484
+      "Bot\xF3n volver oscuro con borde azul plateado-20_1": -5585258294643892314
+      "Bot\xF3n volver oscuro con borde azul plateado-20_10": -6984694533253476867
+      "Bot\xF3n volver oscuro con borde azul plateado-20_11": 7020081460098212252
+      "Bot\xF3n volver oscuro con borde azul plateado-20_12": -699033455972621053
+      "Bot\xF3n volver oscuro con borde azul plateado-20_13": 7110495364826277246
+      "Bot\xF3n volver oscuro con borde azul plateado-20_14": 3678359597616728795
+      "Bot\xF3n volver oscuro con borde azul plateado-20_2": -835858646782431853
+      "Bot\xF3n volver oscuro con borde azul plateado-20_3": 2267884948982104212
+      "Bot\xF3n volver oscuro con borde azul plateado-20_4": 1041520202075123822
+      "Bot\xF3n volver oscuro con borde azul plateado-20_5": 5520825032464033058
+      "Bot\xF3n volver oscuro con borde azul plateado-20_6": -7164780048479289352
+      "Bot\xF3n volver oscuro con borde azul plateado-20_7": 3237432056024405878
+      "Bot\xF3n volver oscuro con borde azul plateado-20_8": 7178035470096269010
+      "Bot\xF3n volver oscuro con borde azul plateado-20_9": -8520274658333812933
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

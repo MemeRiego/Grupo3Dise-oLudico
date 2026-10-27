@@ -1,0 +1,1053 @@
+fileFormatVersion: 2
+guid: 458ab0ffa1bc17f4ab0e570f612d1bb3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2999396865500895989
+    second: "Placa met\xE1lica negra con cuatro tornillos-11_0"
+  - first:
+      213: 6721952526542384389
+    second: "Placa met\xE1lica negra con cuatro tornillos-11_1"
+  - first:
+      213: -3983816109911585480
+    second: "Placa met\xE1lica negra con cuatro tornillos-11_2"
+  - first:
+      213: -9006224398753397324
+    second: "Placa met\xE1lica negra con cuatro tornillos-11_3"
+  - first:
+      213: -3342334101617210740
+    second: "Placa met\xE1lica negra con cuatro tornillos-11_4"
+  - first:
+      213: 4289490196165891371
+    second: "Placa met\xE1lica negra con cuatro tornillos-11_5"
+  - first:
+      213: 5523962517613939172
+    second: "Placa met\xE1lica negra con cuatro tornillos-11_6"
+  - first:
+      213: -2963571711270476181
+    second: "Placa met\xE1lica negra con cuatro tornillos-11_7"
+  - first:
+      213: 2116182544810508632
+    second: "Placa met\xE1lica negra con cuatro tornillos-11_8"
+  - first:
+      213: -244025045150067443
+    second: "Placa met\xE1lica negra con cuatro tornillos-11_9"
+  - first:
+      213: -2822992627099803477
+    second: "Placa met\xE1lica negra con cuatro tornillos-11_10"
+  - first:
+      213: 8475552541867474399
+    second: "Placa met\xE1lica negra con cuatro tornillos-11_11"
+  - first:
+      213: 8684379977319767362
+    second: "Placa met\xE1lica negra con cuatro tornillos-11_12"
+  - first:
+      213: 3185792173666062228
+    second: "Placa met\xE1lica negra con cuatro tornillos-11_13"
+  - first:
+      213: 5137644203042570468
+    second: "Placa met\xE1lica negra con cuatro tornillos-11_14"
+  - first:
+      213: -4795314074673410899
+    second: "Placa met\xE1lica negra con cuatro tornillos-11_15"
+  - first:
+      213: 4924597849925983761
+    second: "Placa met\xE1lica negra con cuatro tornillos-11_16"
+  - first:
+      213: -2803987124702676040
+    second: "Placa met\xE1lica negra con cuatro tornillos-11_17"
+  - first:
+      213: -6121627679724501074
+    second: "Placa met\xE1lica negra con cuatro tornillos-11_18"
+  - first:
+      213: -7662883400985362385
+    second: "Placa met\xE1lica negra con cuatro tornillos-11_19"
+  - first:
+      213: -5266760157876656248
+    second: "Placa met\xE1lica negra con cuatro tornillos-11_20"
+  - first:
+      213: 1923604647207447301
+    second: "Placa met\xE1lica negra con cuatro tornillos-11_21"
+  - first:
+      213: -7393075133345628719
+    second: "Placa met\xE1lica negra con cuatro tornillos-11_22"
+  - first:
+      213: -3934214833958340139
+    second: "Placa met\xE1lica negra con cuatro tornillos-11_23"
+  - first:
+      213: -8637564091865152094
+    second: "Placa met\xE1lica negra con cuatro tornillos-11_24"
+  - first:
+      213: -2945944758307685444
+    second: "Placa met\xE1lica negra con cuatro tornillos-11_25"
+  - first:
+      213: -7132931760498981615
+    second: "Placa met\xE1lica negra con cuatro tornillos-11_26"
+  - first:
+      213: 2919108395736145438
+    second: "Placa met\xE1lica negra con cuatro tornillos-11_27"
+  - first:
+      213: -789368625422545002
+    second: "Placa met\xE1lica negra con cuatro tornillos-11_28"
+  - first:
+      213: 3593495702335247571
+    second: "Placa met\xE1lica negra con cuatro tornillos-11_29"
+  - first:
+      213: 5550299197968932266
+    second: "Placa met\xE1lica negra con cuatro tornillos-11_30"
+  - first:
+      213: -6747210343444533737
+    second: "Placa met\xE1lica negra con cuatro tornillos-11_31"
+  - first:
+      213: 7234590534934250475
+    second: "Placa met\xE1lica negra con cuatro tornillos-11_32"
+  - first:
+      213: 177780669702056574
+    second: "Placa met\xE1lica negra con cuatro tornillos-11_33"
+  - first:
+      213: -526599851644104348
+    second: "Placa met\xE1lica negra con cuatro tornillos-11_34"
+  - first:
+      213: -5427099152555478647
+    second: "Placa met\xE1lica negra con cuatro tornillos-11_35"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Placa met\xE1lica negra con cuatro tornillos-11_0"
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 72
+        width: 2069
+        height: 666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fad994ce8fff9920800000000000000
+      internalID: 2999396865500895989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Placa met\xE1lica negra con cuatro tornillos-11_1"
+      rect:
+        serializedVersion: 2
+        x: 1849
+        y: 711
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50d299d553c294d50800000000000000
+      internalID: 6721952526542384389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Placa met\xE1lica negra con cuatro tornillos-11_2"
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 158
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83dcd3eea54a6b8c0800000000000000
+      internalID: -3983816109911585480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Placa met\xE1lica negra con cuatro tornillos-11_3"
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 158
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b509d850a6730380800000000000000
+      internalID: -9006224398753397324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Placa met\xE1lica negra con cuatro tornillos-11_4"
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 176
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8a8e60d7d4ad91d0800000000000000
+      internalID: -3342334101617210740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Placa met\xE1lica negra con cuatro tornillos-11_5"
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 158
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b251df15b94578b30800000000000000
+      internalID: 4289490196165891371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Placa met\xE1lica negra con cuatro tornillos-11_6"
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 175
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e983fe74ae09ac40800000000000000
+      internalID: 5523962517613939172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Placa met\xE1lica negra con cuatro tornillos-11_7"
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 160
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b66a353fa374fd6d0800000000000000
+      internalID: -2963571711270476181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Placa met\xE1lica negra con cuatro tornillos-11_8"
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 163
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 851005fffc03e5d10800000000000000
+      internalID: 2116182544810508632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Placa met\xE1lica negra con cuatro tornillos-11_9"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 144
+        width: 54
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d05188ba38c0d9cf0800000000000000
+      internalID: -244025045150067443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Placa met\xE1lica negra con cuatro tornillos-11_10"
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 136
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba06b2a9927b2d8d0800000000000000
+      internalID: -2822992627099803477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Placa met\xE1lica negra con cuatro tornillos-11_11"
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 145
+        width: 49
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdd7b25a1263f9570800000000000000
+      internalID: 8475552541867474399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Placa met\xE1lica negra con cuatro tornillos-11_12"
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 160
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24dd8aad39d158870800000000000000
+      internalID: 8684379977319767362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Placa met\xE1lica negra con cuatro tornillos-11_13"
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 158
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49fc5975a15363c20800000000000000
+      internalID: 3185792173666062228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Placa met\xE1lica negra con cuatro tornillos-11_14"
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 146
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e082b8ae249c4740800000000000000
+      internalID: 5137644203042570468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Placa met\xE1lica negra con cuatro tornillos-11_15"
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 146
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dac09a8714f937db0800000000000000
+      internalID: -4795314074673410899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Placa met\xE1lica negra con cuatro tornillos-11_16"
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 142
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11e9d7227afa75440800000000000000
+      internalID: 4924597849925983761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Placa met\xE1lica negra con cuatro tornillos-11_17"
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 140
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bbf355f09c3619d0800000000000000
+      internalID: -2803987124702676040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Placa met\xE1lica negra con cuatro tornillos-11_18"
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 128
+        width: 45
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea782de1f0c9b0ba0800000000000000
+      internalID: -6121627679724501074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Placa met\xE1lica negra con cuatro tornillos-11_19"
+      rect:
+        serializedVersion: 2
+        x: 1734
+        y: 142
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f20c7018528f7a590800000000000000
+      internalID: -7662883400985362385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Placa met\xE1lica negra con cuatro tornillos-11_20"
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 128
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 887e4987a85b8e6b0800000000000000
+      internalID: -5266760157876656248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Placa met\xE1lica negra con cuatro tornillos-11_21"
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 136
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50b27152c3402ba10800000000000000
+      internalID: 1923604647207447301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Placa met\xE1lica negra con cuatro tornillos-11_22"
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 136
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ddf82f1655866990800000000000000
+      internalID: -7393075133345628719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Placa met\xE1lica negra con cuatro tornillos-11_23"
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 132
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d937dfe37cd669c0800000000000000
+      internalID: -3934214833958340139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Placa met\xE1lica negra con cuatro tornillos-11_24"
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 130
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a545b3e835312880800000000000000
+      internalID: -8637564091865152094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Placa met\xE1lica negra con cuatro tornillos-11_25"
+      rect:
+        serializedVersion: 2
+        x: 1967
+        y: 129
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbb7521c9d6ed17d0800000000000000
+      internalID: -2945944758307685444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Placa met\xE1lica negra con cuatro tornillos-11_26"
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 112
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1154b501b5cb20d90800000000000000
+      internalID: -7132931760498981615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Placa met\xE1lica negra con cuatro tornillos-11_27"
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 111
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1e96bcae91c28820800000000000000
+      internalID: 2919108395736145438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Placa met\xE1lica negra con cuatro tornillos-11_28"
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 110
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69fc9dcda699b05f0800000000000000
+      internalID: -789368625422545002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Placa met\xE1lica negra con cuatro tornillos-11_29"
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 110
+        width: 37
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d4d5975d49aed130800000000000000
+      internalID: 3593495702335247571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Placa met\xE1lica negra con cuatro tornillos-11_30"
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 112
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aadd21cb6bf960d40800000000000000
+      internalID: 5550299197968932266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Placa met\xE1lica negra con cuatro tornillos-11_31"
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 114
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71ea52ed0f71d52a0800000000000000
+      internalID: -6747210343444533737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Placa met\xE1lica negra con cuatro tornillos-11_32"
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 108
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be3c822d2cd666460800000000000000
+      internalID: 7234590534934250475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Placa met\xE1lica negra con cuatro tornillos-11_33"
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 112
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7aa581c39a977200800000000000000
+      internalID: 177780669702056574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Placa met\xE1lica negra con cuatro tornillos-11_34"
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 103
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 461daf7993421b8f0800000000000000
+      internalID: -526599851644104348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Placa met\xE1lica negra con cuatro tornillos-11_35"
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 80
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9817b1323121fa4b0800000000000000
+      internalID: -5427099152555478647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Placa met\xE1lica negra con cuatro tornillos-11_0": 2999396865500895989
+      "Placa met\xE1lica negra con cuatro tornillos-11_1": 6721952526542384389
+      "Placa met\xE1lica negra con cuatro tornillos-11_10": -2822992627099803477
+      "Placa met\xE1lica negra con cuatro tornillos-11_11": 8475552541867474399
+      "Placa met\xE1lica negra con cuatro tornillos-11_12": 8684379977319767362
+      "Placa met\xE1lica negra con cuatro tornillos-11_13": 3185792173666062228
+      "Placa met\xE1lica negra con cuatro tornillos-11_14": 5137644203042570468
+      "Placa met\xE1lica negra con cuatro tornillos-11_15": -4795314074673410899
+      "Placa met\xE1lica negra con cuatro tornillos-11_16": 4924597849925983761
+      "Placa met\xE1lica negra con cuatro tornillos-11_17": -2803987124702676040
+      "Placa met\xE1lica negra con cuatro tornillos-11_18": -6121627679724501074
+      "Placa met\xE1lica negra con cuatro tornillos-11_19": -7662883400985362385
+      "Placa met\xE1lica negra con cuatro tornillos-11_2": -3983816109911585480
+      "Placa met\xE1lica negra con cuatro tornillos-11_20": -5266760157876656248
+      "Placa met\xE1lica negra con cuatro tornillos-11_21": 1923604647207447301
+      "Placa met\xE1lica negra con cuatro tornillos-11_22": -7393075133345628719
+      "Placa met\xE1lica negra con cuatro tornillos-11_23": -3934214833958340139
+      "Placa met\xE1lica negra con cuatro tornillos-11_24": -8637564091865152094
+      "Placa met\xE1lica negra con cuatro tornillos-11_25": -2945944758307685444
+      "Placa met\xE1lica negra con cuatro tornillos-11_26": -7132931760498981615
+      "Placa met\xE1lica negra con cuatro tornillos-11_27": 2919108395736145438
+      "Placa met\xE1lica negra con cuatro tornillos-11_28": -789368625422545002
+      "Placa met\xE1lica negra con cuatro tornillos-11_29": 3593495702335247571
+      "Placa met\xE1lica negra con cuatro tornillos-11_3": -9006224398753397324
+      "Placa met\xE1lica negra con cuatro tornillos-11_30": 5550299197968932266
+      "Placa met\xE1lica negra con cuatro tornillos-11_31": -6747210343444533737
+      "Placa met\xE1lica negra con cuatro tornillos-11_32": 7234590534934250475
+      "Placa met\xE1lica negra con cuatro tornillos-11_33": 177780669702056574
+      "Placa met\xE1lica negra con cuatro tornillos-11_34": -526599851644104348
+      "Placa met\xE1lica negra con cuatro tornillos-11_35": -5427099152555478647
+      "Placa met\xE1lica negra con cuatro tornillos-11_4": -3342334101617210740
+      "Placa met\xE1lica negra con cuatro tornillos-11_5": 4289490196165891371
+      "Placa met\xE1lica negra con cuatro tornillos-11_6": 5523962517613939172
+      "Placa met\xE1lica negra con cuatro tornillos-11_7": -2963571711270476181
+      "Placa met\xE1lica negra con cuatro tornillos-11_8": 2116182544810508632
+      "Placa met\xE1lica negra con cuatro tornillos-11_9": -244025045150067443
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
