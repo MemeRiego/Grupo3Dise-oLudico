@@ -159,10 +159,10 @@ TextureImporter:
       name: Atlas modular de fondos y marcos UI_2
       rect:
         serializedVersion: 2
-        x: 1404
-        y: 44
-        width: 56
-        height: 54
+        x: 1409
+        y: 48
+        width: 44
+        height: 45
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,10 +203,10 @@ TextureImporter:
       name: Atlas modular de fondos y marcos UI_4
       rect:
         serializedVersion: 2
-        x: 1572
-        y: 33
-        width: 69
-        height: 73
+        x: 1577
+        y: 43
+        width: 58
+        height: 59
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -318,7 +318,7 @@ TextureImporter:
         width: 99
         height: 91
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -327,6 +327,50 @@ TextureImporter:
       bones: []
       spriteID: 5d0052e1c2095eb4f9e09012e7857687
       internalID: -758350352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas modular de fondos y marcos UI_10
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 181
+        width: 126
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e130b7e2ef5cdf9488f4a4ae78a532f5
+      internalID: 1384135383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas modular de fondos y marcos UI_11
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 537
+        width: 986
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ffa6c8401d5a5479302dfd58030e72
+      internalID: -1141475844
       vertices: []
       indices: 
       edges: []
@@ -347,6 +391,8 @@ TextureImporter:
     nameFileIdTable:
       Atlas modular de fondos y marcos UI_0: 6248230284607237491
       Atlas modular de fondos y marcos UI_1: 572565760437035378
+      Atlas modular de fondos y marcos UI_10: 1384135383
+      Atlas modular de fondos y marcos UI_11: -1141475844
       Atlas modular de fondos y marcos UI_2: 8002269759693577057
       Atlas modular de fondos y marcos UI_3: -2461756947387466125
       Atlas modular de fondos y marcos UI_4: -6259750868822718705
