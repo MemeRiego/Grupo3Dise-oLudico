@@ -4667,7 +4667,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 6068553202478021140}
   m_Direction: 2
   m_Value: 0
-  m_Size: 0.99996465
+  m_Size: 0.99998844
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -6883,7 +6883,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.0002935369, y: 0.00020079598}
+  m_AnchoredPosition: {x: 0.0000363819, y: 0.000063305946}
   m_SizeDelta: {x: 0, y: 300}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &3899973955047716178
@@ -8468,7 +8468,7 @@ MonoBehaviour:
   vehicleBody: {fileID: 0}
   needle: {fileID: 8254138217634008828}
   maxSpeed: 120
-  speedMultiplier: 3.6
+  speedMultiplier: 10
   zeroAngle: 120
   maxAngle: -120
 --- !u!1 &8652484696314958604
@@ -9358,7 +9358,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.14765409, y: 0.19044396}
   m_AnchorMax: {x: 0.8544402, y: 0.9068922}
-  m_AnchoredPosition: {x: -0.00006866455, y: 33.2}
+  m_AnchoredPosition: {x: 0, y: 37.5}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.26}
 --- !u!222 &7155424770521556967
