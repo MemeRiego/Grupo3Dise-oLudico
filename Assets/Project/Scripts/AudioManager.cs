@@ -4,6 +4,11 @@ using UnityEngine.Audio;
 public class AudioManager : MonoBehaviour
 {
     public static AudioManager Instance { get; private set; }
+    public float MasterVolume => masterVolume;
+    public float MusicVolume => musicVolume;
+    public float UIVolume => uiVolume;
+    public float SFXVolume => vfxVolume;
+    public float VehiclesVolume => vehiclesVolume;
 
 
     [Header("Referencias")]
