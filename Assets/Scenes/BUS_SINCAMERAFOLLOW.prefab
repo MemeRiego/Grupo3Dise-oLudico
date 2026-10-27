@@ -42,9 +42,11 @@ GameObject:
   m_Component:
   - component: {fileID: 4143711362961013703}
   - component: {fileID: 4572070269482942390}
-  - component: {fileID: 2182034658643845307}
   - component: {fileID: 2978540358081623615}
   - component: {fileID: 7434979326398571880}
+  - component: {fileID: 7900070814632440910}
+  - component: {fileID: 7591252704862123837}
+  - component: {fileID: 97428577637266612}
   m_Layer: 0
   m_Name: Bus
   m_TagString: Player
@@ -130,26 +132,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &2182034658643845307
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2030073864829134553}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4f62996fdc6be14293e65fcb725305e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BusControllerTests
-  maxSpeed: 8
-  reverseSpeed: 3
-  acceleration: 1
-  braking: 8
-  deceleration: 3
-  maxSteeringAngle: 30
-  steeringSpeed: 90
-  wheelbase: 3.4
 --- !u!50 &2978540358081623615
 Rigidbody2D:
   serializedVersion: 5
@@ -223,6 +205,52 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &7900070814632440910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2030073864829134553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 036033f39b6dcc24eb97f9fec841cdb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerBusController
+--- !u!114 &7591252704862123837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2030073864829134553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b5836384c31abd45abf91b2ca38b2c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VehicleController
+  maxSpeed: 8
+  reverseSpeed: 3
+  acceleration: 1
+  braking: 8
+  deceleration: 3
+  maxSteeringAngle: 30
+  steeringSpeed: 90
+  wheelbase: 3.4
+--- !u!114 &97428577637266612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2030073864829134553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8433f6ef07e5e964ea0c52ea512d49eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VehicleWheelVisuals
+  frontLeftWheel: {fileID: 245214188447831294}
+  frontRightWheel: {fileID: 8673138619573305419}
 --- !u!1 &2152694978506940027
 GameObject:
   m_ObjectHideFlags: 0
@@ -249,7 +277,7 @@ Transform:
   m_GameObject: {fileID: 2152694978506940027}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.7, y: -2.280002, z: 0}
+  m_LocalPosition: {x: 1.8, y: -2.280002, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -447,7 +475,7 @@ Transform:
   m_GameObject: {fileID: 2902895765584542222}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.7, y: 5.507, z: 0}
+  m_LocalPosition: {x: 1.8, y: 5.31, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -538,7 +566,7 @@ Transform:
   m_GameObject: {fileID: 3028990529364286227}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.7, y: 5.507, z: 0}
+  m_LocalPosition: {x: -1.8, y: 5.3099995, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -629,7 +657,7 @@ Transform:
   m_GameObject: {fileID: 4269709259038911612}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.7, y: -5.8899984, z: 0}
+  m_LocalPosition: {x: -1.8, y: -5.8899984, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -757,7 +785,7 @@ Transform:
   m_GameObject: {fileID: 6075113104212443799}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.7, y: -2.28, z: 0}
+  m_LocalPosition: {x: -1.8, y: -2.28, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1017,7 +1045,7 @@ Transform:
   m_GameObject: {fileID: 8352747314190148961}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.7, y: -5.89, z: 0}
+  m_LocalPosition: {x: 1.8, y: -5.89, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
