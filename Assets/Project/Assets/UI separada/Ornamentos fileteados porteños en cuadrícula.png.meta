@@ -1,0 +1,816 @@
+fileFormatVersion: 2
+guid: 2a94027d8189ab744a7dc220c25352a4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2153167206395154426
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_0"
+  - first:
+      213: -4403194309645238121
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_1"
+  - first:
+      213: 6421014167650814390
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_2"
+  - first:
+      213: -152911158802534765
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_3"
+  - first:
+      213: 4729364504684426857
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_4"
+  - first:
+      213: 4133095908792074715
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_5"
+  - first:
+      213: 9098034914997293849
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_6"
+  - first:
+      213: 3890210089479821034
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_7"
+  - first:
+      213: -3114048564936181821
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_8"
+  - first:
+      213: -2179484083846096673
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_9"
+  - first:
+      213: 3777694274385575827
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_10"
+  - first:
+      213: -1664304116223731569
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_11"
+  - first:
+      213: 3402809905392581972
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_12"
+  - first:
+      213: -1287899735503821167
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_13"
+  - first:
+      213: -1045750657794645977
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_14"
+  - first:
+      213: -3217099046821073077
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_15"
+  - first:
+      213: -2174758156628298104
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_16"
+  - first:
+      213: 5319322768883671080
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_17"
+  - first:
+      213: -8215097793061003096
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_18"
+  - first:
+      213: 1880705557945160723
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_19"
+  - first:
+      213: -1866826673970307462
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_20"
+  - first:
+      213: 2147942184762982943
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_21"
+  - first:
+      213: 246341991527131787
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_22"
+  - first:
+      213: -4713017651415619552
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_23"
+  - first:
+      213: -3511924951736413151
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_24"
+  - first:
+      213: 5220535931724397841
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_25"
+  - first:
+      213: 44653157280465128
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_26"
+  - first:
+      213: -4130410793585322251
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_27"
+  - first:
+      213: 2984739218279950423
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_28"
+  - first:
+      213: 2713605529437737992
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_29"
+  - first:
+      213: 5655167562374410232
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_30"
+  - first:
+      213: -8500512578140628310
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_31"
+  - first:
+      213: 7509899879708701686
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_32"
+  - first:
+      213: -429192931585776319
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_33"
+  - first:
+      213: 7992796576647110026
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_34"
+  - first:
+      213: 9043002868149710347
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_35"
+  - first:
+      213: 4165331642512368863
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_36"
+  - first:
+      213: -3578695326147256362
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_37"
+  - first:
+      213: -6364221422610984627
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_38"
+  - first:
+      213: -5876209944337515735
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_39"
+  - first:
+      213: -5637286571065274596
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_40"
+  - first:
+      213: -8373906576791956923
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_41"
+  - first:
+      213: 7179333108316967206
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_42"
+  - first:
+      213: 4476694640344027546
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_43"
+  - first:
+      213: 5899866628918007127
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_44"
+  - first:
+      213: 7313350405804132275
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_45"
+  - first:
+      213: 3419493172084653016
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_46"
+  - first:
+      213: 5272891956269615535
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_47"
+  - first:
+      213: 6703618842105293648
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_48"
+  - first:
+      213: 585052148688031452
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_49"
+  - first:
+      213: 6300092787995461769
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_50"
+  - first:
+      213: 4315778916507110832
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_51"
+  - first:
+      213: -1835517552615755346
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_52"
+  - first:
+      213: 4465245462653604
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_53"
+  - first:
+      213: 8895471641319253680
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_54"
+  - first:
+      213: -6877007332236196722
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_55"
+  - first:
+      213: 1784326343072813361
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_56"
+  - first:
+      213: 2283892369422645647
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_57"
+  - first:
+      213: -9075476780850297506
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_58"
+  - first:
+      213: -6545789271467479305
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_59"
+  - first:
+      213: -4902370449419866438
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_60"
+  - first:
+      213: 1416788733065404844
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_61"
+  - first:
+      213: -7646370566118834691
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_62"
+  - first:
+      213: -1491746129185594438
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_63"
+  - first:
+      213: 150649268783823477
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_64"
+  - first:
+      213: 2516189840374645584
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_65"
+  - first:
+      213: -122753336975580856
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_66"
+  - first:
+      213: -3219512252525422845
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_67"
+  - first:
+      213: -9179263786827099225
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_68"
+  - first:
+      213: -8700025470935060890
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_69"
+  - first:
+      213: -8149132475691907158
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_70"
+  - first:
+      213: 5355866775793513843
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_71"
+  - first:
+      213: 5747529261278495067
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_72"
+  - first:
+      213: -663890366747867905
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_73"
+  - first:
+      213: -8098660282665702255
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_74"
+  - first:
+      213: 8052709850596846400
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_75"
+  - first:
+      213: -4299823971158878746
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_76"
+  - first:
+      213: 1940981780110833432
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_77"
+  - first:
+      213: 752403580783988858
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_78"
+  - first:
+      213: 2845751274310528788
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_79"
+  - first:
+      213: -8289068923588290586
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_80"
+  - first:
+      213: -5623611078596787668
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_81"
+  - first:
+      213: -1063803386158006935
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_82"
+  - first:
+      213: 7923749966721515275
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_83"
+  - first:
+      213: -3151005794486614235
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_84"
+  - first:
+      213: 3888339992106316099
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_85"
+  - first:
+      213: -7590922505777772671
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_86"
+  - first:
+      213: 4500625727974198851
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_87"
+  - first:
+      213: 4627557187280067683
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_88"
+  - first:
+      213: 4366876530739105537
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_89"
+  - first:
+      213: 5156346369802893370
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_90"
+  - first:
+      213: -121085852457805865
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_91"
+  - first:
+      213: 3098307287186998757
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_92"
+  - first:
+      213: -4103028484221019638
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_93"
+  - first:
+      213: 3827417119783751665
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_94"
+  - first:
+      213: 3593864536221478868
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_95"
+  - first:
+      213: -6468802267651445016
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_96"
+  - first:
+      213: -366561075295958445
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_97"
+  - first:
+      213: -2510278092201339534
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_98"
+  - first:
+      213: -4309757835903373909
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_99"
+  - first:
+      213: 2252689709012610426
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_100"
+  - first:
+      213: -5656946905373758993
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_101"
+  - first:
+      213: 3581003308982966131
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_102"
+  - first:
+      213: 2154549405900198430
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_103"
+  - first:
+      213: -3657707245956871796
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_104"
+  - first:
+      213: -878253581944457140
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_105"
+  - first:
+      213: -2013028436666008443
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_106"
+  - first:
+      213: 5368113872151747455
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_107"
+  - first:
+      213: -3895337446420888790
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_108"
+  - first:
+      213: 3275719249135888305
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_109"
+  - first:
+      213: -2767154458908652085
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_110"
+  - first:
+      213: -5305327590716351408
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_111"
+  - first:
+      213: -6595500324590002261
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_112"
+  - first:
+      213: -2740781760204888532
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_113"
+  - first:
+      213: 480819996705696509
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_114"
+  - first:
+      213: -9214095784131497487
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_115"
+  - first:
+      213: 1996045447222313832
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_116"
+  - first:
+      213: -932064425117522898
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_117"
+  - first:
+      213: -6966398217267069761
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_118"
+  - first:
+      213: -4047347102442080215
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_119"
+  - first:
+      213: 8070068101379595812
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_120"
+  - first:
+      213: 2932781337597301661
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_121"
+  - first:
+      213: -1413946268704468430
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_122"
+  - first:
+      213: 3075833763420868163
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_123"
+  - first:
+      213: -439216854055743783
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_124"
+  - first:
+      213: 7104888858923623457
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_125"
+  - first:
+      213: -4870405882847114457
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_126"
+  - first:
+      213: 8287029603027494236
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_127"
+  - first:
+      213: -4194087405525209363
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_128"
+  - first:
+      213: 2008721430244060895
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_129"
+  - first:
+      213: 1873403488594244913
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_130"
+  - first:
+      213: -1379698315165506376
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_131"
+  - first:
+      213: -176625121501206959
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_132"
+  - first:
+      213: -7292840546859791250
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_133"
+  - first:
+      213: 7087656253601581818
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_134"
+  - first:
+      213: 8935569038829151130
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_135"
+  - first:
+      213: 6250666740918834009
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_136"
+  - first:
+      213: 7300394599788641745
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_137"
+  - first:
+      213: -5703279843013213336
+    second: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_138"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_0"
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 746
+        width: 296
+        height: 308
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aff043f8a2691ed10800000000000000
+      internalID: 2153167206395154426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_1"
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 746
+        width: 287
+        height: 308
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7900390ca16b4e2c0800000000000000
+      internalID: -4403194309645238121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_2"
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 739
+        width: 283
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b9c3909d560c1950800000000000000
+      internalID: 6421014167650814390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_3"
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 736
+        width: 285
+        height: 303
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39ea1697c10c0edf0800000000000000
+      internalID: -152911158802534765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_8"
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 293
+        width: 139
+        height: 419
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c7f9a1445da8c4d0800000000000000
+      internalID: -3114048564936181821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_9"
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 296
+        width: 138
+        height: 417
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd85cbce5cae0c1e0800000000000000
+      internalID: -2179484083846096673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_10"
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 439
+        width: 365
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39f77ce6de01d6430800000000000000
+      internalID: 3777694274385575827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_11"
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 439
+        width: 333
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f889342693437e8e0800000000000000
+      internalID: -1664304116223731569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_12"
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 34
+        width: 335
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45dfa118495393f20800000000000000
+      internalID: 3402809905392581972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_13"
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 37
+        width: 233
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 196a9fe9306702ee0800000000000000
+      internalID: -1287899735503821167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_14"
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 83
+        width: 398
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 720e48e315fbc71f0800000000000000
+      internalID: -1045750657794645977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_15"
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 49
+        width: 246
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4f6bfa36719a53d0800000000000000
+      internalID: -3217099046821073077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 298ac2404bc5f6d49834f84e84721e28
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":4.0},"gridSpriteSize":{"x":362.0,"y":271.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_0": 2153167206395154426
+      "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_1": -4403194309645238121
+      "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_10": 3777694274385575827
+      "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_11": -1664304116223731569
+      "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_12": 3402809905392581972
+      "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_13": -1287899735503821167
+      "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_14": -1045750657794645977
+      "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_15": -3217099046821073077
+      "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_2": 6421014167650814390
+      "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_3": -152911158802534765
+      "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_4": 4729364504684426857
+      "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_5": 4133095908792074715
+      "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_6": 9098034914997293849
+      "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_7": 3890210089479821034
+      "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_8": -3114048564936181821
+      "Ornamentos fileteados porte\xF1os en cuadr\xEDcula_9": -2179484083846096673
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
