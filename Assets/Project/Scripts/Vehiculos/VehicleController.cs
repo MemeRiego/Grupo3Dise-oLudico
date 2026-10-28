@@ -3,14 +3,35 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class VehicleController : MonoBehaviour
 {
-    [SerializeField] private float maxSpeed = 8f;
-    [SerializeField] private float reverseSpeed = 3f;
-    [SerializeField] private float acceleration = 2f;
-    [SerializeField] private float braking = 6f;
-    [SerializeField] private float deceleration = 1f;
 
+    [Tooltip("Velocidad máxima hacia adelante, en unidades por segundo.")]
+    [SerializeField] private float maxSpeed = 8f;
+
+    [Tooltip("Velocidad máxima en reversa.")]
+    [SerializeField] private float reverseSpeed = 3f;
+
+    [Tooltip("Fuerza del motor. Más alto = acelera más rápido.")]
+    [SerializeField, Min(0f)] private float engineForce = 1800f;
+
+    [Tooltip("Fuerza de frenado. Más alto = frena en menos distancia.")]
+    [SerializeField, Min(0f)] private float brakeForce = 4500f;
+
+    [Tooltip("Resistencia al rodar. Más alto = pierde velocidad más rápido.")]
+    [SerializeField, Min(0f)] private float rollingResistance = 180f;
+
+    [Tooltip("Resistencia del aire. Se nota más a velocidades altas.")]
+    [SerializeField, Min(0f)] private float airResistance = 20f;
+
+    [Tooltip("Agarre lateral. Más alto = se desliza menos de costado.")]
+    [SerializeField, Min(0f)] private float lateralGrip = 6f;
+
+    [Tooltip("Ángulo máximo de las ruedas delanteras.")]
     [SerializeField] private float maxSteeringAngle = 30f;
+
+    [Tooltip("Velocidad con la que cambia la dirección de las ruedas.")]
     [SerializeField] private float steeringSpeed = 90f;
+
+    [Tooltip("Distancia entre las ruedas delanteras y traseras.")]
     [SerializeField, Min(0.1f)] private float wheelbase = 3.4f;
 
     private Rigidbody2D rb;
@@ -36,36 +57,56 @@ public class VehicleController : MonoBehaviour
     private void FixedUpdate()
     {
         float deltaTime = Time.fixedDeltaTime;
-        float speed = Vector2.Dot(rb.linearVelocity, transform.up);
-        float targetSpeed = throttleInput > 0f
-            ? throttleInput * maxSpeed
-            : throttleInput * reverseSpeed;
+        Vector2 forward = transform.up;
+        float speed = Vector2.Dot(rb.linearVelocity, forward);
 
-        float speedChange = acceleration;
+        bool isBraking = brakeInput || speed * throttleInput < 0f;
 
-        if (brakeInput || speed * throttleInput < 0f)
+        if (isBraking)
+            ApplyBraking(speed, forward, deltaTime);
+        else
+            ApplyEngine(speed, forward);
+
+        float resistance = rollingResistance + airResistance * speed * speed;
+        float stopForce = Mathf.Abs(speed) * rb.mass / deltaTime;
+        resistance = Mathf.Min(resistance, stopForce);
+
+        if (isBraking)
         {
-            targetSpeed = 0f;
-            speedChange = braking;
-        }
-        else if (throttleInput == 0f)
-        {
-            speedChange = deceleration;
+            resistance = Mathf.Min(resistance, Mathf.Max(0f, stopForce - brakeForce));
         }
 
-        speed = Mathf.MoveTowards(speed, targetSpeed, speedChange * deltaTime);
+        rb.AddForce(-forward * Mathf.Sign(speed) * resistance);
 
-        currentSteeringAngle = Mathf.MoveTowards(
-            currentSteeringAngle,
-            steeringInput * maxSteeringAngle,
-            steeringSpeed * deltaTime
-        );
+        // agarre para que no se deslice de costado.
+        Vector2 sideways = transform.right;
+        float lateralSpeed = Vector2.Dot(rb.linearVelocity, sideways);
+        float grip = Mathf.Min(lateralGrip, 1f / deltaTime);
 
-        // no gira sobre sí mismo.
-        rb.linearVelocity = (Vector2)transform.up * speed;
+        rb.AddForce(-sideways * lateralSpeed * rb.mass * grip);
 
-        rb.angularVelocity = -speed / wheelbase
-            * Mathf.Tan(currentSteeringAngle * Mathf.Deg2Rad)
-            * Mathf.Rad2Deg;
+        currentSteeringAngle = Mathf.MoveTowards(currentSteeringAngle, steeringInput * maxSteeringAngle, steeringSpeed * deltaTime);
+
+        rb.angularVelocity = -speed / wheelbase * Mathf.Tan(currentSteeringAngle * Mathf.Deg2Rad) * Mathf.Rad2Deg;
+    }
+
+    private void ApplyEngine(float speed, Vector2 forward)
+    {
+        if (throttleInput == 0f) return;
+
+        float speedLimit = throttleInput > 0f ? maxSpeed : reverseSpeed;
+
+        // cerca del limite, el motor deja de empujar progresivamente.
+        float power = 1f - Mathf.InverseLerp(speedLimit * 0.85f, speedLimit, Mathf.Abs(speed));
+
+        rb.AddForce(forward * throttleInput * engineForce * power);
+    }
+
+    private void ApplyBraking(float speed, Vector2 forward, float deltaTime)
+    {
+        float stopForce = Mathf.Abs(speed) * rb.mass / deltaTime;
+        float force = Mathf.Min(brakeForce, stopForce);
+
+        rb.AddForce(-forward * Mathf.Sign(speed) * force);
     }
 }
