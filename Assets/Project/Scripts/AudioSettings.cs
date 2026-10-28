@@ -28,7 +28,7 @@ public class AudioSettings : MonoBehaviour
         musicSlider.onValueChanged.AddListener(audioManager.SetMusicVolume);
         uiSlider.onValueChanged.AddListener(audioManager.SetUIVolume);
         vfxSlider.onValueChanged.AddListener(audioManager.SetSFXVolume);
-        enviromentSlider.onValueChanged.AddListener(audioManager.SetVehiclesVolume);
+        enviromentSlider.onValueChanged.AddListener(audioManager.SetEnviromentVolume);
     }
 
     private void OnDisable()
@@ -39,7 +39,7 @@ public class AudioSettings : MonoBehaviour
         musicSlider.onValueChanged.RemoveListener(audioManager.SetMusicVolume);
         uiSlider.onValueChanged.RemoveListener(audioManager.SetUIVolume);
         vfxSlider.onValueChanged.RemoveListener(audioManager.SetSFXVolume);
-        enviromentSlider.onValueChanged.RemoveListener(audioManager.SetVehiclesVolume);
+        enviromentSlider.onValueChanged.RemoveListener(audioManager.SetEnviromentVolume);
     }
 
 }

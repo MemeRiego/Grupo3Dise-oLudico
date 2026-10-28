@@ -43,7 +43,7 @@ public class AudioManager : MonoBehaviour
         SetMusicVolume(musicVolume);
         SetUIVolume(uiVolume);
         SetSFXVolume(vfxVolume);
-        SetVehiclesVolume(vehiclesVolume);
+        SetEnviromentVolume(vehiclesVolume);
     }
 
     public void PlayMusic(AudioClip clip)
@@ -100,7 +100,7 @@ public class AudioManager : MonoBehaviour
         SetVolume("VFXVolume", vfxVolume);
     }
 
-    public void SetVehiclesVolume(float value)
+    public void SetEnviromentVolume(float value)
     {
         vehiclesVolume = Mathf.Clamp01(value);
         SetVolume("EnviromentVolume", vehiclesVolume);
