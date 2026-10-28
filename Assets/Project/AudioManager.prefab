@@ -43,11 +43,11 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 7128900433844697466, guid: 366d20273bf8abd4c869391624bd7f1e, type: 2}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
-  m_PlayOnAwake: 0
+  m_Resource: {fileID: 8300000, guid: 556059b21eec8224bb281939b7234e20, type: 3}
+  m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -438,8 +438,8 @@ MonoBehaviour:
   musicSource: {fileID: 7777954025275524196}
   uiSource: {fileID: 7975681112991173410}
   sfxSource: {fileID: 4998456348993455915}
-  masterVolume: 1
-  musicVolume: 0.5
+  masterVolume: 0.5
+  musicVolume: 0.2
   uiVolume: 1
-  sfxVolume: 1
+  vfxVolume: 1
   vehiclesVolume: 1

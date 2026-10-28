@@ -2107,29 +2107,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6777243027495392165, guid: 9b7166e54e8600f44b71de2cbba29d1f, type: 3}
-      propertyPath: musicVolume
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6777243027495392165, guid: 9b7166e54e8600f44b71de2cbba29d1f, type: 3}
-      propertyPath: masterVolume
-      value: 0.5
-      objectReference: {fileID: 0}
     - target: {fileID: 7026837222659745800, guid: 9b7166e54e8600f44b71de2cbba29d1f, type: 3}
       propertyPath: m_Name
       value: AudioManager
-      objectReference: {fileID: 0}
-    - target: {fileID: 7777954025275524196, guid: 9b7166e54e8600f44b71de2cbba29d1f, type: 3}
-      propertyPath: Loop
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7777954025275524196, guid: 9b7166e54e8600f44b71de2cbba29d1f, type: 3}
-      propertyPath: m_Resource
-      value: 
-      objectReference: {fileID: 8300000, guid: 556059b21eec8224bb281939b7234e20, type: 3}
-    - target: {fileID: 7777954025275524196, guid: 9b7166e54e8600f44b71de2cbba29d1f, type: 3}
-      propertyPath: m_PlayOnAwake
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
