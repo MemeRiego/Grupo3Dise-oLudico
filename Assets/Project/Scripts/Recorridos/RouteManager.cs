@@ -22,6 +22,9 @@ public class RouteManager : MonoBehaviour
   public int StopsOnTime { get; private set; }
   public bool IsBoarding { get; private set; } // true mientras suben pasajeros, el reloj no corre
 
+  public int StopCount => legs.Count;
+  public float TotalTime { get; private set; } // segundos desde que arrancó el recorrido
+
   private int currentIndex;
   private float legTimer;
   private bool running;
@@ -41,7 +44,9 @@ public class RouteManager : MonoBehaviour
   // Update is called once per frame
   void Update()
   {
-    if (!running || IsBoarding) return;
+    if (!running) return;
+    TotalTime += Time.deltaTime;
+    if (IsBoarding) return;
     legTimer += Time.deltaTime;
     TimeLeft = legs[currentIndex].timeLimit - legTimer;
   }
