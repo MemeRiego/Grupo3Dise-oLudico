@@ -39,6 +39,8 @@ public class VehicleController : MonoBehaviour
     private float steeringInput;
     private float currentSteeringAngle;
     private bool brakeInput;
+    private float speedMultiplier = 1f;
+    private float steeringMultiplier = 1f;
 
     public float CurrentSteeringAngle => currentSteeringAngle;
 
@@ -85,21 +87,19 @@ public class VehicleController : MonoBehaviour
 
         rb.AddForce(-sideways * lateralSpeed * rb.mass * grip);
 
-        currentSteeringAngle = Mathf.MoveTowards(currentSteeringAngle, steeringInput * maxSteeringAngle, steeringSpeed * deltaTime);
+        currentSteeringAngle = Mathf.MoveTowards(currentSteeringAngle, steeringInput * maxSteeringAngle * steeringMultiplier, steeringSpeed * deltaTime);
 
         rb.angularVelocity = -speed / wheelbase * Mathf.Tan(currentSteeringAngle * Mathf.Deg2Rad) * Mathf.Rad2Deg;
     }
 
     private void ApplyEngine(float speed, Vector2 forward)
     {
-        if (throttleInput == 0f) return;
+        if (throttleInput == 0f || speedMultiplier <= 0f) return;
 
-        float speedLimit = throttleInput > 0f ? maxSpeed : reverseSpeed;
-
-        // cerca del limite, el motor deja de empujar progresivamente.
+        float speedLimit = (throttleInput > 0f ? maxSpeed : reverseSpeed) * speedMultiplier;
         float power = 1f - Mathf.InverseLerp(speedLimit * 0.85f, speedLimit, Mathf.Abs(speed));
 
-        rb.AddForce(forward * throttleInput * engineForce * power);
+        rb.AddForce(forward * throttleInput * engineForce * power * speedMultiplier);
     }
 
     private void ApplyBraking(float speed, Vector2 forward, float deltaTime)
@@ -108,5 +108,19 @@ public class VehicleController : MonoBehaviour
         float force = Mathf.Min(brakeForce, stopForce);
 
         rb.AddForce(-forward * Mathf.Sign(speed) * force);
+    }
+
+    public void SetDamageMultipliers(float speed, float steering)
+    {
+        speedMultiplier = Mathf.Clamp01(speed);
+        steeringMultiplier = Mathf.Clamp01(steering);
+    }
+
+    public void StopVehicle()
+    {
+        SetInput(0f, 0f, false);
+        rb.linearVelocity = Vector2.zero;
+        rb.angularVelocity = 0f;
+        enabled = false;
     }
 }
