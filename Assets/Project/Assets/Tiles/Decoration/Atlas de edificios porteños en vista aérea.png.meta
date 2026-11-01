@@ -1,0 +1,487 @@
+fileFormatVersion: 2
+guid: 00d13a5e7e0ac6940bb840fd19f11e4d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 284792842343669496
+    second: "Atlas de edificios porte\xF1os en vista a\xE9rea_0"
+  - first:
+      213: -7526693204057410720
+    second: "Atlas de edificios porte\xF1os en vista a\xE9rea_1"
+  - first:
+      213: -8055009807780797426
+    second: "Atlas de edificios porte\xF1os en vista a\xE9rea_2"
+  - first:
+      213: 4309332447043948209
+    second: "Atlas de edificios porte\xF1os en vista a\xE9rea_3"
+  - first:
+      213: 8964564598190630051
+    second: "Atlas de edificios porte\xF1os en vista a\xE9rea_4"
+  - first:
+      213: -3331198055821040415
+    second: "Atlas de edificios porte\xF1os en vista a\xE9rea_5"
+  - first:
+      213: 19248254127003444
+    second: "Atlas de edificios porte\xF1os en vista a\xE9rea_6"
+  - first:
+      213: 6696838484519083295
+    second: "Atlas de edificios porte\xF1os en vista a\xE9rea_7"
+  - first:
+      213: 847473804717184425
+    second: "Atlas de edificios porte\xF1os en vista a\xE9rea_8"
+  - first:
+      213: -5644490233076987616
+    second: "Atlas de edificios porte\xF1os en vista a\xE9rea_9"
+  - first:
+      213: -8640726792560645525
+    second: "Atlas de edificios porte\xF1os en vista a\xE9rea_10"
+  - first:
+      213: 1908119414189945799
+    second: "Atlas de edificios porte\xF1os en vista a\xE9rea_11"
+  - first:
+      213: -1059592617634774213
+    second: "Atlas de edificios porte\xF1os en vista a\xE9rea_12"
+  - first:
+      213: -5650584326595252695
+    second: "Atlas de edificios porte\xF1os en vista a\xE9rea_13"
+  - first:
+      213: -4409339981213328870
+    second: "Atlas de edificios porte\xF1os en vista a\xE9rea_14"
+  - first:
+      213: 8581550647995906055
+    second: "Atlas de edificios porte\xF1os en vista a\xE9rea_15"
+  - first:
+      213: 3859838575784077018
+    second: "Atlas de edificios porte\xF1os en vista a\xE9rea_16"
+  - first:
+      213: -3035286548815701914
+    second: "Atlas de edificios porte\xF1os en vista a\xE9rea_17"
+  - first:
+      213: -808553187000505602
+    second: "Atlas de edificios porte\xF1os en vista a\xE9rea_18"
+  - first:
+      213: -7532236285837932311
+    second: "Atlas de edificios porte\xF1os en vista a\xE9rea_19"
+  - first:
+      213: -2089995088878506581
+    second: "Atlas de edificios porte\xF1os en vista a\xE9rea_20"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Atlas de edificios porte\xF1os en vista a\xE9rea_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 665
+        width: 353
+        height: 359
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fed77ac499c3f300800000000000000
+      internalID: 284792842343669496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Atlas de edificios porte\xF1os en vista a\xE9rea_1"
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 679
+        width: 317
+        height: 345
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 063bfc6b860db8790800000000000000
+      internalID: -7526693204057410720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Atlas de edificios porte\xF1os en vista a\xE9rea_2"
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 672
+        width: 360
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0420f0d14bd63090800000000000000
+      internalID: -8055009807780797426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Atlas de edificios porte\xF1os en vista a\xE9rea_3"
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 662
+        width: 370
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1be8e1d5703ddcb30800000000000000
+      internalID: 4309332447043948209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Atlas de edificios porte\xF1os en vista a\xE9rea_4"
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 361
+        width: 343
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a4e1397108886c70800000000000000
+      internalID: 8964564598190630051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Atlas de edificios porte\xF1os en vista a\xE9rea_10"
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 361
+        width: 365
+        height: 292
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6ae83043c8f51880800000000000000
+      internalID: -8640726792560645525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Atlas de edificios porte\xF1os en vista a\xE9rea_11"
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 355
+        width: 413
+        height: 293
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c371df5f700b7a10800000000000000
+      internalID: 1908119414189945799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Atlas de edificios porte\xF1os en vista a\xE9rea_12"
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 645
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b33c043d0229b41f0800000000000000
+      internalID: -1059592617634774213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Atlas de edificios porte\xF1os en vista a\xE9rea_14"
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 356
+        width: 335
+        height: 287
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1a1ad516a0eec2c0800000000000000
+      internalID: -4409339981213328870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Atlas de edificios porte\xF1os en vista a\xE9rea_16"
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 531
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad6a5fffbb6e09530800000000000000
+      internalID: 3859838575784077018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Atlas de edificios porte\xF1os en vista a\xE9rea_18"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 21
+        width: 399
+        height: 333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efa23da092177c4f0800000000000000
+      internalID: -808553187000505602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Atlas de edificios porte\xF1os en vista a\xE9rea_19"
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 17
+        width: 444
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e8825a610f187790800000000000000
+      internalID: -7532236285837932311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Atlas de edificios porte\xF1os en vista a\xE9rea_20"
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 33
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bade5193a88def2e0800000000000000
+      internalID: -2089995088878506581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7b29575b29150e7469330cf60548534a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Atlas de edificios porte\xF1os en vista a\xE9rea_0": 284792842343669496
+      "Atlas de edificios porte\xF1os en vista a\xE9rea_1": -7526693204057410720
+      "Atlas de edificios porte\xF1os en vista a\xE9rea_10": -8640726792560645525
+      "Atlas de edificios porte\xF1os en vista a\xE9rea_11": 1908119414189945799
+      "Atlas de edificios porte\xF1os en vista a\xE9rea_12": -1059592617634774213
+      "Atlas de edificios porte\xF1os en vista a\xE9rea_13": -5650584326595252695
+      "Atlas de edificios porte\xF1os en vista a\xE9rea_14": -4409339981213328870
+      "Atlas de edificios porte\xF1os en vista a\xE9rea_15": 8581550647995906055
+      "Atlas de edificios porte\xF1os en vista a\xE9rea_16": 3859838575784077018
+      "Atlas de edificios porte\xF1os en vista a\xE9rea_17": -3035286548815701914
+      "Atlas de edificios porte\xF1os en vista a\xE9rea_18": -808553187000505602
+      "Atlas de edificios porte\xF1os en vista a\xE9rea_19": -7532236285837932311
+      "Atlas de edificios porte\xF1os en vista a\xE9rea_2": -8055009807780797426
+      "Atlas de edificios porte\xF1os en vista a\xE9rea_20": -2089995088878506581
+      "Atlas de edificios porte\xF1os en vista a\xE9rea_3": 4309332447043948209
+      "Atlas de edificios porte\xF1os en vista a\xE9rea_4": 8964564598190630051
+      "Atlas de edificios porte\xF1os en vista a\xE9rea_5": -3331198055821040415
+      "Atlas de edificios porte\xF1os en vista a\xE9rea_6": 19248254127003444
+      "Atlas de edificios porte\xF1os en vista a\xE9rea_7": 6696838484519083295
+      "Atlas de edificios porte\xF1os en vista a\xE9rea_8": 847473804717184425
+      "Atlas de edificios porte\xF1os en vista a\xE9rea_9": -5644490233076987616
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
