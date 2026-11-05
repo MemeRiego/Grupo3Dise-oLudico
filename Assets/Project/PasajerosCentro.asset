@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 835e5fc1ac102fb4c9ed8f85707b374f, type: 3}
+  m_Name: PasajerosCentro
+  m_EditorClassIdentifier: Assembly-CSharp::PassengerPool
+  profiles:
+  - label: Jubilado
+    portrait: {fileID: 6368430870034439248, guid: 2a4e93723b961144f91c92551c7e4c3c, type: 3}
+    kind: 1
+    weight: 0.3
+    phrases:
+    - Hasta {0}
+    - "{0}, querido. Tengo el carnet de jubilado ac\xE1."
+  - label: Escolar
+    portrait: {fileID: 633173246634224559, guid: b98eba4c54544a949a1b199adba89304, type: 3}
+    kind: 3
+    weight: 0.3
+    phrases:
+    - Hasta {0}.
+  - label: Oficinista
+    portrait: {fileID: 2950665849167272835, guid: 30cbed27108996d48b15fb3b85e66591, type: 3}
+    kind: 0
+    weight: 1
+    phrases:
+    - Hasta {0}, por favor.
+    - "\xBFMe deja en {0}? Llego tarde a la oficina."
+  - label: Obrero
+    portrait: {fileID: 4157794679529345084, guid: 7d454f7211bdfb34c80d6ddec4cbb724, type: 3}
+    kind: 0
+    weight: 1
+    phrases:
+    - Hasta {0}, jefe.
+    - '{0}, maestro.'
+  - label: Universitaria
+    portrait: {fileID: 803497541740402717, guid: 6636e886b1d639a4c80b6e6b46499901, type: 3}
+    kind: 0
+    weight: 1
+    phrases:
+    - Buenas, hasta {0}, por favor.
+    - Me bajo en {0}.
+  - label: Enfermera
+    portrait: {fileID: 803497541740402717, guid: 6636e886b1d639a4c80b6e6b46499901, type: 3}
+    kind: 0
+    weight: 0.7
+    phrases:
+    - Hasta {0}, salgo de guardia.
+  - label: Escolar
+    portrait: {fileID: -3090230880113981104, guid: 109e2e78eba96694c8e8a935818bcdee, type: 3}
+    kind: 3
+    weight: 0.3
+    phrases:
+    - Hasta {0}. Tengo el pase escolar.
+  - label: Persona ciega
+    portrait: {fileID: -3695289324774674764, guid: 3f2024e8dc8284b47bc93d331431fa3d, type: 3}
+    kind: 2
+    weight: 0.3
+    phrases:
+    - "Hasta {0}. \xBFMe avisas cuando bajar, por favor?"
+  - label: Usuaria con muletas
+    portrait: {fileID: -761759546564217949, guid: eeced10021a797d4db5c4b5f6c9e6d92, type: 3}
+    kind: 2
+    weight: 0.3
+    phrases:
+    - "{0}. Ac\xE1 le muestro el certificado."

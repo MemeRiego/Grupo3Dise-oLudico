@@ -133468,6 +133468,8 @@ MonoBehaviour:
   - stop: {fileID: 584507823}
     timeLimit: 50
   loopRoute: 0
+  autoStart: 0
+  pauseWhileBoarding: 1
 --- !u!4 &790161810
 Transform:
   m_ObjectHideFlags: 0
@@ -133869,6 +133871,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13974c87d4164f0498ccc34541b9fdea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
+  levels:
+  - title: Nivel 1
+    lines:
+    - {fileID: 1550661509}
+    stopCount: 5
+    segmentCount: 0
+    passengersPerStop: {x: 1, y: 2}
+    pauseTimerWhileBoarding: 1
+  - title: Nivel 2
+    lines:
+    - {fileID: 1366229655}
+    stopCount: 6
+    segmentCount: 0
+    passengersPerStop: {x: 2, y: 3}
+    pauseTimerWhileBoarding: 0
+  passengerPool: {fileID: 11400000, guid: bdfa6dc39315a07469b201f0ddee2a2d, type: 2}
+  route: {fileID: 790161809}
+  bus: {fileID: 3079193406850347888}
+  busController: {fileID: 3079193406850347886}
+  firstLegSeconds: 10
+  extraSecondsPerLeg: 8
+  secondsPerUnit: 0.5
 --- !u!4 &1088175848
 Transform:
   m_ObjectHideFlags: 0
@@ -134245,7 +134269,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BusLine
   lineName: "L\xEDnea B1"
-  points: []
+  points:
+  - {fileID: 577562650}
+  - {fileID: 596339305}
+  - {fileID: 208332221}
+  - {fileID: 75669698}
+  - {fileID: 2031312478}
+  - {fileID: 753510995}
+  - {fileID: 2072755359}
+  - {fileID: 224624712}
+  - {fileID: 489069236}
+  - {fileID: 1158542547}
+  - {fileID: 865169298}
+  - {fileID: 1147691086}
+  - {fileID: 1018483222}
 --- !u!1 &1389095051
 GameObject:
   m_ObjectHideFlags: 0
@@ -134276,13 +134313,13 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1670633879}
-  - {fileID: 596339305}
-  - {fileID: 1158542547}
-  - {fileID: 1147691086}
-  - {fileID: 75669698}
-  - {fileID: 224624712}
   - {fileID: 1736342927}
   - {fileID: 280741572}
+  - {fileID: 596339305}
+  - {fileID: 75669698}
+  - {fileID: 224624712}
+  - {fileID: 1158542547}
+  - {fileID: 1147691086}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1405279434 stripped
@@ -134403,7 +134440,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BusLine
   lineName: "L\xEDnea A"
-  points: []
+  points:
+  - {fileID: 970374684}
+  - {fileID: 1966674056}
+  - {fileID: 629762427}
+  - {fileID: 280741572}
+  - {fileID: 411695205}
+  - {fileID: 1736342927}
+  - {fileID: 865169298}
+  - {fileID: 18843854}
+  - {fileID: 1670633879}
+  - {fileID: 187145752}
+  - {fileID: 1326005539}
 --- !u!1 &1670633878
 GameObject:
   m_ObjectHideFlags: 0
@@ -242494,6 +242542,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9191f42c385a8184cbbf257d174e201c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::VehicleHealth
+--- !u!50 &3079193406850347888 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 2978540358081623615, guid: a561e991a595848459f27eb151ea2625, type: 3}
+  m_PrefabInstance: {fileID: 3079193406850347885}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5320437242877943289
 PrefabInstance:
   m_ObjectHideFlags: 0

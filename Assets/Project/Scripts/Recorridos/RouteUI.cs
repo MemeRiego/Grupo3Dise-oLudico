@@ -33,8 +33,17 @@ public class RouteUI : MonoBehaviour
     if (next != null && route.IsBoarding)
     {
       nextStopText.text = "Subiendo pasajeros en \n" + next.StopName;
-      timerText.text = "PAUSA";
-      timerText.color = normalColor;
+      if (route.PauseWhileBoarding)
+      {
+        timerText.text = "PAUSA";
+        timerText.color = normalColor;
+      }
+      else
+      {
+        float left = route.NextLegTimeLeft; // el reloj del tramo que viene ya corre
+        timerText.text = left > 0f ? FormatTime(left) : "TARDE +" + FormatTime(-left);
+        timerText.color = left <= warningTime ? (left > 0f ? warningColor : lateColor) : normalColor;
+      }
     }
     else if (next != null)
     {
