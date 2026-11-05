@@ -9,6 +9,7 @@ public class BusStop : MonoBehaviour
   [SerializeField] private float requiredStopTime = 1f; // segundos frenado dentro de la zona
   [SerializeField] private GameObject marker; // se prende cuando es la próxima parada
   [SerializeField] private Passenger[] passengers; // los que suben en esta parada
+  [SerializeField] private SpriteRenderer markerSprite; // opcional: el sprite del marcador, se pinta del color del tramo
 
   public string StopName => stopName;
   public Passenger[] Passengers => passengers;
@@ -59,6 +60,17 @@ public class BusStop : MonoBehaviour
       SetAsNext(false);
       BusArrived?.Invoke(this);
     }
+  }
+
+  public void SetPassengers(Passenger[] list)
+  {
+    passengers = list;
+    if (TryGetComponent(out PassengerQueue queue)) queue.Rebuild();
+  }
+
+  public void SetSegmentColor(Color color)
+  {
+    if (markerSprite != null) markerSprite.color = color;
   }
 
 

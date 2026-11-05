@@ -14,6 +14,13 @@ public class PassengerQueue : MonoBehaviour
 
   private void Start()
   {
+    if (people.Count == 0) Rebuild(); // por si la parada se armó a mano
+  }
+
+  public void Rebuild()
+  {
+    while (people.Count > 0) Destroy(people.Dequeue());
+
     BusStop stop = GetComponent<BusStop>();
     int count = stop.Passengers != null ? stop.Passengers.Length : 0;
     Vector3 origin = queueStart != null ? queueStart.position : transform.position;
