@@ -34,6 +34,8 @@ public class VehicleController : MonoBehaviour
     [Tooltip("Distancia entre las ruedas delanteras y traseras.")]
     [SerializeField, Min(0.1f)] private float wheelbase = 3.4f;
 
+
+
     private Rigidbody2D rb;
     private float throttleInput;
     private float steeringInput;
@@ -46,6 +48,8 @@ public class VehicleController : MonoBehaviour
     public bool IsBraking => brakeInput || Vector2.Dot(rb.linearVelocity, transform.up) * throttleInput < 0f;
 
     public float CurrentSteeringAngle => currentSteeringAngle;
+    public float Wheelbase => wheelbase;
+    public float MaxSteeringAngle => maxSteeringAngle;
 
     private void Awake()
     {

@@ -10,12 +10,30 @@ public class TrafficNetwork : MonoBehaviour
     [Tooltip("Desalineacion lateral permitida. Debe ser menor que la separacion entre carriles.")]
     [SerializeField, Min(0f)] private float alignmentTolerance = 0.15f;
 
+    [SerializeField] private bool autoRebuild = true;
+
+#if UNITY_EDITOR
+    private double nextEditorRebuild;
+#endif
+
     public float MaxConnectionDistance => maxConnectionDistance;
     public float AlignmentTolerance => alignmentTolerance;
 
     private void OnEnable()
     {
         RebuildConnections();
+    }
+
+    private void Update()
+    {
+#if UNITY_EDITOR
+        if (Application.isPlaying || !autoRebuild) return;
+        if (UnityEditor.EditorApplication.timeSinceStartup < nextEditorRebuild) return;
+
+        nextEditorRebuild = UnityEditor.EditorApplication.timeSinceStartup + 0.5d;
+        RebuildConnections();
+        UnityEditor.SceneView.RepaintAll();
+#endif
     }
 
     [ContextMenu("Rebuild Connections")]
@@ -55,11 +73,11 @@ public class TrafficNetwork : MonoBehaviour
         {
             connectionCount += node.NextNodes.Count;
 
-            if (node.NextNodes.Count == 0)
-                Debug.LogWarning($"El nodo {node.name} no tiene salida.", node);
+           // if (node.NextNodes.Count == 0);
+              //  Debug.LogWarning($"El nodo {node.name} no tiene salida.", node);
         }
 
-        Debug.Log($"Red actualizada: {nodes.Length} nodos y {connectionCount} conexiones.", this);
+        //Debug.Log($"Red actualizada: {nodes.Length} nodos y {connectionCount} conexiones.", this);
 
 #if UNITY_EDITOR
         UnityEditor.SceneView.RepaintAll();
