@@ -31,7 +31,8 @@ public class TrafficPathfinder
             {
                 if (next == null || !next.isActiveAndEnabled || closedNodes.Contains(next)) continue;
 
-                float newCost = costs[current] + GetConnectionLength(current, next);
+                float laneChangeCost = current.IsLaneChange(next) ? 2f : 0f;
+                float newCost = costs[current] + GetConnectionLength(current, next) + laneChangeCost;
 
                 if (costs.TryGetValue(next, out float currentCost) && newCost >= currentCost) continue;
 
