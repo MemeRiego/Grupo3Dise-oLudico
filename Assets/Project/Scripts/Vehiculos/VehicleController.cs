@@ -46,6 +46,7 @@ public class VehicleController : MonoBehaviour
     public float ThrottleInput => throttleInput;
     public float MaxSpeed => maxSpeed;
     public bool IsBraking => brakeInput || Vector2.Dot(rb.linearVelocity, transform.up) * throttleInput < 0f;
+    public float BrakingDeceleration => brakeForce / rb.mass;
 
     public float CurrentSteeringAngle => currentSteeringAngle;
     public float Wheelbase => wheelbase;

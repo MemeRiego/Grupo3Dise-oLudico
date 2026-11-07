@@ -74,6 +74,7 @@ GameObject:
   - component: {fileID: 2120282999858702370}
   - component: {fileID: 1484606810182613853}
   - component: {fileID: 5407128263270656634}
+  - component: {fileID: 7512157342333179473}
   m_Layer: 0
   m_Name: Car
   m_TagString: Untagged
@@ -170,7 +171,27 @@ MonoBehaviour:
   arrivalDistance: 0.3
   stoppingDeceleration: 2
   maxPathDeviation: 2
+  startSearchRadius: 5
   showRoute: 1
+--- !u!114 &7512157342333179473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7226014938464168306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ac77f64f248fae419725c9c5ec4a1f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrafficSensor
+  bodyCollider: {fileID: 3481576438725584603}
+  obstacleLayers:
+    serializedVersion: 2
+    m_Bits: 72
+  stopDistance: 0.5
+  followingTime: 1
+  minimumDetectionDistance: 4
 --- !u!1 &7758220402461329489
 GameObject:
   m_ObjectHideFlags: 0
@@ -182,7 +203,7 @@ GameObject:
   - component: {fileID: 4867090622401065323}
   - component: {fileID: 7759570206511066393}
   - component: {fileID: 3481576438725584603}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}

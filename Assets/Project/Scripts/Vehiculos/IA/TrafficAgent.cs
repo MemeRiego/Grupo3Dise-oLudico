@@ -56,11 +56,20 @@ public class TrafficAgent : MonoBehaviour
     private bool hasRoute;
     private bool pathLost;
     private Vector2 steeringTarget;
+    private TrafficSensor sensor;
 
     private void Awake()
     {
+
         vehicle = GetComponent<VehicleController>();
         rb = GetComponent<Rigidbody2D>();
+        sensor = GetComponent<TrafficSensor>();
+
+        if (sensor == null)
+        {
+            Debug.LogError("Falta agregar TrafficSensor al auto.", this);
+            enabled = false;
+        }
     }
 
     private void Start()
@@ -340,11 +349,21 @@ public class TrafficAgent : MonoBehaviour
         desiredSpeed = Mathf.Min(desiredSpeed, stopSpeed);
 
         float speed = Vector2.Dot(rb.linearVelocity, forward);
+
+        // dejo un margen respecto al frenado real del vehiculo.
+        float safeDeceleration = Mathf.Min(stoppingDeceleration, vehicle.BrakingDeceleration * 0.8f);
+        float trafficSpeedLimit = sensor.GetSpeedLimit(speed, safeDeceleration);
+
+        desiredSpeed = Mathf.Min(desiredSpeed, trafficSpeedLimit);
+
         bool targetBehind = Vector2.Dot(forward, offset) < 0f;
-        bool brake = targetBehind || speed > desiredSpeed + 0.2f;
+        bool trafficStop = trafficSpeedLimit <= 0.05f;
+        bool trafficBrake = speed > trafficSpeedLimit + 0.05f;
+        bool brake = targetBehind || trafficStop || trafficBrake || speed > desiredSpeed + 0.2f;
         float throttle = brake ? 0f : Mathf.Clamp01((desiredSpeed - speed) * 1.5f);
 
         vehicle.SetInput(throttle, steering, brake);
+
     }
 
     private void OnDisable()
