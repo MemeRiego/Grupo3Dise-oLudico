@@ -34,6 +34,9 @@ public class TrafficAgent : MonoBehaviour
     [Tooltip("Desvio maximo de la ruta antes de frenar por seguridad.")]
     [SerializeField, Min(0.1f)] private float maxPathDeviation = 2f;
 
+    [Tooltip("Distancia maxima para buscar un nodo inicial cerca del auto.")]
+    [SerializeField, Min(0.1f)] private float startSearchRadius = 5f;
+
     [SerializeField] private bool showRoute = true;
 
     private readonly List<TrafficNode> route = new List<TrafficNode>();
@@ -62,27 +65,28 @@ public class TrafficAgent : MonoBehaviour
 
     private void Start()
     {
-        if (network == null || startNode == null)
+        if (network == null)
         {
-            Debug.LogError("Falta asignar la red o el nodo inicial del auto.", this);
+            Debug.LogError("Falta asignar la red de transito.", this);
             enabled = false;
             return;
         }
 
-        if (!startNode.transform.IsChildOf(network.transform))
+        currentNode = FindStartNode();
+
+        if (currentNode == null)
         {
-            Debug.LogError("El nodo inicial no pertenece a esta red.", this);
+            Debug.LogWarning("No encontre un nodo con salida cerca del auto. Revisa la posicion o el rango de busqueda.", this);
             enabled = false;
             return;
         }
 
-        // lo ubico una sola vez. Despues maneja con el Rigidbody.
-        rb.position = startNode.Position;
-        rb.rotation = Vector2.SignedAngle(Vector2.up, startNode.Forward);
+        // lo acomodo en el carril solamente al iniciar.
+        rb.position = currentNode.Position;
+        rb.rotation = Vector2.SignedAngle(Vector2.up, currentNode.Forward);
         rb.linearVelocity = Vector2.zero;
         rb.angularVelocity = 0f;
 
-        currentNode = startNode;
         CalculateRoute();
     }
 
@@ -118,6 +122,27 @@ public class TrafficAgent : MonoBehaviour
         }
 
         Drive(remainingDistance);
+    }
+
+    private TrafficNode FindStartNode()
+    {
+        TrafficNode[] nodes = network.GetComponentsInChildren<TrafficNode>();
+        TrafficNode closestNode = null;
+        float closestDistance = startSearchRadius * startSearchRadius;
+
+        foreach (TrafficNode node in nodes)
+        {
+            if (!node.isActiveAndEnabled || !HasActiveExit(node)) continue;
+
+            float distance = (node.Position - rb.position).sqrMagnitude;
+
+            if (distance > closestDistance) continue;
+
+            closestDistance = distance;
+            closestNode = node;
+        }
+
+        return closestNode;
     }
 
     private void CalculateRoute()
