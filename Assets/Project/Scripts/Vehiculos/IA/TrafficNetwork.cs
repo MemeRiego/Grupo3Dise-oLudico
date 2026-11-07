@@ -19,10 +19,12 @@ public class TrafficNetwork : MonoBehaviour
     public float MaxConnectionDistance => maxConnectionDistance;
     public float AlignmentTolerance => alignmentTolerance;
 
-    private void OnEnable()
+  
+    private void Start()
     {
         RebuildConnections();
     }
+
 
     private void Update()
     {
