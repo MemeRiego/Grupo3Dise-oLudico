@@ -26,4 +26,6 @@ public static class Tramos
   // Texto pintado para TMP, por ejemplo "<color=#1F8A70>Obelisco (T2)</color>".
   public static string Colored(string text, int segment) =>
     $"<color=#{ColorUtility.ToHtmlStringRGB(ColorOf(segment))}>{text} ({Label(segment)})</color>";
+  public static string ColoredLabelOnly(string text, int segment) =>
+    $"<color=#{ColorUtility.ToHtmlStringRGB(ColorOf(segment))}>{text}</color>";
 }
