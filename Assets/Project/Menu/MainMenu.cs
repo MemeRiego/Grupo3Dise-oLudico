@@ -28,7 +28,7 @@ public class MainMenu : MonoBehaviour
   {
     if (!string.IsNullOrEmpty(levelScene))
     {
-      GameSession.CurrentLevel = 0; // Jugar siempre arranca en el nivel 1
+      GameSession.NewRun(); // Jugar siempre arranca en el nivel 1
       SceneManager.LoadScene(levelScene);
     }
     else

@@ -4,31 +4,59 @@ using UnityEngine.Events;
 
 public class VehicleHealth : MonoBehaviour
 {
-    [Tooltip("Vida máxima del vehículo.")]
-    [SerializeField, Min(1f)] private float maxHealth = 100f;
+  [Tooltip("Vida mï¿½xima del vehï¿½culo.")]
+  [SerializeField, Min(1f)] private float maxHealth = 100f;
 
-    [SerializeField] private UnityEvent onDestroyed = new UnityEvent();
+  [SerializeField] private UnityEvent onDestroyed = new UnityEvent();
 
-    public float CurrentHealth { get; private set; }
-    public float HealthRatio => CurrentHealth / maxHealth;
-    public bool IsDestroyed => CurrentHealth <= 0f;
+  public float CurrentHealth { get; private set; }
+  public float HealthRatio => CurrentHealth / maxHealth;
+  public bool IsDestroyed => CurrentHealth <= 0f;
+  public float MaxHealth => maxHealth;
+  public int ExtraLives { get; set; }
 
-    public event Action<float> HealthChanged;
+  public event Action<float> HealthChanged;
 
-    private void Awake()
+  private void Awake()
+  {
+    CurrentHealth = maxHealth;
+  }
+
+  public void TakeDamage(float damage)
+  {
+    if (IsDestroyed || damage <= 0f) return;
+
+    if (CurrentHealth - damage <= 0f && ExtraLives > 0)
     {
-        CurrentHealth = maxHealth;
+      ExtraLives--;                       // Rueda de auxilio
+      CurrentHealth = maxHealth * 0.2f;
+      HealthChanged?.Invoke(HealthRatio);
+      return;
     }
 
-    public void TakeDamage(float damage)
-    {
-        if (IsDestroyed || damage <= 0f) return;
+    CurrentHealth = Mathf.Max(0f, CurrentHealth - damage);
+    Debug.Log("mi current health es " + CurrentHealth);
+    HealthChanged?.Invoke(HealthRatio);
 
-        CurrentHealth = Mathf.Max(0f, CurrentHealth - damage);
-        Debug.Log("mi current health es " + CurrentHealth);
-        HealthChanged?.Invoke(HealthRatio);
+    if (IsDestroyed)
+      onDestroyed.Invoke();
+  }
 
-        if (IsDestroyed)
-            onDestroyed.Invoke();
-    }
+  // healDifference = true cuando comprÃ¡s Chasis: sube el mÃ¡ximo y te cura lo que subiÃ³.
+  public void SetMaxHealth(float newMax, bool healDifference)
+  {
+    float diff = newMax - maxHealth;
+    maxHealth = Mathf.Max(1f, newMax);
+    if (healDifference && diff > 0f) CurrentHealth += diff;
+    CurrentHealth = Mathf.Clamp(CurrentHealth, 0f, maxHealth);
+    HealthChanged?.Invoke(HealthRatio);
+  }
+
+  public void SetHealth(float value)
+  {
+    CurrentHealth = Mathf.Clamp(value, 1f, maxHealth);
+    HealthChanged?.Invoke(HealthRatio);
+  }
+  public void Heal(float amount) => SetHealth(CurrentHealth + amount);
+
 }
