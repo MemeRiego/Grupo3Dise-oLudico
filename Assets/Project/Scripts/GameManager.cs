@@ -36,7 +36,7 @@ public class GameManager : MonoBehaviour
     LevelSetup level = Current;
     BusLine line = level.lines[UnityEngine.Random.Range(0, level.lines.Length)];
 
-    Route = RouteBuilder.Build(line, level.stopCount, level.segmentCount);
+    Route = RouteBuilder.Build(line, level.stopCount, Mathf.Clamp(level.segmentCount, 3, 4));
     PassengerGenerator.Fill(Route, passengerPool, level.passengersPerStop);
 
     var times = new List<float>();
