@@ -25,14 +25,14 @@ public class RouteMapView : MonoBehaviour
         line.positionCount = 0;
         line.startColor = line.endColor = Tramos.ColorOf(seg);
         lineSegment = seg;
-        AddPoint(line, r.path[i]);
+        AddPoint(line, MapGrid.Snap(r.path[i]));
       }
-      AddPoint(line, r.path[i + 1]);
+      AddPoint(line, MapGrid.Snap(r.path[i + 1]));
     }
 
     for (int i = 0; i < r.stops.Count; i++)
     {
-      Vector3 pos = r.stops[i].transform.position;
+      Vector3 pos = MapGrid.Snap(r.stops[i].transform.position);
       SpriteRenderer icon = Instantiate(stopIconPrefab, pos, Quaternion.identity, transform);
       icon.color = Tramos.ColorOf(r.segments[i]);
       TextMeshPro label = Instantiate(labelPrefab, pos + labelOffset, Quaternion.identity, transform);

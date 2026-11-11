@@ -23,6 +23,8 @@ public class GameManager : MonoBehaviour
   [SerializeField] private float firstLegSeconds = 10f; // el bondi ya arranca en la primera parada
   [SerializeField] private float extraSecondsPerLeg = 8f;
   [SerializeField] private float secondsPerUnit = 0.5f; // ajustalo jugando
+  [SerializeField] private float laneOffset = 1.5f;
+  [SerializeField] private float startBehind = 6f; // cuántas unidades antes de la primera parada aparece
 
   public GeneratedRoute Route { get; private set; }
   public int LevelIndex { get; private set; }
@@ -51,13 +53,6 @@ public class GameManager : MonoBehaviour
     if (busController != null) busController.enabled = false; // hasta que toque Arrancar
   }
 
-  // TEMPORAL: borrar cuando esté el botón Arrancar del paso 8
-  // private void Start()
-  // {
-  //   StartLevel();
-  // }
-
-  // Lo llama el botón Arrancar de la vista previa (paso 8).
   public void StartLevel()
   {
     if (busController != null) busController.enabled = true;
@@ -68,9 +63,17 @@ public class GameManager : MonoBehaviour
   private void PlaceBus()
   {
     if (bus == null || Route.path.Count < 2) return;
-    Vector2 start = Route.path[0];
-    Vector2 dir = Route.path[1] - Route.path[0];
-    float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg - 90f; // el sprite del bondi mira hacia arriba
+    Vector2 stop = Route.path[0];
+    Vector2 axis = MapGrid.Snap(stop);                 // centro de la calle frente a la parada
+    Vector2 side = stop - axis;                        // hacia qué vereda está la parada
+    Vector2 start = axis + (side.sqrMagnitude > 0.01f ? side.normalized * laneOffset : Vector2.zero);
+    Vector2 dir = (Vector2)MapGrid.Snap(Route.path[1]) - axis;
+    float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg - 90f;
+    angle = Mathf.Round(angle / 90f) * 90f;            // siempre derecho: 0, 90, 180
+    
+    // "Adelante" del bondi según su rotación (el sprite mira hacia arriba).
+    Vector2 forward = new Vector2(-Mathf.Sin(angle * Mathf.Deg2Rad), Mathf.Cos(angle * Mathf.Deg2Rad));
+    start -= forward * startBehind; // lo retrocedo sobre el mismo carril o 270
     bus.position = start;
     bus.rotation = angle;
     bus.transform.SetPositionAndRotation(start, Quaternion.Euler(0f, 0f, angle));
