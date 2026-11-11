@@ -62,9 +62,8 @@ public class TrafficJunction : MonoBehaviour
     {
         if (!source.AllowsDirection(direction)) return;
 
-        TrafficNode closest = null;
-        float closestDistance = float.PositiveInfinity;
         bool straight = Vector2.Dot(source.Forward, direction) > 0.5f;
+        Vector2 sideways = new Vector2(-source.Forward.y, source.Forward.x);
 
         foreach (TrafficNode target in nodes)
         {
@@ -78,26 +77,16 @@ public class TrafficJunction : MonoBehaviour
 
             if (straight)
             {
-                Vector2 sideways = new Vector2(-source.Forward.y, source.Forward.x);
-
                 if (Mathf.Abs(Vector2.Dot(offset, sideways)) > alignmentTolerance) continue;
             }
             else
             {
-                // la curva tiene que terminar avanzando en el sentido de salida.
                 if (Vector2.Dot(offset, target.Forward) <= 0.01f) continue;
             }
 
-            float distance = offset.sqrMagnitude;
-
-            if (distance >= closestDistance) continue;
-
-            closest = target;
-            closestDistance = distance;
+            // conecto todas las salidas validas para este sentido.
+            source.ConnectTo(target);
         }
-
-        if (closest != null)
-            source.ConnectTo(closest);
     }
 
     private void OnValidate()

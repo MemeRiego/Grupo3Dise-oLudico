@@ -24,11 +24,20 @@ public class TrafficNode : MonoBehaviour
     [Tooltip("Permite doblar a la derecha al entrar a un cruce.")]
     [SerializeField] private bool allowRight = true;
 
+    [Tooltip("Permite buscar un cambio al carril izquierdo.")]
+    [SerializeField] private bool allowLaneChangeLeft = true;
+
+    [Tooltip("Permite buscar un cambio al carril derecho.")]
+    [SerializeField] private bool allowLaneChangeRight = true;
+
     private readonly List<TrafficNode> nextNodes = new List<TrafficNode>();
+    private readonly HashSet<TrafficNode> laneChangeNodes = new HashSet<TrafficNode>();
 
     public Vector2 Position => transform.position;
     public IReadOnlyList<TrafficNode> NextNodes => nextNodes;
     public TrafficJunction Junction { get; private set; }
+    public bool AllowLaneChangeLeft => allowLaneChangeLeft;
+    public bool AllowLaneChangeRight => allowLaneChangeRight;
 
     public Vector2 Forward
     {
@@ -47,6 +56,7 @@ public class TrafficNode : MonoBehaviour
     public void ResetConnections()
     {
         nextNodes.Clear();
+        laneChangeNodes.Clear();
         Junction = null;
     }
 
@@ -60,6 +70,21 @@ public class TrafficNode : MonoBehaviour
         if (nextNode == null || nextNode == this || nextNodes.Contains(nextNode)) return;
 
         nextNodes.Add(nextNode);
+    }
+
+    public void ConnectLaneChangeTo(TrafficNode nextNode)
+    {
+        if (nextNode == null || nextNode == this) return;
+        if (Vector2.Dot(Forward, nextNode.Forward) < 0.99f) return;
+        if (Vector2.Dot(nextNode.Position - Position, Forward) <= 0f) return;
+
+        ConnectTo(nextNode);
+        laneChangeNodes.Add(nextNode);
+    }
+
+    public bool IsLaneChange(TrafficNode nextNode)
+    {
+        return nextNode != null && laneChangeNodes.Contains(nextNode);
     }
 
     public bool AllowsDirection(Vector2 nextDirection)
@@ -77,14 +102,24 @@ public class TrafficNode : MonoBehaviour
     public Vector2 GetConnectionPoint(TrafficNode nextNode, float amount)
     {
         amount = Mathf.Clamp01(amount);
+        float inverse = 1f - amount;
+        Vector2 offset = nextNode.Position - Position;
+
+        if (IsLaneChange(nextNode))
+        {
+            float forwardDistance = Vector2.Dot(offset, Forward);
+            float handleLength = forwardDistance * 0.4f;
+            Vector2 firstControl = Position + Forward * handleLength;
+            Vector2 secondControl = nextNode.Position - nextNode.Forward * handleLength;
+
+            // cambio de carril con entrada y salida suaves.
+            return inverse * inverse * inverse * Position + 3f * inverse * inverse * amount * firstControl + 3f * inverse * amount * amount * secondControl + amount * amount * amount * nextNode.Position;
+        }
 
         if (Vector2.Dot(Forward, nextNode.Forward) > 0.5f)
             return Vector2.Lerp(Position, nextNode.Position, amount);
 
-        // punto donde se encuentran las direcciones del giro.
-        Vector2 offset = nextNode.Position - Position;
         Vector2 corner = Position + Forward * Vector2.Dot(offset, Forward);
-        float inverse = 1f - amount;
 
         return inverse * inverse * Position + 2f * inverse * amount * corner + amount * amount * nextNode.Position;
     }
@@ -108,13 +143,13 @@ public class TrafficNode : MonoBehaviour
             if (nextNode == null) continue;
 
             bool straight = Vector2.Dot(Forward, nextNode.Forward) > 0.5f;
-            Gizmos.color = straight ? Color.green : Color.yellow;
+            Gizmos.color = IsLaneChange(nextNode) ? Color.blue : straight ? Color.green : Color.yellow;
 
             Vector2 previous = Position;
 
-            for (int i = 1; i <= 16; i++)
+            for (int i = 1; i <= 24; i++)
             {
-                Vector2 point = GetConnectionPoint(nextNode, i / 16f);
+                Vector2 point = GetConnectionPoint(nextNode, i / 24f);
                 Gizmos.DrawLine(previous, point);
                 previous = point;
             }

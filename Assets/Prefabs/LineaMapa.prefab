@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7719672397263763002}
   - component: {fileID: 7495488919872486068}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: LineaMapa
   m_TagString: Untagged
   m_Icon: {fileID: 0}

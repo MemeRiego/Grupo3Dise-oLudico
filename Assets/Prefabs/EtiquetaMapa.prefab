@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7287067333498457353}
   - component: {fileID: 7506522219646611820}
   - component: {fileID: 7149162643016125409}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: EtiquetaMapa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
