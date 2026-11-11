@@ -52,10 +52,10 @@ public class GameManager : MonoBehaviour
   }
 
   // TEMPORAL: borrar cuando esté el botón Arrancar del paso 8
-  private void Start()
-  {
-    StartLevel();
-  }
+  // private void Start()
+  // {
+  //   StartLevel();
+  // }
 
   // Lo llama el botón Arrancar de la vista previa (paso 8).
   public void StartLevel()
