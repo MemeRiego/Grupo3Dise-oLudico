@@ -7,9 +7,6 @@ public class TrafficAgent : MonoBehaviour
     [Tooltip("Red de calles que va a utilizar.")]
     [SerializeField] private TrafficNetwork network;
 
-    [Tooltip("Nodo donde aparece y comienza el recorrido.")]
-    [SerializeField] private TrafficNode startNode;
-
     [Tooltip("Velocidad deseada en las rectas.")]
     [SerializeField, Min(0.1f)] private float cruiseSpeed = 4f;
 
@@ -28,39 +25,64 @@ public class TrafficAgent : MonoBehaviour
     [Tooltip("Distancia al destino para considerarlo alcanzado.")]
     [SerializeField, Min(0.05f)] private float arrivalDistance = 0.3f;
 
-    [Tooltip("Desaceleracion estimada para empezar a frenar antes del destino.")]
+    [Tooltip("Desaceleracion estimada para empezar a frenar.")]
     [SerializeField, Min(0.1f)] private float stoppingDeceleration = 2f;
 
-    [Tooltip("Desvio maximo de la ruta antes de frenar por seguridad.")]
+    [Tooltip("Desvio maximo de la ruta antes de frenar.")]
     [SerializeField, Min(0.1f)] private float maxPathDeviation = 2f;
 
-    [Tooltip("Distancia maxima para buscar un nodo inicial cerca del auto.")]
+    [Tooltip("Distancia maxima para buscar el nodo inicial.")]
     [SerializeField, Min(0.1f)] private float startSearchRadius = 5f;
+
+    [Tooltip("Separacion lateral maxima respecto del carril inicial.")]
+    [SerializeField, Min(0.01f)] private float startLaneTolerance = 0.5f;
 
     [SerializeField] private bool showRoute = true;
 
     private readonly List<TrafficNode> route = new List<TrafficNode>();
     private readonly List<Vector2> points = new List<Vector2>();
     private readonly List<float> distances = new List<float>();
+    private readonly List<float> nodeDistances = new List<float>();
     private readonly List<TrafficNode> candidates = new List<TrafficNode>();
     private readonly Queue<TrafficNode> pending = new Queue<TrafficNode>();
     private readonly HashSet<TrafficNode> visited = new HashSet<TrafficNode>();
     private readonly Queue<TrafficNode> recentDestinations = new Queue<TrafficNode>();
+    private readonly List<SignalStop> signalStops = new List<SignalStop>();
+    private readonly List<ActiveCrossing> activeCrossings = new List<ActiveCrossing>();
 
     private VehicleController vehicle;
     private Rigidbody2D rb;
+    private TrafficSensor sensor;
     private TrafficNode currentNode;
     private TrafficNode destinationNode;
+    private Vector2 steeringTarget;
     private int segmentIndex;
     private float progress;
+    private bool joiningRoute = true;
     private bool hasRoute;
     private bool pathLost;
-    private Vector2 steeringTarget;
-    private TrafficSensor sensor;
+
+    public bool WaitingForSignal { get; private set; }
+
+    private class SignalStop
+    {
+        public TrafficSignal Signal;
+        public TrafficNode Entry;
+        public TrafficNode Exit;
+        public float EntryDistance;
+        public bool Committed;
+        public bool YellowStop;
+    }
+
+    private class ActiveCrossing
+    {
+        public TrafficSignal Signal;
+        public Vector2 ExitPosition;
+        public Vector2 ExitDirection;
+    }
 
     private void Awake()
     {
-
         vehicle = GetComponent<VehicleController>();
         rb = GetComponent<Rigidbody2D>();
         sensor = GetComponent<TrafficSensor>();
@@ -85,22 +107,19 @@ public class TrafficAgent : MonoBehaviour
 
         if (currentNode == null)
         {
-            Debug.LogWarning("No encontre un nodo con salida cerca del auto. Revisa la posicion o el rango de busqueda.", this);
+            Debug.LogWarning("No encontre un nodo valido adelante. Revisa la posicion, la orientacion y el rango de busqueda.", this);
             enabled = false;
             return;
         }
-
-        // lo acomodo en el carril solamente al iniciar.
-        rb.position = currentNode.Position;
-        rb.rotation = Vector2.SignedAngle(Vector2.up, currentNode.Forward);
-        rb.linearVelocity = Vector2.zero;
-        rb.angularVelocity = 0f;
 
         CalculateRoute();
     }
 
     private void FixedUpdate()
     {
+        WaitingForSignal = false;
+        UpdateSignalCrossings();
+
         if (!vehicle.enabled) return;
 
         if (!hasRoute || pathLost)
@@ -125,7 +144,6 @@ public class TrafficAgent : MonoBehaviour
             currentNode = destinationNode;
             RememberDestination(currentNode);
             CalculateRoute();
-
             vehicle.SetInput(0f, 0f, true);
             return;
         }
@@ -136,16 +154,32 @@ public class TrafficAgent : MonoBehaviour
     private TrafficNode FindStartNode()
     {
         TrafficNode[] nodes = network.GetComponentsInChildren<TrafficNode>();
+        TrafficJunction[] junctions = network.GetComponentsInChildren<TrafficJunction>();
+
         TrafficNode closestNode = null;
         float closestDistance = startSearchRadius * startSearchRadius;
+        Vector2 forward = Quaternion.Euler(0f, 0f, rb.rotation) * Vector3.up;
+
+        foreach (TrafficJunction junction in junctions)
+        {
+            if (junction.isActiveAndEnabled && junction.Contains(rb.position)) return null;
+        }
 
         foreach (TrafficNode node in nodes)
         {
             if (!node.isActiveAndEnabled || !HasActiveExit(node)) continue;
+            if (node.Junction != null && !node.Junction.IsEntry(node)) continue;
+            if (Vector2.Dot(forward, node.Forward) < 0.866f) continue;
 
-            float distance = (node.Position - rb.position).sqrMagnitude;
+            Vector2 offset = node.Position - rb.position;
+            Vector2 sideways = new Vector2(-node.Forward.y, node.Forward.x);
+            float distance = offset.sqrMagnitude;
 
             if (distance > closestDistance) continue;
+            if (Vector2.Dot(offset, node.Forward) < -0.01f) continue;
+            if (Mathf.Abs(Vector2.Dot(offset, sideways)) > startLaneTolerance) continue;
+            if (distance > 0.01f && Vector2.Dot(offset.normalized, forward) < 0.707f) continue;
+            if (InitialSegmentCrossesJunction(node, junctions)) continue;
 
             closestDistance = distance;
             closestNode = node;
@@ -154,19 +188,42 @@ public class TrafficAgent : MonoBehaviour
         return closestNode;
     }
 
+    private bool InitialSegmentCrossesJunction(TrafficNode node, TrafficJunction[] junctions)
+    {
+        Vector2 segment = node.Position - rb.position;
+
+        if (segment.sqrMagnitude < 0.0001f) return false;
+
+        foreach (TrafficJunction junction in junctions)
+        {
+            if (!junction.isActiveAndEnabled || junction == node.Junction) continue;
+
+            Vector2 offset = (Vector2)junction.transform.position - rb.position;
+            float amount = Mathf.Clamp01(Vector2.Dot(offset, segment) / segment.sqrMagnitude);
+
+            if (junction.Contains(rb.position + segment * amount)) return true;
+        }
+
+        return false;
+    }
+
     private void CalculateRoute()
     {
         hasRoute = false;
         pathLost = false;
+        WaitingForSignal = false;
+
         route.Clear();
         points.Clear();
         distances.Clear();
+        nodeDistances.Clear();
+        signalStops.Clear();
 
         FindDestinations();
 
         if (candidates.Count == 0)
         {
-            Debug.LogWarning("El auto no encontro otro destino con salida. Revisa las conexiones.", this);
+            Debug.LogWarning("El auto no encontro otro destino fuera de los cruces con salida. Revisa las conexiones.", this);
             return;
         }
 
@@ -179,6 +236,7 @@ public class TrafficAgent : MonoBehaviour
         }
 
         BuildPoints();
+        BuildSignalStops();
 
         segmentIndex = 0;
         progress = 0f;
@@ -204,12 +262,12 @@ public class TrafficAgent : MonoBehaviour
 
                 pending.Enqueue(next);
 
-                if (HasActiveExit(next))
+                // no termino un viaje en el medio de un cruce.
+                if (next.Junction == null && HasActiveExit(next))
                     candidates.Add(next);
             }
         }
 
-        // evito repetir destinos, salvo que no haya alternativa.
         bool hasNewDestination = candidates.Exists(node => !recentDestinations.Contains(node));
 
         if (hasNewDestination)
@@ -237,7 +295,13 @@ public class TrafficAgent : MonoBehaviour
 
     private void BuildPoints()
     {
+        // empiezo desde donde deje el auto, sin teletransportarlo.
+        if (joiningRoute)
+            AddPoint(rb.position);
+
         AddPoint(route[0].Position);
+        nodeDistances.Add(distances[distances.Count - 1]);
+        joiningRoute = false;
 
         for (int i = 0; i < route.Count - 1; i++)
         {
@@ -252,6 +316,8 @@ public class TrafficAgent : MonoBehaviour
             {
                 AddPoint(start.GetConnectionPoint(end, step / (float)steps));
             }
+
+            nodeDistances.Add(distances[distances.Count - 1]);
         }
     }
 
@@ -272,6 +338,31 @@ public class TrafficAgent : MonoBehaviour
         points.Add(point);
     }
 
+    private void BuildSignalStops()
+    {
+        for (int i = 0; i < route.Count - 1; i++)
+        {
+            TrafficNode entry = route[i];
+            TrafficNode exit = route[i + 1];
+            TrafficJunction junction = entry.Junction;
+
+            if (junction == null || !junction.IsEntry(entry)) continue;
+            if (exit.Junction != junction || !junction.IsExit(exit)) continue;
+
+            TrafficSignal signal = junction.GetComponent<TrafficSignal>();
+
+            if (signal == null) continue;
+
+            SignalStop stop = new SignalStop();
+            stop.Signal = signal;
+            stop.Entry = entry;
+            stop.Exit = exit;
+            stop.EntryDistance = nodeDistances[i];
+
+            signalStops.Add(stop);
+        }
+    }
+
     private void UpdateProgress()
     {
         float bestDistance = float.PositiveInfinity;
@@ -279,12 +370,15 @@ public class TrafficAgent : MonoBehaviour
         int bestSegment = segmentIndex;
         float searchDistance = progress + Mathf.Max(lookAheadDistance * 2f, rb.linearVelocity.magnitude * Time.fixedDeltaTime * 2f);
 
-        // busco cerca del tramo actual para no saltar a otra calle.
+        // reviso cerca del tramo actual para no saltar a otra calle.
         for (int i = segmentIndex; i < points.Count - 1; i++)
         {
             if (distances[i] > searchDistance) break;
 
             Vector2 segment = points[i + 1] - points[i];
+
+            if (segment.sqrMagnitude < 0.000001f) continue;
+
             float amount = Mathf.Clamp01(Vector2.Dot(rb.position - points[i], segment) / segment.sqrMagnitude);
             Vector2 projection = points[i] + segment * amount;
             float distance = (rb.position - projection).sqrMagnitude;
@@ -349,27 +443,142 @@ public class TrafficAgent : MonoBehaviour
         desiredSpeed = Mathf.Min(desiredSpeed, stopSpeed);
 
         float speed = Vector2.Dot(rb.linearVelocity, forward);
+        float safeDeceleration = Mathf.Max(0.01f, Mathf.Min(stoppingDeceleration, vehicle.BrakingDeceleration * 0.8f));
 
-        // dejo un margen respecto al frenado real del vehiculo.
-        float safeDeceleration = Mathf.Min(stoppingDeceleration, vehicle.BrakingDeceleration * 0.8f);
         float trafficSpeedLimit = sensor.GetSpeedLimit(speed, safeDeceleration);
+        float signalSpeedLimit = GetSignalSpeedLimit(Mathf.Max(0f, speed), safeDeceleration);
 
-        desiredSpeed = Mathf.Min(desiredSpeed, trafficSpeedLimit);
+        desiredSpeed = Mathf.Min(desiredSpeed, Mathf.Min(trafficSpeedLimit, signalSpeedLimit));
 
         bool targetBehind = Vector2.Dot(forward, offset) < 0f;
-        bool trafficStop = trafficSpeedLimit <= 0.05f;
-        bool trafficBrake = speed > trafficSpeedLimit + 0.05f;
-        bool brake = targetBehind || trafficStop || trafficBrake || speed > desiredSpeed + 0.2f;
+        bool trafficBrake = trafficSpeedLimit <= 0.05f || speed > trafficSpeedLimit + 0.05f;
+        bool signalBrake = signalSpeedLimit <= 0.05f || speed > signalSpeedLimit + 0.05f;
+        bool brake = targetBehind || trafficBrake || signalBrake || speed > desiredSpeed + 0.2f;
         float throttle = brake ? 0f : Mathf.Clamp01((desiredSpeed - speed) * 1.5f);
 
         vehicle.SetInput(throttle, steering, brake);
+    }
 
+    private float GetSignalSpeedLimit(float speed, float deceleration)
+    {
+        float brakingDistance = speed * speed / (2f * deceleration);
+
+        foreach (SignalStop stop in signalStops)
+        {
+            if (stop.Signal == null || stop.Committed) continue;
+
+            float frontDistance = GetFrontDistance(stop.Entry.Forward);
+            float distanceToEntry = stop.EntryDistance - progress - frontDistance;
+            float availableDistance = distanceToEntry - stop.Signal.StopOffset;
+
+            TrafficLightState state = stop.Signal.GetState(stop.Entry.Forward);
+
+            // si ya entre, sigo hasta despejar el cruce.
+            if (distanceToEntry < 0f)
+            {
+                CommitCrossing(stop);
+                continue;
+            }
+
+            if (state == TrafficLightState.Green)
+            {
+                stop.YellowStop = false;
+
+                if (availableDistance <= 0.1f)
+                    CommitCrossing(stop);
+
+                return float.PositiveInfinity;
+            }
+
+            if (state == TrafficLightState.Yellow && !stop.YellowStop)
+            {
+                float decisionDistance = Mathf.Max(3f, brakingDistance + speed * 0.3f);
+
+                if (availableDistance > decisionDistance)
+                    return float.PositiveInfinity;
+
+                float requiredDistance = brakingDistance + speed * Time.fixedDeltaTime * 2f;
+
+                if (speed > 0.1f && availableDistance < requiredDistance)
+                {
+                    CommitCrossing(stop);
+                    return float.PositiveInfinity;
+                }
+
+                // mantengo la decision de frenar durante este amarillo.
+                stop.YellowStop = true;
+            }
+
+            float gap = Mathf.Max(0f, availableDistance);
+            float stopSpeed = Mathf.Min(Mathf.Sqrt(2f * deceleration * gap), gap * 2f);
+
+            WaitingForSignal = availableDistance <= Mathf.Max(4f, brakingDistance + 1f);
+
+            return stopSpeed;
+        }
+
+        return float.PositiveInfinity;
+    }
+
+    private float GetFrontDistance(Vector2 direction)
+    {
+        if (sensor.BodyCollider == null) return 0f;
+
+        Bounds bounds = sensor.BodyCollider.bounds;
+        Vector2 offset = (Vector2)bounds.center - rb.position;
+        float extent = Mathf.Abs(direction.x) * bounds.extents.x + Mathf.Abs(direction.y) * bounds.extents.y;
+
+        return Mathf.Max(0f, Vector2.Dot(offset, direction) + extent);
+    }
+
+    private void CommitCrossing(SignalStop stop)
+    {
+        stop.Committed = true;
+        stop.Signal.RegisterCrossing(this);
+
+        ActiveCrossing crossing = new ActiveCrossing();
+        crossing.Signal = stop.Signal;
+        crossing.ExitPosition = stop.Exit.Position;
+        crossing.ExitDirection = stop.Exit.Forward;
+
+        activeCrossings.Add(crossing);
+    }
+
+    private void UpdateSignalCrossings()
+    {
+        for (int i = activeCrossings.Count - 1; i >= 0; i--)
+        {
+            ActiveCrossing crossing = activeCrossings[i];
+            float rearDistance = GetFrontDistance(-crossing.ExitDirection);
+            float distancePastExit = Vector2.Dot(rb.position - crossing.ExitPosition, crossing.ExitDirection);
+
+            if (crossing.Signal != null && distancePastExit <= rearDistance + 0.1f) continue;
+
+            // libero cuando tambien salio la parte trasera.
+            if (crossing.Signal != null)
+                crossing.Signal.ReleaseCrossing(this);
+
+            activeCrossings.RemoveAt(i);
+        }
     }
 
     private void OnDisable()
     {
+        WaitingForSignal = false;
+
         if (vehicle != null)
             vehicle.SetInput(0f, 0f, true);
+    }
+
+    private void OnDestroy()
+    {
+        foreach (ActiveCrossing crossing in activeCrossings)
+        {
+            if (crossing.Signal != null)
+                crossing.Signal.ReleaseCrossing(this);
+        }
+
+        activeCrossings.Clear();
     }
 
     private void OnDrawGizmos()
