@@ -21,6 +21,8 @@ public class TrafficSensor : MonoBehaviour
 
     private readonly List<RaycastHit2D> hits = new List<RaycastHit2D>(16);
 
+    public Collider2D BodyCollider => bodyCollider;
+
     private Rigidbody2D rb;
     private float detectionDistance;
 

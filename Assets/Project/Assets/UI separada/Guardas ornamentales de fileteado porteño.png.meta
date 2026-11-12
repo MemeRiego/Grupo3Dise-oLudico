@@ -130,7 +130,7 @@ TextureImporter:
         width: 2133
         height: 136
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -139,6 +139,28 @@ TextureImporter:
       bones: []
       spriteID: bf3ce2dc76a185b42943c951d1dae938
       internalID: 534993407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Guardas ornamentales de fileteado porte\xF1o_2"
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 293
+        width: 2145
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca5a9b82ffbbe414ba7757d029bb9b90
+      internalID: 1140837966
       vertices: []
       indices: 
       edges: []
@@ -159,6 +181,7 @@ TextureImporter:
     nameFileIdTable:
       "Guardas ornamentales de fileteado porte\xF1o_0": 2863739523440535606
       "Guardas ornamentales de fileteado porte\xF1o_1": 534993407
+      "Guardas ornamentales de fileteado porte\xF1o_2": 1140837966
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
