@@ -41,10 +41,13 @@ public class GameManager : MonoBehaviour
     Route = RouteBuilder.Build(line, level.stopCount, Mathf.Clamp(level.segmentCount, 3, 4));
     PassengerGenerator.Fill(Route, passengerPool, level.passengersPerStop);
 
+    float bonus = GameSession.Stat(UpgradeStat.SecondsPerLeg); // Reloj del chofer
+
     var times = new List<float>();
     for (int i = 0; i < Route.stops.Count; i++)
-      times.Add(i == 0 ? firstLegSeconds : extraSecondsPerLeg + Route.legDistances[i] * secondsPerUnit);
+      times.Add(bonus + (i == 0 ? firstLegSeconds : extraSecondsPerLeg + Route.legDistances[i] * secondsPerUnit));
     route.Setup(Route.stops, times, level.pauseTimerWhileBoarding);
+    route.FreeBoardingSeconds = GameSession.Stat(UpgradeStat.FreeBoardingSeconds); // Cobro rápido
 
     for (int i = 0; i < Route.stops.Count; i++)
       Route.stops[i].SetSegmentColor(Tramos.ColorOf(Route.segments[i]));
@@ -70,7 +73,7 @@ public class GameManager : MonoBehaviour
     Vector2 dir = (Vector2)MapGrid.Snap(Route.path[1]) - axis;
     float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg - 90f;
     angle = Mathf.Round(angle / 90f) * 90f;            // siempre derecho: 0, 90, 180
-    
+
     // "Adelante" del bondi según su rotación (el sprite mira hacia arriba).
     Vector2 forward = new Vector2(-Mathf.Sin(angle * Mathf.Deg2Rad), Mathf.Cos(angle * Mathf.Deg2Rad));
     start -= forward * startBehind; // lo retrocedo sobre el mismo carril o 270

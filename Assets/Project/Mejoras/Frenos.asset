@@ -15,7 +15,7 @@ MonoBehaviour:
   id: frenos
   displayName: Frenos nuevos
   description: +25% fuerza de frenado
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 1011c47bd59ac704fbb33657886a9d27, type: 3}
   rarity: 0
   price: 200
   maxLevel: 2

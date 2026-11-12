@@ -16,7 +16,7 @@ MonoBehaviour:
   displayName: Amortiguadores
   description: "Los golpes suaves no hacen da\xF1o (+1 a la velocidad m\xEDnima de
     impacto)"
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 1011c47bd59ac704fbb33657886a9d27, type: 3}
   rarity: 1
   price: 350
   maxLevel: 2

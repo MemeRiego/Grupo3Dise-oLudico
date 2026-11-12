@@ -15,4 +15,7 @@ public class UpgradeDatabase : ScriptableObject
     foreach (UpgradeData u in all) if (u != null && u.id == id) return u;
     return null;
   }
+
+  [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
+  private static void ResetAlDarPlay() => instance = null;
 }

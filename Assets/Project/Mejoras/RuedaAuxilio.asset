@@ -15,7 +15,7 @@ MonoBehaviour:
   id: auxilio
   displayName: Rueda de auxilio
   description: Una vez por nivel, si te destruyen quedas con 20% de vida
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 1011c47bd59ac704fbb33657886a9d27, type: 3}
   rarity: 2
   price: 650
   maxLevel: 1

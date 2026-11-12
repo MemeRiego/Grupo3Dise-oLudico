@@ -46,4 +46,7 @@ public static class GameSession
 
   // Para stats en %: +10 -> 1.1, -15 -> 0.85
   public static float Mult(UpgradeStat stat) => Mathf.Max(0f, 1f + Stat(stat) / 100f);
+
+  [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
+  private static void ResetAlDarPlay() => NewRun();
 }

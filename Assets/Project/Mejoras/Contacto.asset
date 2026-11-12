@@ -15,7 +15,7 @@ MonoBehaviour:
   id: contacto
   displayName: Contacto en el taller
   description: El taller muestra 4 opciones y el primer reroll es gratis
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 1011c47bd59ac704fbb33657886a9d27, type: 3}
   rarity: 2
   price: 700
   maxLevel: 1
