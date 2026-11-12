@@ -37,6 +37,8 @@ public class RouteManager : MonoBehaviour
   private float legTimer;
   private float boardingTimer; // tiempo cobrando; se descuenta del tramo siguiente si no hay pausa
   private bool running;
+  public float FreeBoardingSeconds { get; set; }
+  private float boardingElapsed;
 
   private void Start()
   {
@@ -79,9 +81,11 @@ public class RouteManager : MonoBehaviour
 
     if (IsBoarding)
     {
-      if (!pauseWhileBoarding) boardingTimer += Time.deltaTime;
+      boardingElapsed += Time.deltaTime;
+      if (!pauseWhileBoarding && boardingElapsed > FreeBoardingSeconds) boardingTimer += Time.deltaTime;
       return;
     }
+
     legTimer += Time.deltaTime;
     TimeLeft = legs[currentIndex].timeLimit - legTimer;
   }
@@ -104,6 +108,7 @@ public class RouteManager : MonoBehaviour
     if (onTime) StopsOnTime++;
     IsBoarding = true;
     boardingTimer = 0f;
+    boardingElapsed = 0f;
     StopReached?.Invoke(stop, onTime, legTimer);
   }
 

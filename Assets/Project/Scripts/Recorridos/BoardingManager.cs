@@ -20,6 +20,8 @@ public class BoardingManager : MonoBehaviour
   public int Money { get; private set; }
   public int CorrectTickets { get; private set; }
   public int WrongTickets { get; private set; }
+  public int CurrentStreak { get; private set; }
+  public int BestStreak { get; private set; }
   public event Action<Passenger, TicketType, bool> TicketChecked; // pasajero, boleto elegido, ¿acertó?
 
   private readonly Queue<Passenger> queue = new Queue<Passenger>();
@@ -81,15 +83,24 @@ public class BoardingManager : MonoBehaviour
     bool correct = ticket == current.correctTicket;
     if (correct)
     {
-      Money += fare;
+      int earned = fare + Mathf.RoundToInt(GameSession.Stat(UpgradeStat.FareBonus));
+      CurrentStreak++;
+      BestStreak = Mathf.Max(BestStreak, CurrentStreak);
+      int streakBonus = Mathf.RoundToInt(GameSession.Stat(UpgradeStat.StreakBonus));
+      bool streakPay = streakBonus > 0 && CurrentStreak % 5 == 0;
+      if (streakPay) earned += streakBonus;
+      Money += earned;
       CorrectTickets++;
-      if (routeUI != null) routeUI.ShowMessage("BIEN: boleto correcto +$" + fare);
+      if (routeUI != null)
+        routeUI.ShowMessage("BIEN: boleto correcto +$" + earned + (streakPay ? "  ¡RACHA!" : ""));
     }
     else
     {
-      Money -= penalty;
+      int lost = Mathf.RoundToInt(penalty * GameSession.Mult(UpgradeStat.Penalty));
+      Money -= lost;
       WrongTickets++;
-      if (routeUI != null) routeUI.ShowMessage("MAL: le correspondía " + current.correctTicket + " -$" + penalty);
+      CurrentStreak = 0;
+      if (routeUI != null) routeUI.ShowMessage("MAL: le correspondía " + current.correctTicket + " -$" + lost);
     }
 
     TicketChecked?.Invoke(current, ticket, correct);
