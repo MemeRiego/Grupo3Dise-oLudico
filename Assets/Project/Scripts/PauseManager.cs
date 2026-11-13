@@ -1,8 +1,13 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PauseManager : MonoBehaviour
 {
     [SerializeField] private GameObject pauseMenu;
+    [SerializeField] private GameObject VolumeMenu;
+    [SerializeField] private GameObject ControlsMenu;
+    [SerializeField] private GameObject MainPanelMenu;
+
 
     public bool IsPaused { get; private set; }
 
@@ -42,5 +47,41 @@ public class PauseManager : MonoBehaviour
     private void OnDisable()
     {
         if (IsPaused) Resume();
+    }
+
+
+
+    public void OptionPanelOn()
+    {
+        MainPanelMenu.SetActive(false);
+        VolumeMenu.SetActive(true);
+    }
+
+    public void OptionPanelOff()
+    {
+        MainPanelMenu.SetActive(true);
+        VolumeMenu.SetActive(false);
+
+
+    }
+    public void ControlPanelOn()
+    {
+        MainPanelMenu.SetActive(false);
+        ControlsMenu.SetActive(true);
+
+
+
+    }
+
+    public void ControlPanelOff()
+    {
+        MainPanelMenu.SetActive(true);
+        ControlsMenu.SetActive(false);
+
+    }
+
+    public void GoToMainMenu(string scene)
+    {
+        SceneManager.LoadScene(scene);
     }
 }
