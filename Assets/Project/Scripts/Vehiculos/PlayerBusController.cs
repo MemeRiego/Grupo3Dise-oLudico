@@ -1,16 +1,19 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 [RequireComponent(typeof(VehicleController))]
 
 public class PlayerBusController : MonoBehaviour
 {
     private VehicleController vehicle;
     private VehicleAudio vehicleAudio;
+   [SerializeField] private PauseManager pauseManager;
 
 
     private void Awake()
     {
         vehicle = GetComponent<VehicleController>();
         vehicleAudio = GetComponent<VehicleAudio>();
+
     }
 
     private void Update()
@@ -19,6 +22,7 @@ public class PlayerBusController : MonoBehaviour
 
         HandleMovement();
         HandleHorn();
+        HandlePause();
     }
 
     private void HandleMovement()
@@ -30,10 +34,21 @@ public class PlayerBusController : MonoBehaviour
         vehicle.SetInput(throttle, steering, brake);
     }
 
+    private void HandlePause()
+    {
+
+        if (Keyboard.current != null && Keyboard.current.escapeKey.wasPressedThisFrame)
+        {
+            pauseManager.TogglePause();
+        }
+
+    }
+
     private void HandleHorn()
     {
         vehicleAudio.SetHorn(Input.GetKey(KeyCode.F));
     }
+
 
     private void OnDisable()
     {

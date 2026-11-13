@@ -5,6 +5,7 @@ public class MainMenu : MonoBehaviour
 {
   public GameObject optionMenu;
   public GameObject mainMenu;
+  public GameObject optionsPanel;
   public UnlocksScreen unlocksScreen;
   public string levelScene;
 
@@ -46,4 +47,18 @@ public class MainMenu : MonoBehaviour
     SceneManager.LoadScene(levelScene);
   }
 
+
+    public void oPENOptionsPanel()
+    {
+        optionsPanel.SetActive(true);
+        mainMenu.SetActive(false);
+
+    }
+
+    public void CloseOptionsPanel()
+    {
+        optionsPanel.SetActive(false);
+        mainMenu.SetActive(true);
+
+    }
 }
