@@ -48,7 +48,7 @@ MonoBehaviour:
     - Buenas, hasta {0}, por favor.
     - Me bajo en {0}.
   - label: Enfermera
-    portrait: {fileID: 803497541740402717, guid: 6636e886b1d639a4c80b6e6b46499901, type: 3}
+    portrait: {fileID: -7062372677760962264, guid: 53f3293eb5687f14e9f8a60b37bb2924, type: 3}
     kind: 0
     weight: 0.7
     phrases:

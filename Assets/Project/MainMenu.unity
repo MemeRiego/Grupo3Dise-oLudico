@@ -176,7 +176,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: OPTIONS
+  m_text: OPCIONES
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 36600d229f82b2b42b9294fe17e55895, type: 2}
   m_sharedMaterial: {fileID: 2715791690404518503, guid: 36600d229f82b2b42b9294fe17e55895, type: 2}
@@ -451,7 +451,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 791412343295339506, guid: 0429ad35b3169dd4ca0fc95a7a9ad54c, type: 3}
       propertyPath: m_text
-      value: VFX
+      value: EFECTOS
       objectReference: {fileID: 0}
     - target: {fileID: 791412343295339506, guid: 0429ad35b3169dd4ca0fc95a7a9ad54c, type: 3}
       propertyPath: m_fontSize
@@ -737,7 +737,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 791412343295339506, guid: 0429ad35b3169dd4ca0fc95a7a9ad54c, type: 3}
       propertyPath: m_text
-      value: ENVIROMENT
+      value: AMBIENTE
       objectReference: {fileID: 0}
     - target: {fileID: 791412343295339506, guid: 0429ad35b3169dd4ca0fc95a7a9ad54c, type: 3}
       propertyPath: m_fontSize
@@ -921,7 +921,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: description
+  m_text: DESCRIPCION DE MEJORA
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1058,7 +1058,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: QUIT
+  m_text: SALIR
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 36600d229f82b2b42b9294fe17e55895, type: 2}
   m_sharedMaterial: {fileID: 2715791690404518503, guid: 36600d229f82b2b42b9294fe17e55895, type: 2}
@@ -1195,7 +1195,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "W \nS \nAD \nSPACE \nF \nTAB"
+  m_text: "W \nS \nAD \nESPACIO\nF \nTAB"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1645,8 +1645,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.00076293945}
-  m_SizeDelta: {x: 0, y: 70.22}
+  m_AnchoredPosition: {x: 0, y: 0.0007324219}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &662022594
 MonoBehaviour:
@@ -1848,6 +1848,10 @@ PrefabInstance:
     - target: {fileID: 426758377454977910, guid: 0429ad35b3169dd4ca0fc95a7a9ad54c, type: 3}
       propertyPath: m_Name
       value: ScrollPrefabMASTER
+      objectReference: {fileID: 0}
+    - target: {fileID: 791412343295339506, guid: 0429ad35b3169dd4ca0fc95a7a9ad54c, type: 3}
+      propertyPath: m_text
+      value: VOLUMEN GENERAL
       objectReference: {fileID: 0}
     - target: {fileID: 791412343295339506, guid: 0429ad35b3169dd4ca0fc95a7a9ad54c, type: 3}
       propertyPath: m_fontSize
@@ -2748,7 +2752,7 @@ RectTransform:
   m_Father: {fileID: 750213097}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -2933,7 +2937,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1051017390
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3601,8 +3605,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.32619935, y: 0.19863534}
   m_AnchorMax: {x: 0.68201756, y: 0.58683693}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 17, y: 38.254}
+  m_SizeDelta: {x: 124.6697, y: 76.509}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1276794708
 MonoBehaviour:
@@ -3739,10 +3743,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 662022593}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 315.5855, y: -60.22}
-  m_SizeDelta: {x: 616, y: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1349575767
 MonoBehaviour:
@@ -3993,7 +3997,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: BACK
+  m_text: VOLVER
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 36600d229f82b2b42b9294fe17e55895, type: 2}
   m_sharedMaterial: {fileID: 2715791690404518503, guid: 36600d229f82b2b42b9294fe17e55895, type: 2}
@@ -4208,7 +4212,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 791412343295339506, guid: 0429ad35b3169dd4ca0fc95a7a9ad54c, type: 3}
       propertyPath: m_text
-      value: MUSIC
+      value: MUSICA
       objectReference: {fileID: 0}
     - target: {fileID: 791412343295339506, guid: 0429ad35b3169dd4ca0fc95a7a9ad54c, type: 3}
       propertyPath: m_fontSize
@@ -4392,7 +4396,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: BACK
+  m_text: VOLVER
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 36600d229f82b2b42b9294fe17e55895, type: 2}
   m_sharedMaterial: {fileID: 2715791690404518503, guid: 36600d229f82b2b42b9294fe17e55895, type: 2}
@@ -4757,7 +4761,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 791412343295339506, guid: 0429ad35b3169dd4ca0fc95a7a9ad54c, type: 3}
       propertyPath: m_text
-      value: UI
+      value: INTERFAZ
       objectReference: {fileID: 0}
     - target: {fileID: 791412343295339506, guid: 0429ad35b3169dd4ca0fc95a7a9ad54c, type: 3}
       propertyPath: m_fontSize
@@ -5182,10 +5186,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 662022593}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 315.5855, y: -30.11}
-  m_SizeDelta: {x: 345.35, y: 40.22}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1725222379
 MonoBehaviour:
@@ -5534,18 +5538,18 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'ACCELERATE
+  m_text: 'ACELERAR
 
-    DESACELERATE
+    FRENAR
 
-    TURN
+    GIRAR
 
-    BREAK
+    FRENO DE MANO
 
-    HORN
+    BOCINA
 
-    OPEN
-    MAP
+    ABRIR
+    MAPA
 
 '
   m_isRightToLeft: 0
@@ -5810,7 +5814,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: OPTIONS
+  m_text: ' OPCIONES DE SONIDO'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6419,7 +6423,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: PLAY
+  m_text: JUGAR
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 36600d229f82b2b42b9294fe17e55895, type: 2}
   m_sharedMaterial: {fileID: 2715791690404518503, guid: 36600d229f82b2b42b9294fe17e55895, type: 2}
@@ -6716,7 +6720,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: UPGRADES
+  m_text: MEJORAS
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 36600d229f82b2b42b9294fe17e55895, type: 2}
   m_sharedMaterial: {fileID: 2715791690404518503, guid: 36600d229f82b2b42b9294fe17e55895, type: 2}
@@ -7037,7 +7041,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: BACK
+  m_text: VOLVER
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 36600d229f82b2b42b9294fe17e55895, type: 2}
   m_sharedMaterial: {fileID: 2715791690404518503, guid: 36600d229f82b2b42b9294fe17e55895, type: 2}
@@ -7174,7 +7178,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: CONTROLS
+  m_text: CONTROLES
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 36600d229f82b2b42b9294fe17e55895, type: 2}
   m_sharedMaterial: {fileID: 2715791690404518503, guid: 36600d229f82b2b42b9294fe17e55895, type: 2}
