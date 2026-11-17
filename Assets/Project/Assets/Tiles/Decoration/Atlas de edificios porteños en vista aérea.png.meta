@@ -163,9 +163,9 @@ TextureImporter:
       name: "Atlas de edificios porte\xF1os en vista a\xE9rea_0"
       rect:
         serializedVersion: 2
-        x: 0
+        x: 47
         y: 665
-        width: 353
+        width: 232
         height: 359
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -212,7 +212,7 @@ TextureImporter:
         width: 360
         height: 278
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -234,7 +234,7 @@ TextureImporter:
         width: 370
         height: 343
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -251,12 +251,12 @@ TextureImporter:
       name: "Atlas de edificios porte\xF1os en vista a\xE9rea_4"
       rect:
         serializedVersion: 2
-        x: 3
+        x: 38
         y: 361
-        width: 343
+        width: 284
         height: 292
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -295,10 +295,10 @@ TextureImporter:
       name: "Atlas de edificios porte\xF1os en vista a\xE9rea_11"
       rect:
         serializedVersion: 2
-        x: 736
-        y: 355
-        width: 413
-        height: 293
+        x: 775
+        y: 370
+        width: 361
+        height: 266
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -309,28 +309,6 @@ TextureImporter:
       bones: []
       spriteID: 7c371df5f700b7a10800000000000000
       internalID: 1908119414189945799
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Atlas de edificios porte\xF1os en vista a\xE9rea_12"
-      rect:
-        serializedVersion: 2
-        x: 910
-        y: 645
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b33c043d0229b41f0800000000000000
-      internalID: -1059592617634774213
       vertices: []
       indices: 
       edges: []
@@ -358,35 +336,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Atlas de edificios porte\xF1os en vista a\xE9rea_16"
-      rect:
-        serializedVersion: 2
-        x: 1142
-        y: 531
-        width: 9
-        height: 17
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ad6a5fffbb6e09530800000000000000
-      internalID: 3859838575784077018
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: "Atlas de edificios porte\xF1os en vista a\xE9rea_18"
       rect:
         serializedVersion: 2
-        x: 0
-        y: 21
-        width: 399
-        height: 333
+        x: 29
+        y: 32
+        width: 357
+        height: 310
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -406,9 +362,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1075
-        y: 17
-        width: 444
-        height: 299
+        y: 62
+        width: 436
+        height: 237
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -424,23 +380,45 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Atlas de edificios porte\xF1os en vista a\xE9rea_20"
+      name: "Atlas de edificios porte\xF1os en vista a\xE9rea_5"
       rect:
         serializedVersion: 2
-        x: 676
-        y: 33
-        width: 13
-        height: 12
+        x: 423
+        y: 52
+        width: 259
+        height: 262
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bade5193a88def2e0800000000000000
-      internalID: -2089995088878506581
+      spriteID: 251e3c9171765b346b9d5fecfd732c76
+      internalID: -3331198055821040415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Atlas de edificios porte\xF1os en vista a\xE9rea_6"
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 51
+        width: 330
+        height: 285
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6234d0baddc137446a91868c0aad6cf9
+      internalID: 19248254127003444
       vertices: []
       indices: 
       edges: []
