@@ -63,7 +63,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1107130532476027091, guid: ee61da7b176f4b645a7bc053d1b10ac4, type: 3}
       propertyPath: stopName
-      value: "Galer\xEDas Pac\xEDfico"
+      value: "Galerias Pacifico"
       objectReference: {fileID: 0}
     - target: {fileID: 1526191939557949365, guid: ee61da7b176f4b645a7bc053d1b10ac4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -327,7 +327,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1107130532476027091, guid: ee61da7b176f4b645a7bc053d1b10ac4, type: 3}
       propertyPath: stopName
-      value: "Teatro Col\xF3n"
+      value: "Teatro Colon"
       objectReference: {fileID: 0}
     - target: {fileID: 1526191939557949365, guid: ee61da7b176f4b645a7bc053d1b10ac4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -393,7 +393,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1107130532476027091, guid: ee61da7b176f4b645a7bc053d1b10ac4, type: 3}
       propertyPath: stopName
-      value: "Plaza San Mart\xEDn"
+      value: "Plaza San Martin"
       objectReference: {fileID: 0}
     - target: {fileID: 1526191939557949365, guid: ee61da7b176f4b645a7bc053d1b10ac4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -459,7 +459,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1107130532476027091, guid: ee61da7b176f4b645a7bc053d1b10ac4, type: 3}
       propertyPath: stopName
-      value: "Pizzeria G\xFCerr\xEDn"
+      value: "Pizzeria G\xFCerrin"
       objectReference: {fileID: 0}
     - target: {fileID: 1526191939557949365, guid: ee61da7b176f4b645a7bc053d1b10ac4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -591,7 +591,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1107130532476027091, guid: ee61da7b176f4b645a7bc053d1b10ac4, type: 3}
       propertyPath: stopName
-      value: "Entre R\xEDos y San Juan"
+      value: "Entre Rios y San Juan"
       objectReference: {fileID: 0}
     - target: {fileID: 1526191939557949365, guid: ee61da7b176f4b645a7bc053d1b10ac4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -723,7 +723,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1107130532476027091, guid: ee61da7b176f4b645a7bc053d1b10ac4, type: 3}
       propertyPath: stopName
-      value: "Constituci\xF3n"
+      value: "Constitucion"
       objectReference: {fileID: 0}
     - target: {fileID: 1526191939557949365, guid: ee61da7b176f4b645a7bc053d1b10ac4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -987,7 +987,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1107130532476027091, guid: ee61da7b176f4b645a7bc053d1b10ac4, type: 3}
       propertyPath: stopName
-      value: "Caf\xE9 Tortoni"
+      value: "Cafe Tortoni"
       objectReference: {fileID: 0}
     - target: {fileID: 1526191939557949365, guid: ee61da7b176f4b645a7bc053d1b10ac4, type: 3}
       propertyPath: m_LocalPosition.x

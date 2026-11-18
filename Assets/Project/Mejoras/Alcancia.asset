@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Alcancia
   m_EditorClassIdentifier: Assembly-CSharp::UpgradeData
   id: alcancia
-  displayName: "Alcanc\xEDa"
-  description: "Al entrar al taller gan\xE1s 15% de lo ahorrado (m\xE1x. $200)"
+  displayName: "Alcancia"
+  description: "Al entrar al taller ganas 15% de lo ahorrado (max. $200)"
   icon: {fileID: 21300000, guid: 1011c47bd59ac704fbb33657886a9d27, type: 3}
   rarity: 2
   price: 600
@@ -23,4 +23,4 @@ MonoBehaviour:
   - stat: 13
     perLevel: 15
   unlock: 8
-  unlockText: "Llegar al taller con $1500 o m\xE1s"
+  unlockText: "Llegar al taller con $1500 o mas"

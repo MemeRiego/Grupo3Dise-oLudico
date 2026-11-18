@@ -314,7 +314,7 @@ MonoBehaviour:
   requiredStopTime: 1
   marker: {fileID: 2011931044989617129}
   passengers:
-  - request: "Hasta la esquina nom\xE1s"
+  - request: "Hasta la esquina nomas"
     portrait: {fileID: 0}
     correctTicket: 0
   - request: Hasta el final del recorrido

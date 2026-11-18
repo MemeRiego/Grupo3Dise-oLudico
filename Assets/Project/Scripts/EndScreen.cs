@@ -83,7 +83,7 @@ public class EndScreen : MonoBehaviour
       $"Plata juntada: ${boarding.Money}\n" +
       $"Estado del bondi: {Mathf.RoundToInt(health * 100)}%";
     statsText.text += destroyed
-      ? "\n\nSe terminó la partida."
+      ? "\n\nSe termino la partida."
       : $"\n\nPara el taller: +${earned} (propina ${tip})   Billetera: ${GameSession.Wallet}";
     scoreText.text = $"Puntaje: {score}   ({starsWon} de 3 estrellas)";
     for (int i = 0; i < stars.Length; i++) stars[i].color = i < starsWon ? starOn : starOff;
@@ -111,9 +111,9 @@ public class EndScreen : MonoBehaviour
     {
       PlayerPrefs.SetInt(key, score);
       PlayerPrefs.Save();
-      recordText.text = "¡NUEVO RÉCORD!";
+      recordText.text = "¡NUEVO RECORD!";
     }
-    else recordText.text = "Récord: " + best;
+    else recordText.text = "Record: " + best;
 
     // Botones
     if (nextLevelButton != null) nextLevelButton.SetActive(!destroyed && !last); // "Ir al taller"

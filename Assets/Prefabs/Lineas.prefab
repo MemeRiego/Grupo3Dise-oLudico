@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f1a733c8fc3bc04d84c82f81e65b457, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BusLine
-  lineName: "L\xEDnea B2"
+  lineName: "Linea B2"
   points: []
 --- !u!1 &1589621448897433961
 GameObject:
@@ -90,7 +90,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f1a733c8fc3bc04d84c82f81e65b457, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BusLine
-  lineName: "L\xEDnea B1"
+  lineName: "Linea B1"
   points:
   - {fileID: 0}
   - {fileID: 0}
@@ -149,7 +149,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f1a733c8fc3bc04d84c82f81e65b457, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BusLine
-  lineName: "L\xEDnea C"
+  lineName: "Linea C"
   points: []
 --- !u!1 &3433341120859086929
 GameObject:
@@ -230,7 +230,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f1a733c8fc3bc04d84c82f81e65b457, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BusLine
-  lineName: "L\xEDnea A"
+  lineName: "Linea A"
   points:
   - {fileID: 0}
   - {fileID: 0}

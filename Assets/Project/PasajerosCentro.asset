@@ -19,7 +19,7 @@ MonoBehaviour:
     weight: 0.3
     phrases:
     - Hasta {0}
-    - "{0}, querido. Tengo el carnet de jubilado ac\xE1."
+    - "{0}, querido. Tengo el carnet de jubilado aca."
   - label: Escolar
     portrait: {fileID: 633173246634224559, guid: b98eba4c54544a949a1b199adba89304, type: 3}
     kind: 3
@@ -70,4 +70,4 @@ MonoBehaviour:
     kind: 2
     weight: 0.3
     phrases:
-    - "{0}. Ac\xE1 le muestro el certificado."
+    - "{0}. Aca le muestro el certificado."

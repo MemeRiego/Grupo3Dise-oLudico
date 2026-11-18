@@ -16,7 +16,7 @@ public class UnlocksScreen : MonoBehaviour
   public void Open(bool beforePlaying)
   {
     Build();
-    detailText.text = "Elegí una mejora para ver qué hace.";
+    detailText.text = "Elegi una mejora para ver que hace.";
     if (startButton != null) startButton.SetActive(beforePlaying); // opcional
     panel.SetActive(true);
   }
@@ -44,7 +44,7 @@ public class UnlocksScreen : MonoBehaviour
   {
     detailText.text = on
       ? $"<b>{u.displayName}</b>\n{u.description}"
-      : $"<b>???</b>\nDesafío: {u.unlockText}";
+      : $"<b>???</b>\nDesafio: {u.unlockText}";
     if (on) UnlockTracker.MarkSeen(u);
   }
 

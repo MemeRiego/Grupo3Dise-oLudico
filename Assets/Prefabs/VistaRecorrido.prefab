@@ -661,7 +661,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Solt\xE1 TAB para volver"
+  m_text: "Solta TAB para volver"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 697fee4447d7ba64484f7da1ae224328, type: 2}
   m_sharedMaterial: {fileID: -1401887931198196890, guid: 697fee4447d7ba64484f7da1ae224328, type: 2}
@@ -1023,7 +1023,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Nivel 1 - L\xEDnea A"
+  m_text: "Nivel 1 - Linea A"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 892f713677971634fac1bdaec0f41511, type: 2}
   m_sharedMaterial: {fileID: -2047446944929981368, guid: 892f713677971634fac1bdaec0f41511, type: 2}

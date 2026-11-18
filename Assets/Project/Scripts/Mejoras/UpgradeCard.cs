@@ -63,7 +63,7 @@ public class UpgradeCard : MonoBehaviour
   }
 
   private static string RarityLabel(Rarity r) =>
-    r == Rarity.Epica ? "ÉPICA" : r == Rarity.Rara ? "RARA" : "COMÚN";
+    r == Rarity.Epica ? "EPICA" : r == Rarity.Rara ? "RARA" : "COMUN";
 
   private Color RarityColor(Rarity r) =>
     r == Rarity.Epica ? epicColor : r == Rarity.Rara ? rareColor : commonColor;

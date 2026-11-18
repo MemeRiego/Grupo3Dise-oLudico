@@ -4,7 +4,7 @@ using UnityEngine;
 // Una línea dibujada a mano: paradas y esquinas en el orden en que las recorre el bondi.
 public class BusLine : MonoBehaviour
 {
-  [SerializeField] private string lineName = "Línea A";
+  [SerializeField] private string lineName = "Linea A";
   [SerializeField] private List<Transform> points = new List<Transform>(); // empieza y termina en una parada
 
   public string LineName => lineName;

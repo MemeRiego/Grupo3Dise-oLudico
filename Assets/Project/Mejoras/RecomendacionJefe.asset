@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: RecomendacionJefe
   m_EditorClassIdentifier: Assembly-CSharp::UpgradeData
   id: jefe
-  displayName: "Recomendaci\xF3n del jefe"
+  displayName: "Recomendacion del jefe"
   description: La propina por estrella se duplica
   icon: {fileID: 21300000, guid: 1011c47bd59ac704fbb33657886a9d27, type: 3}
   rarity: 2

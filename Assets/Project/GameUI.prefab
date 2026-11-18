@@ -12848,7 +12848,7 @@ MonoBehaviour:
   displayText: {fileID: 2534579834677673079}
   correctButton: {fileID: 3210633856325466854}
   confirmButton: {fileID: 6100876073038369710}
-  idleMessage: "SELECCION\xC1 TARIFA"
+  idleMessage: "SELECCIONA TARIFA"
   blockedMessage: BOLETERA BLOQUEADA
   selectedMessage: '{ticket}'
   confirmedMessage: 'COBRADO: {ticket}'

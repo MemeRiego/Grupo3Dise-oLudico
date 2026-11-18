@@ -13,7 +13,7 @@ public class UpgradeShop : MonoBehaviour
   [SerializeField] private BusUpgrades busUpgrades;
   [SerializeField] private TMP_Text titleText;
   [SerializeField] private TMP_Text walletText;
-  [SerializeField] private TMP_Text noticeText; // "Alcancía: +$90"
+  [SerializeField] private TMP_Text noticeText; // "Alcancia: +$90"
   [SerializeField] private TMP_Text healthText;
   [SerializeField] private TMP_Text rerollText;
   [SerializeField] private Button rerollButton;
@@ -35,7 +35,7 @@ public class UpgradeShop : MonoBehaviour
     float rate = GameSession.Stat(UpgradeStat.SavingsInterest) / 100f; // Alcancía
     int interest = Mathf.Min(200, Mathf.RoundToInt(GameSession.Wallet * rate));
     GameSession.Wallet += interest;
-    noticeText.text = interest > 0 ? $"Alcancía: +${interest}" : "";
+    noticeText.text = interest > 0 ? $"Alcancia: +${interest}" : "";
     titleText.text = $"TALLER · antes del nivel {gameManager.LevelIndex + 2}";
     rerollCost = firstRerollCost;
     freeRerolls = Mathf.RoundToInt(GameSession.Stat(UpgradeStat.FreeReroll));

@@ -26,7 +26,7 @@ public class TicketMachineView : MonoBehaviour
     [SerializeField] private Button confirmButton;
 
     [Header("Mensajes de pantalla")]
-    [SerializeField, TextArea] private string idleMessage = "SELECCIONÁ TARIFA";
+    [SerializeField, TextArea] private string idleMessage = "SELECCIONA TARIFA";
     [SerializeField, TextArea] private string blockedMessage = "BOLETERA BLOQUEADA";
     [SerializeField, TextArea] private string selectedMessage = "{ticket}";
     [SerializeField, TextArea] private string confirmedMessage = "CONFIRMADO: {ticket}";

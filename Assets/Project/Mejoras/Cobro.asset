@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Cobro
   m_EditorClassIdentifier: Assembly-CSharp::UpgradeData
   id: cobrorapido
-  displayName: "Cobro r\xE1pido"
+  displayName: "Cobro rapido"
   description: Los primeros 3 segundos cobrando no descuentan del reloj
   icon: {fileID: 21300000, guid: 1011c47bd59ac704fbb33657886a9d27, type: 3}
   rarity: 1

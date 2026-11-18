@@ -1,4 +1,3 @@
-using TMPro;
 using UnityEngine;
 
 public class RouteMapView : MonoBehaviour
@@ -6,8 +5,6 @@ public class RouteMapView : MonoBehaviour
   [SerializeField] private GameManager gameManager;
   [SerializeField] private LineRenderer linePrefab; // en la capa Mapa, ancho grande (ej. 1.2)
   [SerializeField] private SpriteRenderer stopIconPrefab; // círculo blanco, en la capa Mapa
-  [SerializeField] private TextMeshPro labelPrefab; // TMP de mundo (no UI), en la capa Mapa
-  [SerializeField] private Vector3 labelOffset = new Vector3(0f, -1.2f, 0f);
 
   [SerializeField, Min(1f)] private float pulseScale = 1.25f;
   [SerializeField, Min(0.05f)] private float pulseDuration = 0.8f;
@@ -48,8 +45,6 @@ public class RouteMapView : MonoBehaviour
       Vector3 pos = MapGrid.Snap(r.stops[i].transform.position);
       SpriteRenderer icon = Instantiate(stopIconPrefab, pos, Quaternion.identity, transform);
       stopIcons[i] = icon;
-      TextMeshPro label = Instantiate(labelPrefab, pos + labelOffset, Quaternion.identity, transform);
-      label.text = $"{i + 1}. {r.stops[i].StopName}";
     }
   }
 

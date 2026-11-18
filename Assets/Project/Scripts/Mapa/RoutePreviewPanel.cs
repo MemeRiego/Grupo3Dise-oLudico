@@ -1,6 +1,7 @@
 using System.Text;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class RoutePreviewPanel : MonoBehaviour
 {
@@ -38,6 +39,7 @@ public class RoutePreviewPanel : MonoBehaviour
     minimap = FindFirstObjectByType<CircularMinimap>(FindObjectsInactive.Include);
     if (minimap != null && mapCamera != null) minimap.Setup(mapCamera, gameManager.Bus);
     Show(true);
+    AddStopLabels(r);
   }
 
   private void Update()
@@ -63,6 +65,34 @@ public class RoutePreviewPanel : MonoBehaviour
     if (mapCamera != null) mapCamera.enabled = value || minimap != null;
     startButton.SetActive(!started);
     if (tabHint != null) tabHint.SetActive(started);
+  }
+
+  private void AddStopLabels(GeneratedRoute trip)
+  {
+    RawImage map = panel.GetComponentInChildren<RawImage>(true);
+    if (map == null || mapCamera == null) return;
+
+    for (int i = 0; i < trip.stops.Count; i++)
+    {
+      BusStop stop = trip.stops[i];
+      Vector2 point = mapCamera.WorldToViewportPoint(MapGrid.Snap(stop.transform.position));
+      Vector2 anchor = Rect.PointToNormalized(map.uvRect, point);
+      bool left = anchor.x < 0.5f;
+      bool above = anchor.y < 0.08f;
+      var label = new GameObject(stop.StopName, typeof(RectTransform)).AddComponent<TextMeshProUGUI>();
+      RectTransform rect = label.rectTransform;
+      rect.SetParent(map.rectTransform, false);
+      rect.anchorMin = rect.anchorMax = anchor;
+      rect.pivot = new Vector2(left ? 0f : 1f, above ? 0f : 1f);
+      rect.anchoredPosition = new Vector2(0f, above ? 6f : -6f);
+      rect.sizeDelta = new Vector2(150f, 24f);
+      label.font = stopsText.font;
+      label.fontSize = 16f;
+      label.alignment = left ? TextAlignmentOptions.MidlineLeft : TextAlignmentOptions.MidlineRight;
+      label.textWrappingMode = TextWrappingModes.NoWrap;
+      label.raycastTarget = false;
+      label.text = $"{i + 1}. {stop.StopName}";
+    }
   }
 
   private void RefreshStops()

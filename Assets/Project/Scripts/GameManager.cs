@@ -29,7 +29,7 @@ public class GameManager : MonoBehaviour
 
   public GeneratedRoute Route { get; private set; }
   public Transform Bus => bus.transform;
-  public int FareOrigin => Mathf.Max(0, route.IsBoarding ? route.CurrentIndex : route.CurrentIndex - 1);
+  public int FareOrigin => route.IsFinished ? route.StopCount - 1 : route.CurrentIndex;
   public int LevelIndex { get; private set; }
   public LevelSetup Current => levels[LevelIndex];
   public bool IsLastLevel => LevelIndex >= levels.Length - 1;

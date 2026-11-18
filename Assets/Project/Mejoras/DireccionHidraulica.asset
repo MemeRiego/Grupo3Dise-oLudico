@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: DireccionHidraulica
   m_EditorClassIdentifier: Assembly-CSharp::UpgradeData
   id: direccion
-  displayName: "Direcci\xF3n hidr\xE1ulica"
-  description: "+15% \xE1ngulo y velocidad de giro"
+  displayName: "Direccion hidraulica"
+  description: "+15% angulo y velocidad de giro"
   icon: {fileID: 21300000, guid: 1011c47bd59ac704fbb33657886a9d27, type: 3}
   rarity: 0
   price: 200
