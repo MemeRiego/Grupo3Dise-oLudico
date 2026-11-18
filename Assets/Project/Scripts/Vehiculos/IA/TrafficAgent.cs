@@ -62,6 +62,8 @@ public class TrafficAgent : MonoBehaviour
     private bool hasRoute;
     private bool pathLost;
 
+    public float CruiseSpeed => cruiseSpeed;
+    public bool BlockedByTraffic { get; private set; }
     public bool WaitingForSignal { get; private set; }
 
     private class SignalStop
@@ -117,6 +119,7 @@ public class TrafficAgent : MonoBehaviour
 
     private void FixedUpdate()
     {
+        BlockedByTraffic = false;
         WaitingForSignal = false;
         UpdateSignalCrossings();
 
@@ -448,6 +451,7 @@ public class TrafficAgent : MonoBehaviour
         float trafficSpeedLimit = sensor.GetSpeedLimit(speed, safeDeceleration);
         float signalSpeedLimit = GetSignalSpeedLimit(Mathf.Max(0f, speed), safeDeceleration);
 
+        BlockedByTraffic = sensor.HasObstacle && trafficSpeedLimit < 0.3f && !WaitingForSignal;
         desiredSpeed = Mathf.Min(desiredSpeed, Mathf.Min(trafficSpeedLimit, signalSpeedLimit));
 
         bool targetBehind = Vector2.Dot(forward, offset) < 0f;
