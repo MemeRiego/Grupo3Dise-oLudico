@@ -100,7 +100,7 @@ public class BoardingManager : MonoBehaviour
       Money -= lost;
       WrongTickets++;
       CurrentStreak = 0;
-      if (routeUI != null) routeUI.ShowMessage("MAL: le correspondía " + current.correctTicket + " -$" + lost);
+      if (routeUI != null) routeUI.ShowMessage("MAL: le correspondia " + current.correctTicket + " -$" + lost);
     }
 
     TicketChecked?.Invoke(current, ticket, correct);
@@ -109,6 +109,7 @@ public class BoardingManager : MonoBehaviour
 
   private void ShowPassenger(Passenger passenger)
   {
+    if (routeUI != null) routeUI.ShowBoarding(route.NextStop, passenger, CorrectTickets + WrongTickets == 0);
     if (passengerBox != null) passengerBox.SetActive(passenger != null);
     if (passengerText != null) passengerText.text = passenger != null ? passenger.request : "";
     if (passengerImage == null) return;

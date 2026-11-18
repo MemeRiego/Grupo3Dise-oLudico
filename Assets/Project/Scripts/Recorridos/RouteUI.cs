@@ -15,6 +15,9 @@ public class RouteUI : MonoBehaviour
   [SerializeField] private GameManager gameManager; // opcional: pinta la parada con su tramo
   private const string brakePrompt = "<color=#FFCC33>Pare, por favor</color>";
   private string lastMessage;
+  private string boardingText;
+  private const string boardingHint = "Mira el retrato. Si el boleto es comun, conta las paradas.";
+  private bool showingHint;
   private float messageTimer;
 
 
@@ -35,7 +38,7 @@ public class RouteUI : MonoBehaviour
     BusStop next = route.NextStop;
     if (next != null && route.IsBoarding)
     {
-      nextStopText.text = "Subiendo pasajeros en \n" + ColoredName(next);
+      nextStopText.text = boardingText ?? "Subiendo pasajeros en \n" + ColoredName(next);
       if (route.PauseWhileBoarding)
       {
         timerText.text = "PAUSA";
@@ -50,7 +53,7 @@ public class RouteUI : MonoBehaviour
     }
     else if (next != null)
     {
-      nextStopText.text = "Próxima parada:\n" + ColoredName(next);
+      nextStopText.text = "Proxima parada:\n" + ColoredName(next);
       float timeLeft = route.TimeLeft;
       if (timeLeft > 0f)
       {
@@ -65,7 +68,8 @@ public class RouteUI : MonoBehaviour
     }
 
     if (messageTimer > 0f) messageTimer -= Time.deltaTime;
-    string message = messageTimer > 0f ? lastMessage : "";
+    string message = showingHint ? boardingHint : "";
+    if (messageTimer > 0f) message = lastMessage;
     if (next != null && next.CanBrake) message = brakePrompt;
     if (messageText.text != message) messageText.text = message;
   }
@@ -83,6 +87,21 @@ public class RouteUI : MonoBehaviour
     ShowMessage("Paradas a tiempo: " + route.StopsOnTime);
   }
 
+  public void ShowBoarding(BusStop origin, Passenger passenger, bool firstTicket)
+  {
+    showingHint = firstTicket && passenger != null && route.CurrentIndex == 0;
+    boardingText = null;
+    if (passenger == null || gameManager == null || origin == null || passenger.destination == null) return;
+
+    GeneratedRoute trip = gameManager.Route;
+    int from = trip.stops.IndexOf(origin);
+    int to = trip.stops.IndexOf(passenger.destination);
+    if (from < 0 || to <= from) return;
+    int distance = to - from;
+    string text = distance == 1 ? "Baja en 1 parada" : $"Baja en {distance} paradas";
+    boardingText = Tramos.Colored(text, trip.StopColor(from, to));
+  }
+
   public void ShowMessage(string text)
   {
     lastMessage = text;
@@ -96,5 +115,5 @@ public class RouteUI : MonoBehaviour
   }
 
   private string ColoredName(BusStop stop) =>
-  gameManager != null ? Tramos.ColoredLabelOnly(stop.StopName, gameManager.Route.SegmentOf(stop)) : stop.StopName;
+  gameManager != null ? Tramos.Colored(stop.StopName, gameManager.Route.StopColor(gameManager.FareOrigin, route.CurrentIndex)) : stop.StopName;
 }

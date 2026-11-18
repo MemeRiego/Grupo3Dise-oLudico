@@ -19,7 +19,7 @@ public static class PassengerGenerator
   {
     int to = Random.Range(from + 1, route.stops.Count); // siempre una parada más adelante
     BusStop destination = route.stops[to];
-    string where = Tramos.Colored(destination.StopName, route.segments[to]);
+    string where = Tramos.Colored(destination.StopName, route.StopColor(from, to));
     string phrase = profile.phrases.Length > 0
       ? profile.phrases[Random.Range(0, profile.phrases.Length)]
       : "Hasta {0}.";
@@ -30,12 +30,12 @@ public static class PassengerGenerator
       portrait = profile.portrait,
       kind = profile.kind,
       destination = destination,
-      correctTicket = TicketFor(profile.kind, route.segments[from], route.segments[to])
+      correctTicket = TicketFor(profile.kind, route.FareFor(to - from))
     };
   }
 
   // Los boletos especiales ganan sobre el tramo.
-  public static TicketType TicketFor(PassengerKind kind, int fromSegment, int toSegment)
+  public static TicketType TicketFor(PassengerKind kind, TicketType commonFare)
   {
     switch (kind)
     {
@@ -43,7 +43,7 @@ public static class PassengerGenerator
       case PassengerKind.Discapacitado: return TicketType.Discapacitado;
       case PassengerKind.Escolar: return TicketType.Escolar;
       case PassengerKind.PaseLibre: return TicketType.FreePass;
-      default: return Tramos.FareFor(fromSegment, toSegment);
+      default: return commonFare;
     }
   }
 }

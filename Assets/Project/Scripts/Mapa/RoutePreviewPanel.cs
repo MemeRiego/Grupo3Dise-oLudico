@@ -14,18 +14,29 @@ public class RoutePreviewPanel : MonoBehaviour
   [SerializeField] private GameObject tabHint; // "Soltá TAB para volver"
   [SerializeField] private KeyCode mapKey = KeyCode.Tab;
 
+  private CircularMinimap minimap;
   private bool started;
+  private int shownOrigin;
 
   private void Start()
   {
     GeneratedRoute r = gameManager.Route;
     titleText.text = $"{gameManager.Current.title} · {r.line.LineName}";
-    stopsText.text = BuildStopList(r);
-    rulesText.text =
-      "Baja en el mismo tramo: CORTO\n" +
-      "Baja un tramo más adelante: MEDIO\n" +
-      "Baja dos o más tramos adelante: LARGO\n" +
-      "Jubilado, escolar, discapacitado y pase libre pagan su boleto especial.";
+    var rules = new StringBuilder("Conta desde donde sube el pasajero.\n");
+    int start = 1;
+    while (start < r.stops.Count)
+    {
+      TicketType fare = r.FareFor(start);
+      int end = start;
+      while (end + 1 < r.stops.Count && r.FareFor(end + 1) == fare) end++;
+      string range = start == end ? start.ToString() : $"{start} a {end}";
+      rules.AppendLine($"{range} {(end == 1 ? "parada" : "paradas")}: {fare.ToString().ToUpperInvariant()}");
+      start = end + 1;
+    }
+    rules.Append("Los boletos especiales tienen prioridad.");
+    rulesText.text = rules.ToString();
+    minimap = FindFirstObjectByType<CircularMinimap>(FindObjectsInactive.Include);
+    if (minimap != null && mapCamera != null) minimap.Setup(mapCamera, gameManager.Bus);
     Show(true);
   }
 
@@ -34,6 +45,7 @@ public class RoutePreviewPanel : MonoBehaviour
     if (!started) return;
     bool hold = Input.GetKey(mapKey);
     if (hold != panel.activeSelf) Show(hold);
+    else if (hold && shownOrigin != gameManager.FareOrigin) RefreshStops();
   }
 
   // OnClick del botón Arrancar.
@@ -46,25 +58,27 @@ public class RoutePreviewPanel : MonoBehaviour
 
   private void Show(bool value)
   {
+    if (value) RefreshStops();
     panel.SetActive(value);
-    if (mapCamera != null) mapCamera.enabled = value;
+    if (mapCamera != null) mapCamera.enabled = value || minimap != null;
     startButton.SetActive(!started);
     if (tabHint != null) tabHint.SetActive(started);
   }
 
-  private static string BuildStopList(GeneratedRoute r)
+  private void RefreshStops()
+  {
+    shownOrigin = gameManager.FareOrigin;
+    stopsText.text = BuildStopList(gameManager.Route, shownOrigin);
+  }
+
+  private static string BuildStopList(GeneratedRoute r, int origin)
   {
     var sb = new StringBuilder();
-    int lastSegment = -1;
     for (int i = 0; i < r.stops.Count; i++)
     {
-      int seg = r.segments[i];
-      if (seg != lastSegment)
-      {
-        sb.AppendLine($"<b>{Tramos.Colored("TRAMO", seg)}</b>");
-        lastSegment = seg;
-      }
-      sb.AppendLine($"   {i + 1}. {r.stops[i].StopName}");
+      string name = $"{i + 1}. {r.stops[i].StopName}";
+      if (i == origin) name += " (origen)";
+      sb.AppendLine(Tramos.Colored(name, r.StopColor(origin, i)));
     }
     return sb.ToString();
   }

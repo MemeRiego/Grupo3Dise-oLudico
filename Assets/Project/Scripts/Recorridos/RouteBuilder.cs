@@ -5,23 +5,31 @@ using UnityEngine;
 public class GeneratedRoute
 {
   public BusLine line;
-  public int segmentCount;
+  public int shortStops;
+  public int mediumStops;
   public List<BusStop> stops = new List<BusStop>();
-  public List<int> segments = new List<int>();        // tramo de cada parada
   public List<float> legDistances = new List<float>(); // distancia desde la parada anterior (la primera es 0)
   public List<Vector3> path = new List<Vector3>();     // todos los puntos de la línea, en orden
-  public List<int> pathSegments = new List<int>();     // tramo del pedazo path[i] -> path[i + 1]
+  public List<int> pathDestinations = new List<int>();
 
-  public int SegmentOf(BusStop stop)
+  public TicketType FareFor(int distance)
   {
-    int i = stops.IndexOf(stop);
-    return i >= 0 ? segments[i] : 0;
+    if (distance <= shortStops) return TicketType.Corto;
+    if (distance <= shortStops + mediumStops) return TicketType.Medio;
+    return TicketType.Largo;
+  }
+
+  public Color StopColor(int origin, int stop)
+  {
+    if (stop < origin) return Color.gray;
+    if (stop == origin) return Color.white;
+    return Tramos.ColorOf((int)FareFor(stop - origin));
   }
 }
 
 public static class RouteBuilder
 {
-  public static GeneratedRoute Build(BusLine line, int stopCount, int segmentCount)
+  public static GeneratedRoute Build(BusLine line, int stopCount, Vector2Int fareStops)
   {
     List<BusStop> all = line.GetStops();
     stopCount = Mathf.Clamp(stopCount, 2, all.Count);
@@ -39,12 +47,19 @@ public static class RouteBuilder
     chosen.Add(all.Count - 1);
     chosen.Sort(); // vuelven al orden de la línea
 
-    var route = new GeneratedRoute { line = line, segmentCount = segmentCount };
-    for (int k = 0; k < chosen.Count; k++)
+    var route = new GeneratedRoute { line = line };
+    int destinations = chosen.Count - 1;
+    if (fareStops == Vector2Int.zero)
     {
-      route.stops.Add(all[chosen[k]]);
-      route.segments.Add(k * segmentCount / chosen.Count);
+      route.shortStops = (destinations + 2) / 3;
+      route.mediumStops = (destinations + 1) / 3;
     }
+    else
+    {
+      route.shortStops = Mathf.Clamp(fareStops.x, 1, destinations);
+      route.mediumStops = Mathf.Clamp(fareStops.y, 0, destinations - route.shortStops);
+    }
+    foreach (int index in chosen) route.stops.Add(all[index]);
 
     // Recorro todos los puntos: cada pedazo toma el tramo de la próxima parada elegida.
     int nextStop = 0;
@@ -62,7 +77,7 @@ public static class RouteBuilder
         nextStop++;
       }
       if (i < line.Points.Count - 1)
-        route.pathSegments.Add(route.segments[Mathf.Min(nextStop, route.stops.Count - 1)]);
+        route.pathDestinations.Add(Mathf.Min(nextStop, route.stops.Count - 1));
     }
     return route;
   }

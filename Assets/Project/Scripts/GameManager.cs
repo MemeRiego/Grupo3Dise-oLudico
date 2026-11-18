@@ -10,7 +10,8 @@ public class GameManager : MonoBehaviour
     public string title = "Nivel 1";
     public BusLine[] lines; // sale una al azar
     [Min(2)] public int stopCount = 5;
-    [Range(3, 4)] public int segmentCount = 3;
+    [Tooltip("Cantidad de destinos cortos y medios. (0, 0) reparte automaticamente.")]
+    public Vector2Int fareStops;
     public Vector2Int passengersPerStop = new Vector2Int(1, 2); // mínimo y máximo
     public bool pauseTimerWhileBoarding = true; // solo en el tutorial
   }
@@ -27,6 +28,8 @@ public class GameManager : MonoBehaviour
   [SerializeField] private float startBehind = 6f; // cuántas unidades antes de la primera parada aparece
 
   public GeneratedRoute Route { get; private set; }
+  public Transform Bus => bus.transform;
+  public int FareOrigin => Mathf.Max(0, route.IsBoarding ? route.CurrentIndex : route.CurrentIndex - 1);
   public int LevelIndex { get; private set; }
   public LevelSetup Current => levels[LevelIndex];
   public bool IsLastLevel => LevelIndex >= levels.Length - 1;
@@ -38,7 +41,7 @@ public class GameManager : MonoBehaviour
     LevelSetup level = Current;
     BusLine line = level.lines[UnityEngine.Random.Range(0, level.lines.Length)];
 
-    Route = RouteBuilder.Build(line, level.stopCount, Mathf.Clamp(level.segmentCount, 3, 4));
+    Route = RouteBuilder.Build(line, level.stopCount, level.fareStops);
     PassengerGenerator.Fill(Route, passengerPool, level.passengersPerStop);
 
     float bonus = GameSession.Stat(UpgradeStat.SecondsPerLeg); // Reloj del chofer
@@ -48,9 +51,6 @@ public class GameManager : MonoBehaviour
       times.Add(bonus + (i == 0 ? firstLegSeconds : extraSecondsPerLeg + Route.legDistances[i] * secondsPerUnit));
     route.Setup(Route.stops, times, level.pauseTimerWhileBoarding);
     route.FreeBoardingSeconds = GameSession.Stat(UpgradeStat.FreeBoardingSeconds); // Cobro rápido
-
-    for (int i = 0; i < Route.stops.Count; i++)
-      Route.stops[i].SetSegmentColor(Tramos.ColorOf(Route.segments[i]));
 
     PlaceBus();
     if (busController != null) busController.enabled = false; // hasta que toque Arrancar
