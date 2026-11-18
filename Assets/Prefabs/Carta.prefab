@@ -1163,6 +1163,7 @@ GameObject:
   - component: {fileID: 819444179313794914}
   - component: {fileID: 5978051637406797824}
   - component: {fileID: 8735865528371134115}
+  - component: {fileID: 345671001}
   m_Layer: 5
   m_Name: Comprar
   m_TagString: Untagged
@@ -1284,6 +1285,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &345671001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6147399651911536618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bf1fc4906e04cb6a574ba642a130e04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MenuButtonSound
+  click: {fileID: 8300000, guid: 68b8c711a2f34d69acb27278783125fb, type: 3}
 --- !u!114 &8735865528371134115
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -17,6 +17,10 @@ public class BoardingManager : MonoBehaviour
   [SerializeField] private int fare = 100; // plata por boleto correcto
   [SerializeField] private int penalty = 50; // plata que perdés por boleto incorrecto
 
+  [SerializeField] private AudioClip passengerClip;
+  [SerializeField] private AudioClip ticketCorrectClip;
+  [SerializeField] private AudioClip ticketWrongClip;
+
   public int Money { get; private set; }
   public int CorrectTickets { get; private set; }
   public int WrongTickets { get; private set; }
@@ -49,6 +53,7 @@ public class BoardingManager : MonoBehaviour
 
   private void OnStopReached(BusStop stop, bool onTime, float secondsUsed)
   {
+    if (busController != null && busController.TryGetComponent(out VehicleAudio audio)) audio.PlayDoorOpen();
     queue.Clear();
     if (stop.Passengers != null)
       foreach (Passenger p in stop.Passengers) queue.Enqueue(p);
@@ -71,6 +76,7 @@ public class BoardingManager : MonoBehaviour
     }
 
     current = queue.Dequeue();
+    AudioManager.Instance?.PlaySFX(passengerClip);
     if (currentQueue != null) currentQueue.BoardNext();
     ShowPassenger(current);
     botonera.SetAvailable(true);
@@ -81,6 +87,7 @@ public class BoardingManager : MonoBehaviour
     if (current == null) return;
 
     bool correct = ticket == current.correctTicket;
+    AudioManager.Instance?.PlayUI(correct ? ticketCorrectClip : ticketWrongClip);
     if (correct)
     {
       int earned = fare + Mathf.RoundToInt(GameSession.Stat(UpgradeStat.FareBonus));

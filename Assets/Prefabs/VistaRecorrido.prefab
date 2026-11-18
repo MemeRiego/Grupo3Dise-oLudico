@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7774796079826363378}
   - component: {fileID: 350438616060616708}
   - component: {fileID: 5657451110340927006}
+  - component: {fileID: 345671001}
   m_Layer: 5
   m_Name: BtnArrancar
   m_TagString: Untagged
@@ -134,6 +135,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &345671001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 683229818138845667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bf1fc4906e04cb6a574ba642a130e04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MenuButtonSound
+  click: {fileID: 8300000, guid: 68b8c711a2f34d69acb27278783125fb, type: 3}
 --- !u!114 &5657451110340927006
 MonoBehaviour:
   m_ObjectHideFlags: 0

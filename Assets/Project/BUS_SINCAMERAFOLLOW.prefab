@@ -480,7 +480,7 @@ MonoBehaviour:
   engineSource: {fileID: 3256357076791759973}
   hornSource: {fileID: 3260388343832854721}
   effectsSource: {fileID: 999147431710073129}
-  brakeClip: {fileID: 0}
+  brakeClip: {fileID: 8300000, guid: 7a8d23d19e654f4dacbb045fb53c8847, type: 3}
   doorOpenClip: {fileID: 8300000, guid: c22501abed21c8448bb079293f4e6996, type: 3}
   doorCloseClip: {fileID: 0}
   idlePitch: 0.5

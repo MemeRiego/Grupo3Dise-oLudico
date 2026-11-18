@@ -34,6 +34,7 @@ public class AudioManager : MonoBehaviour
         }
 
         Instance = this;
+        if (uiSource != null) uiSource.ignoreListenerPause = true;
         DontDestroyOnLoad(gameObject);
     }
 
