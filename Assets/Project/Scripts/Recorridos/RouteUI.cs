@@ -13,6 +13,8 @@ public class RouteUI : MonoBehaviour
   [SerializeField] private float warningTime = 10f; // desde acá el reloj se pone amarillo
   [SerializeField] private float messageDuration = 2.5f;
   [SerializeField] private GameManager gameManager; // opcional: pinta la parada con su tramo
+  private const string brakePrompt = "<color=#FFCC33>Pare, por favor</color>";
+  private string lastMessage;
   private float messageTimer;
 
 
@@ -48,8 +50,7 @@ public class RouteUI : MonoBehaviour
     }
     else if (next != null)
     {
-      string stopName = gameManager != null ? Tramos.Colored(next.StopName, gameManager.Route.SegmentOf(next)) : next.StopName;
-      nextStopText.text = "Próxima parada: \n" + ColoredName(next);
+      nextStopText.text = "Próxima parada:\n" + ColoredName(next);
       float timeLeft = route.TimeLeft;
       if (timeLeft > 0f)
       {
@@ -63,11 +64,10 @@ public class RouteUI : MonoBehaviour
       }
     }
 
-    if (messageTimer > 0f)
-    {
-      messageTimer -= Time.deltaTime;
-      if (messageTimer <= 0f) messageText.text = "";
-    }
+    if (messageTimer > 0f) messageTimer -= Time.deltaTime;
+    string message = messageTimer > 0f ? lastMessage : "";
+    if (next != null && next.CanBrake) message = brakePrompt;
+    if (messageText.text != message) messageText.text = message;
   }
 
   private void ShowStopResult(BusStop stop, bool onTime, float secondsUsed)
@@ -85,7 +85,7 @@ public class RouteUI : MonoBehaviour
 
   public void ShowMessage(string text)
   {
-    messageText.text = text;
+    lastMessage = text;
     messageTimer = messageDuration;
   }
 
