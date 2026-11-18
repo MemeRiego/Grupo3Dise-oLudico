@@ -100,6 +100,8 @@ public class BusStop : MonoBehaviour
     stoppedTimer += Time.deltaTime;
     if (stoppedTimer >= requiredStopTime)
     {
+      busInside.linearVelocity = Vector2.zero;
+      busInside.angularVelocity = 0f;
       SetAsNext(false);
       BusArrived?.Invoke(this);
     }
