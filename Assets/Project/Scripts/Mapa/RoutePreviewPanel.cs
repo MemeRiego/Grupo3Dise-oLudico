@@ -15,12 +15,22 @@ public class RoutePreviewPanel : MonoBehaviour
   [SerializeField] private GameObject tabHint; // "Soltá TAB para volver"
   [SerializeField] private KeyCode mapKey = KeyCode.Tab;
 
+  [SerializeField, Min(0.01f)] private float slideDuration = 0.24f;
+
+  private RectTransform panelRect;
+  private RectTransform panelParent;
+  private Vector2 openPosition;
+  private float openAmount = 1f;
+  private bool opening;
   private CircularMinimap minimap;
   private bool started;
   private int shownOrigin;
 
   private void Start()
   {
+    panelRect = (RectTransform)panel.transform;
+    panelParent = (RectTransform)panelRect.parent;
+    openPosition = panelRect.anchoredPosition;
     GeneratedRoute r = gameManager.Route;
     titleText.text = $"{gameManager.Current.title} · {r.line.LineName}";
     var rules = new StringBuilder("Conta desde donde sube el pasajero.\n");
@@ -46,15 +56,28 @@ public class RoutePreviewPanel : MonoBehaviour
   {
     if (!started) return;
     bool hold = Input.GetKey(mapKey);
-    if (hold != panel.activeSelf) Show(hold);
+    if (hold != opening)
+    {
+      opening = hold;
+      if (hold) Show(true);
+    }
     else if (hold && shownOrigin != gameManager.FareOrigin) RefreshStops();
+
+    float target = hold ? 1f : 0f;
+    if (openAmount == target) return;
+    openAmount = Mathf.MoveTowards(openAmount, target, Time.unscaledDeltaTime / slideDuration);
+    float shift = (1f - Mathf.SmoothStep(0f, 1f, openAmount)) * panelParent.rect.width;
+    panelRect.anchoredPosition = openPosition + Vector2.left * shift;
+    if (openAmount == 0f) Show(false);
   }
 
   // OnClick del botón Arrancar.
   public void StartGame()
   {
     started = true;
-    Show(false);
+    opening = false;
+    startButton.SetActive(false);
+    if (tabHint != null) tabHint.SetActive(true);
     gameManager.StartLevel();
   }
 

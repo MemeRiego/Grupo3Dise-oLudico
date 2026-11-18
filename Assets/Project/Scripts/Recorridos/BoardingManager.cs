@@ -21,6 +21,11 @@ public class BoardingManager : MonoBehaviour
   [SerializeField] private AudioClip ticketCorrectClip;
   [SerializeField] private AudioClip ticketWrongClip;
 
+  [SerializeField, Min(0.01f)] private float portraitDuration = 0.2f;
+  private Vector2 portraitPosition;
+  private float portraitAmount;
+  private bool leaving;
+
   public int Money { get; private set; }
   public int CorrectTickets { get; private set; }
   public int WrongTickets { get; private set; }
@@ -31,6 +36,32 @@ public class BoardingManager : MonoBehaviour
   private readonly Queue<Passenger> queue = new Queue<Passenger>();
   private Passenger current;
   private PassengerQueue currentQueue;
+
+  private void Awake()
+  {
+    if (passengerImage != null) portraitPosition = passengerImage.rectTransform.anchoredPosition;
+  }
+
+  private void Update()
+  {
+    if (current == null || passengerImage == null || !passengerImage.enabled) return;
+    float target = leaving ? 0f : 1f;
+    if (portraitAmount != target)
+    {
+      portraitAmount = Mathf.MoveTowards(portraitAmount, target, Time.deltaTime / portraitDuration);
+      PositionPortrait();
+    }
+
+    if (leaving && portraitAmount == 0f) NextPassenger();
+  }
+
+  private void PositionPortrait()
+  {
+    float visible = Mathf.SmoothStep(0f, 1f, portraitAmount);
+    RectTransform rect = passengerImage.rectTransform;
+    rect.anchoredPosition = portraitPosition + Vector2.right * (rect.rect.width * 0.25f * (1f - visible));
+    passengerImage.canvasRenderer.SetAlpha(visible);
+  }
 
   private void OnEnable()
   {
@@ -75,6 +106,8 @@ public class BoardingManager : MonoBehaviour
       return;
     }
 
+    leaving = false;
+    portraitAmount = 0f;
     current = queue.Dequeue();
     AudioManager.Instance?.PlaySFX(passengerClip);
     if (currentQueue != null) currentQueue.BoardNext();
@@ -84,7 +117,9 @@ public class BoardingManager : MonoBehaviour
 
   private void OnTicketConfirmed(TicketType ticket)
   {
-    if (current == null) return;
+    if (current == null || leaving) return;
+    leaving = true;
+    botonera.SetAvailable(false);
 
     bool correct = ticket == current.correctTicket;
     AudioManager.Instance?.PlayUI(correct ? ticketCorrectClip : ticketWrongClip);
@@ -111,7 +146,10 @@ public class BoardingManager : MonoBehaviour
     }
 
     TicketChecked?.Invoke(current, ticket, correct);
-    NextPassenger();
+    if (passengerBox != null) passengerBox.SetActive(false);
+    if (passengerText != null) passengerText.text = "";
+    if (routeUI != null) routeUI.ShowBoarding(route.NextStop, null, false);
+    if (passengerImage == null || !passengerImage.enabled) NextPassenger();
   }
 
   private void ShowPassenger(Passenger passenger)
@@ -124,5 +162,6 @@ public class BoardingManager : MonoBehaviour
     Sprite portrait = passenger != null && passenger.portrait != null ? passenger.portrait : defaultPortrait;
     passengerImage.enabled = passenger != null && portrait != null;
     passengerImage.sprite = portrait;
+    if (passengerImage.enabled) PositionPortrait();
   }
 }
