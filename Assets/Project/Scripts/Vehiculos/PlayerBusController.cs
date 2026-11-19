@@ -37,7 +37,7 @@ public class PlayerBusController : MonoBehaviour
     private void HandlePause()
     {
 
-        if (Keyboard.current != null && Keyboard.current.escapeKey.wasPressedThisFrame)
+        if (Keyboard.current != null && Keyboard.current.escapeKey.wasPressedThisFrame || Keyboard.current.pKey.wasPressedThisFrame)
         {
             pauseManager.TogglePause();
         }
