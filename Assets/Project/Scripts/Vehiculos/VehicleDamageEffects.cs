@@ -7,13 +7,13 @@ public class VehicleDamageEffects : MonoBehaviour
   private class DamageStage
   {
     [Tooltip("Se aplica cuando queda este porcentaje de vida o menos. 0.6 = 60%.")]
-    [Range(0f, 1f)] public float healthThreshold = 0.6f;
+    [Range(0f, 2f)] public float healthThreshold = 0.6f;
 
     [Tooltip("1 = normal, 0.5 = mitad de potencia y velocidad m�xima.")]
-    [Range(0f, 1f)] public float speedMultiplier = 0.7f;
+    [Range(0f, 2f)] public float speedMultiplier = 0.7f;
 
     [Tooltip("1 = giro normal, 0.5 = mitad del angulo maximo.")]
-    [Range(0f, 1f)] public float steeringMultiplier = 0.8f;
+    [Range(0f, 2f)] public float steeringMultiplier = 0.8f;
 
     public Color color = Color.yellow;
     public bool showSmoke;
