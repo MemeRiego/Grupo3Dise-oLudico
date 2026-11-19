@@ -242,7 +242,6 @@ GameObject:
   - component: {fileID: 6581712535067532512}
   - component: {fileID: 4437050847291211092}
   - component: {fileID: 3302379298563513825}
-  - component: {fileID: 272758524874405424}
   m_Layer: 0
   m_Name: Bus
   m_TagString: Player
@@ -461,7 +460,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::VehicleDamage
   damageLayers:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 72
   minImpactSpeed: 1.5
   damageMultiplier: 10
   damageCooldown: 0.25
@@ -483,6 +482,10 @@ MonoBehaviour:
   brakeClip: {fileID: 8300000, guid: 7a8d23d19e654f4dacbb045fb53c8847, type: 3}
   doorOpenClip: {fileID: 8300000, guid: c22501abed21c8448bb079293f4e6996, type: 3}
   doorCloseClip: {fileID: 0}
+  impactClip: {fileID: 8300000, guid: ae9c3b6611d700b43b976cbc4336f78a, type: 3}
+  heavyImpactClip: {fileID: 8300000, guid: 87dc79c8d350411418a3b4ade1ffeec6, type: 3}
+  impactVolume: 0.45
+  heavyImpactSpeed: 4
   idlePitch: 0.5
   maxPitch: 1.5
   throttlePitch: 0.1
@@ -514,24 +517,6 @@ MonoBehaviour:
     steeringMultiplier: 0.5
     color: {r: 1, g: 0, b: 0, a: 1}
     showSmoke: 1
---- !u!114 &272758524874405424
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2030073864829134553}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72ddb55f7a239ae4386f564b8bdc7c88, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::VehicleDamage
-  damageLayers:
-    serializedVersion: 2
-    m_Bits: 8
-  minImpactSpeed: 1.5
-  damageMultiplier: 10
-  damageCooldown: 0.25
 --- !u!1 &2152694978506940027
 GameObject:
   m_ObjectHideFlags: 0

@@ -60,7 +60,12 @@ public class TrafficAgent : MonoBehaviour
     private float progress;
     private bool joiningRoute = true;
     private bool hasRoute;
-    private bool pathLost;
+    private bool recovering;
+    private SpriteRenderer bodySprite;
+    private float hitTime;
+    [SerializeField, Min(0.12f)] private float flashDuration = 3f;
+    private const float FlashInterval = 0.12f;
+    [SerializeField, Min(0f)] private float minHitSpeed = 1.5f;
 
     public float CruiseSpeed => cruiseSpeed;
     public bool BlockedByTraffic { get; private set; }
@@ -88,6 +93,8 @@ public class TrafficAgent : MonoBehaviour
         vehicle = GetComponent<VehicleController>();
         rb = GetComponent<Rigidbody2D>();
         sensor = GetComponent<TrafficSensor>();
+        if (sensor != null && sensor.BodyCollider != null)
+            bodySprite = sensor.BodyCollider.GetComponent<SpriteRenderer>();
 
         if (sensor == null)
         {
@@ -117,27 +124,46 @@ public class TrafficAgent : MonoBehaviour
         CalculateRoute();
     }
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (!isActiveAndEnabled || hitTime > 0f || collision.rigidbody == null ||
+            !collision.rigidbody.TryGetComponent<VehicleController>(out _)) return;
+
+        for (int i = 0; i < collision.contactCount; i++)
+        {
+            ContactPoint2D contact = collision.GetContact(i);
+            if (Mathf.Abs(Vector2.Dot(contact.relativeVelocity, contact.normal)) <= minHitSpeed) continue;
+
+            hitTime = flashDuration;
+            if (bodySprite != null) bodySprite.forceRenderingOff = true;
+            vehicle.SetInput(0f, 0f, true);
+            break;
+        }
+    }
+
     private void FixedUpdate()
     {
         BlockedByTraffic = false;
         WaitingForSignal = false;
         UpdateSignalCrossings();
 
+        if (hitTime > 0f)
+        {
+            hitTime = Mathf.Max(0f, hitTime - Time.fixedDeltaTime);
+            if (bodySprite != null)
+                bodySprite.forceRenderingOff = hitTime > 0f && Mathf.FloorToInt((flashDuration - hitTime) / FlashInterval) % 2 == 0;
+            if (hitTime > 0f) return;
+        }
+
         if (!vehicle.enabled) return;
 
-        if (!hasRoute || pathLost)
+        if (!hasRoute)
         {
             vehicle.SetInput(0f, 0f, true);
             return;
         }
 
         UpdateProgress();
-
-        if (pathLost)
-        {
-            vehicle.SetInput(0f, 0f, true);
-            return;
-        }
 
         float remainingDistance = distances[distances.Count - 1] - progress;
         float destinationDistance = Vector2.Distance(rb.position, destinationNode.Position);
@@ -151,7 +177,7 @@ public class TrafficAgent : MonoBehaviour
             return;
         }
 
-        Drive(remainingDistance);
+        Drive(Mathf.Max(remainingDistance, destinationDistance));
     }
 
     private TrafficNode FindStartNode()
@@ -213,7 +239,7 @@ public class TrafficAgent : MonoBehaviour
     private void CalculateRoute()
     {
         hasRoute = false;
-        pathLost = false;
+        recovering = false;
         WaitingForSignal = false;
 
         route.Clear();
@@ -394,11 +420,9 @@ public class TrafficAgent : MonoBehaviour
         }
 
         if (bestDistance > maxPathDeviation * maxPathDeviation)
-        {
-            pathLost = true;
-            Debug.LogWarning("El auto se alejo demasiado de la ruta y esta frenando.", this);
-            return;
-        }
+            recovering = true;
+        else if (bestDistance < lookAheadDistance * lookAheadDistance)
+            recovering = false;
 
         progress = Mathf.Max(progress, bestProgress);
         segmentIndex = bestSegment;
@@ -425,7 +449,8 @@ public class TrafficAgent : MonoBehaviour
         Vector2 forward = rotation * Vector3.up;
         Vector2 right = rotation * Vector3.right;
 
-        steeringTarget = GetPointAtDistance(progress + lookAheadDistance);
+        float lookAhead = recovering ? Mathf.Max(lookAheadDistance, vehicle.Wheelbase) : lookAheadDistance;
+        steeringTarget = GetPointAtDistance(progress + lookAhead);
         Vector2 offset = steeringTarget - rb.position;
 
         float lateralDistance = Vector2.Dot(offset, right);
@@ -457,7 +482,13 @@ public class TrafficAgent : MonoBehaviour
         bool targetBehind = Vector2.Dot(forward, offset) < 0f;
         bool trafficBrake = trafficSpeedLimit <= 0.05f || speed > trafficSpeedLimit + 0.05f;
         bool signalBrake = signalSpeedLimit <= 0.05f || speed > signalSpeedLimit + 0.05f;
-        bool brake = targetBehind || trafficBrake || signalBrake || speed > desiredSpeed + 0.2f;
+        if (targetBehind)
+        {
+            recovering = true;
+            steering = lateralDistance >= 0f ? 1f : -1f;
+        }
+
+        bool brake = trafficBrake || signalBrake || speed > desiredSpeed + 0.2f;
         float throttle = brake ? 0f : Mathf.Clamp01((desiredSpeed - speed) * 1.5f);
 
         vehicle.SetInput(throttle, steering, brake);
@@ -568,6 +599,8 @@ public class TrafficAgent : MonoBehaviour
 
     private void OnDisable()
     {
+        if (hitTime > 0f && bodySprite != null) bodySprite.forceRenderingOff = false;
+        hitTime = 0f;
         WaitingForSignal = false;
 
         if (vehicle != null)

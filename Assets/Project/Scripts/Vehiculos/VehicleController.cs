@@ -41,6 +41,8 @@ public class VehicleController : MonoBehaviour
   private float steeringInput;
   private float currentSteeringAngle;
   private bool brakeInput;
+  private float forwardContact;
+  private float reverseContact;
   private float speedMultiplier = 1f;
   private float steeringMultiplier = 1f;
   public float ThrottleInput => throttleInput;
@@ -81,14 +83,12 @@ public class VehicleController : MonoBehaviour
     else
       ApplyEngine(speed, forward);
 
+    forwardContact = 0f;
+    reverseContact = 0f;
     float resistance = rollingResistance + airResistance * speed * speed;
     float stopForce = Mathf.Abs(speed) * rb.mass / deltaTime;
-    resistance = Mathf.Min(resistance, Mathf.Max(0f, stopForce - brakeForce * upgradeBrake));
-
-    if (isBraking)
-    {
-      resistance = Mathf.Min(resistance, Mathf.Max(0f, stopForce - brakeForce));
-    }
+    float availableForce = isBraking ? Mathf.Max(0f, stopForce - brakeForce * upgradeBrake) : stopForce;
+    resistance = Mathf.Min(resistance, availableForce);
 
     rb.AddForce(-forward * Mathf.Sign(speed) * resistance);
 
@@ -101,7 +101,23 @@ public class VehicleController : MonoBehaviour
 
     currentSteeringAngle = Mathf.MoveTowards(currentSteeringAngle, steeringInput * maxSteeringAngle * steeringMultiplier * upgradeSteering, steeringSpeed * upgradeSteering * deltaTime);
 
-    rb.angularVelocity = -speed / wheelbase * Mathf.Tan(currentSteeringAngle * Mathf.Deg2Rad) * Mathf.Rad2Deg;
+    float turnRate = -speed / wheelbase * Mathf.Tan(currentSteeringAngle * Mathf.Deg2Rad) * Mathf.Rad2Deg;
+    rb.angularVelocity = Mathf.MoveTowards(rb.angularVelocity, turnRate, steeringSpeed * 4f * deltaTime);
+  }
+
+  private void OnCollisionEnter2D(Collision2D collision) => ReadVehicleContact(collision);
+  private void OnCollisionStay2D(Collision2D collision) => ReadVehicleContact(collision);
+
+  private void ReadVehicleContact(Collision2D collision)
+  {
+    if (collision.rigidbody == null || !collision.rigidbody.TryGetComponent<VehicleController>(out _)) return;
+
+    for (int i = 0; i < collision.contactCount; i++)
+    {
+      float alignment = Vector2.Dot(collision.GetContact(i).normal, transform.up);
+      forwardContact = Mathf.Max(forwardContact, -alignment);
+      reverseContact = Mathf.Max(reverseContact, alignment);
+    }
   }
 
   private void ApplyEngine(float speed, Vector2 forward)
@@ -111,6 +127,7 @@ public class VehicleController : MonoBehaviour
     float speedLimit = (throttleInput > 0f ? maxSpeed * upgradeSpeed : reverseSpeed) * speedMultiplier;
     float power = 1f - Mathf.InverseLerp(speedLimit * 0.85f, speedLimit, Mathf.Abs(speed));
 
+    power *= 1f - (throttleInput > 0f ? forwardContact : reverseContact);
     rb.AddForce(forward * throttleInput * engineForce * upgradeSpeed * power * speedMultiplier);
   }
 
