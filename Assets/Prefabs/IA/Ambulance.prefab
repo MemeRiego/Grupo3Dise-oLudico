@@ -305,7 +305,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 23f114c690e160843bd5644219b7c35f, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.2
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -404,7 +404,7 @@ MonoBehaviour:
   engine: {fileID: 719320101}
   horn: {fileID: 719320102}
   engineVolume: 0.12
-  hornVolume: 0.22
+  hornVolume: 0.07
   audibleDistance: 22
 --- !u!1 &6660943409269418648
 GameObject:
