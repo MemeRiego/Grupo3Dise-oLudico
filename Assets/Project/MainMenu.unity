@@ -388,19 +388,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &345671001
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 164962351}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bf1fc4906e04cb6a574ba642a130e04, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MenuButtonSound
-  click: {fileID: 8300000, guid: 68b8c711a2f34d69acb27278783125fb, type: 3}
 --- !u!114 &164962354
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -688,19 +675,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &345671002
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 283954033}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bf1fc4906e04cb6a574ba642a130e04, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MenuButtonSound
-  click: {fileID: 8300000, guid: 68b8c711a2f34d69acb27278783125fb, type: 3}
 --- !u!114 &283954036
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1029,6 +1003,110 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 328854720}
   m_CullTransparentMesh: 1
+--- !u!114 &345671001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 164962351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bf1fc4906e04cb6a574ba642a130e04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MenuButtonSound
+  click: {fileID: 8300000, guid: 68b8c711a2f34d69acb27278783125fb, type: 3}
+--- !u!114 &345671002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 283954033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bf1fc4906e04cb6a574ba642a130e04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MenuButtonSound
+  click: {fileID: 8300000, guid: 68b8c711a2f34d69acb27278783125fb, type: 3}
+--- !u!114 &345671003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769398727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bf1fc4906e04cb6a574ba642a130e04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MenuButtonSound
+  click: {fileID: 8300000, guid: 68b8c711a2f34d69acb27278783125fb, type: 3}
+--- !u!114 &345671004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 816505206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bf1fc4906e04cb6a574ba642a130e04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MenuButtonSound
+  click: {fileID: 8300000, guid: 68b8c711a2f34d69acb27278783125fb, type: 3}
+--- !u!114 &345671005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1519411993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bf1fc4906e04cb6a574ba642a130e04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MenuButtonSound
+  click: {fileID: 8300000, guid: 68b8c711a2f34d69acb27278783125fb, type: 3}
+--- !u!114 &345671006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1662237824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bf1fc4906e04cb6a574ba642a130e04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MenuButtonSound
+  click: {fileID: 8300000, guid: 68b8c711a2f34d69acb27278783125fb, type: 3}
+--- !u!114 &345671007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1663475826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bf1fc4906e04cb6a574ba642a130e04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MenuButtonSound
+  click: {fileID: 8300000, guid: 68b8c711a2f34d69acb27278783125fb, type: 3}
+--- !u!114 &345671008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1913050555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bf1fc4906e04cb6a574ba642a130e04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MenuButtonSound
+  click: {fileID: 8300000, guid: 68b8c711a2f34d69acb27278783125fb, type: 3}
 --- !u!1 &356975823
 GameObject:
   m_ObjectHideFlags: 0
@@ -1223,7 +1301,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "W \nS \nAD \nESPACIO\nF \nTAB"
+  m_text: "W \nS \nAD \nESPACIO\nF \nTAB\nESC/P"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2138,19 +2216,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &345671003
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 769398727}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bf1fc4906e04cb6a574ba642a130e04, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MenuButtonSound
-  click: {fileID: 8300000, guid: 68b8c711a2f34d69acb27278783125fb, type: 3}
 --- !u!114 &769398730
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2422,19 +2487,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &345671004
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 816505206}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bf1fc4906e04cb6a574ba642a130e04, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MenuButtonSound
-  click: {fileID: 8300000, guid: 68b8c711a2f34d69acb27278783125fb, type: 3}
 --- !u!114 &816505209
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4628,19 +4680,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &345671005
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1519411993}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bf1fc4906e04cb6a574ba642a130e04, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MenuButtonSound
-  click: {fileID: 8300000, guid: 68b8c711a2f34d69acb27278783125fb, type: 3}
 --- !u!114 &1519411996
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4761,7 +4800,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1104831235}
   m_HandleRect: {fileID: 1104831234}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 0.99319726
   m_Size: 0.99998856
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -5054,19 +5093,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &345671006
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1662237824}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bf1fc4906e04cb6a574ba642a130e04, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MenuButtonSound
-  click: {fileID: 8300000, guid: 68b8c711a2f34d69acb27278783125fb, type: 3}
 --- !u!114 &1662237827
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5201,19 +5227,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &345671007
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1663475826}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bf1fc4906e04cb6a574ba642a130e04, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MenuButtonSound
-  click: {fileID: 8300000, guid: 68b8c711a2f34d69acb27278783125fb, type: 3}
 --- !u!114 &1663475829
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5648,6 +5661,8 @@ MonoBehaviour:
 
     ABRIR
     MAPA
+
+    PAUSA
 
 '
   m_isRightToLeft: 0
@@ -6088,19 +6103,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &345671008
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1913050555}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bf1fc4906e04cb6a574ba642a130e04, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::MenuButtonSound
-  click: {fileID: 8300000, guid: 68b8c711a2f34d69acb27278783125fb, type: 3}
 --- !u!114 &1913050558
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6297,7 +6299,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2040655985}
   m_HandleRect: {fileID: 2040655984}
   m_Direction: 0
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
