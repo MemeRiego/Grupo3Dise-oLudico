@@ -50,6 +50,12 @@ public class TrafficAudio : MonoBehaviour
         engine.pitch = idlePitch + Mathf.Clamp01(speed / agent.CruiseSpeed) * 0.35f;
         if (!engine.isPlaying && engine.clip != null) engine.Play();
 
+        if (horn.loop)
+        {
+            if (!horn.isPlaying && horn.clip != null) horn.Play();
+            return;
+        }
+
         if (!agent.BlockedByTraffic || speed > 0.15f)
         {
             hornTime = 0f;
